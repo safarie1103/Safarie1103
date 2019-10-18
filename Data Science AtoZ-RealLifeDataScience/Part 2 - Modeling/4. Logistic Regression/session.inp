@@ -1,0 +1,6 @@
+# Log started 2019-06-21 16:34
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  "C:\Users\ESafari107393\Documents\Udemy\Data Science AtoZ-RealLifeDataScience\Part 2 - Modeling\4. Logistic Regression\P12-Email-Offer.csv"
+gnuplot  TookAction Age
