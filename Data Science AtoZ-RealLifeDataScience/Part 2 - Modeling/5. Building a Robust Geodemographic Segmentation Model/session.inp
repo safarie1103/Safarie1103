@@ -1,57 +1,40 @@
-# Log started 2019-10-03 13:45
+# Log started 2019-10-28 09:26
 # Record of session commands.  Please note that this will
 # likely require editing if it is to be run as a script.
 open \
-  "D:\documents\Udemy\Data Science AtoZ-RealLifeDataScience\Part 2 - Modeling\5. Building a Robust Geodemographic Segmentation Model\P12-Churn-Modelling.csv"
-dummify Gender
+  "C:\Users\safar\Documents\GitHub\Safarie1103\Data Science AtoZ-RealLifeDataScience\Part 2 - Modeling\5. Building a Robust Geodemographic Segmentation Model\P12-Churn-Modelling.csv"
 dummify Geography
-rename 17 France
-rename 18 Spain
-rename 19 Germany
-rename 15 Female
-rename 16 Male
+dummify Gender
+rename 15 France
+rename 16 Spain
+rename 17 Germany
+rename 18 Female
+rename 19 Male
 # model 1
 logit Exited 0 CreditScore Age Tenure Balance NumOfProducts HasCrCard \
-  Female Spain Germany --p-values
+  IsActiveMember EstimatedSalary Female Spain Germany --p-values
 # model 2
 logit Exited 0 CreditScore Age Tenure Balance NumOfProducts HasCrCard \
-  Female Germany --p-values
+  IsActiveMember EstimatedSalary Female Germany --p-values
 # model 3
-logit Exited 0 CreditScore Age Tenure Balance NumOfProducts Female \
-  Germany --p-values
+logit Exited 0 CreditScore Age Tenure Balance NumOfProducts \
+  IsActiveMember EstimatedSalary Female Germany --p-values
 # model 4
-logit Exited 0 CreditScore Age Balance NumOfProducts Female Germany \
-  --p-values
+logit Exited 0 CreditScore Age Tenure Balance NumOfProducts \
+  IsActiveMember Female Germany --p-values
 # model 5
-logit Exited 0 CreditScore Age Balance NumOfProducts Female Germany \
-  --p-values
+logit Exited 0 CreditScore Age Balance NumOfProducts IsActiveMember \
+  Female Germany --p-values
 # model 6
-logit Exited 0 CreditScore Age Balance NumOfProducts Female Germany \
-  --p-values
+logit Exited 0 CreditScore Age Balance NumOfProducts IsActiveMember \
+  Female Germany Tenure --p-values
+Log_Balance = log10(Balance = 1)
+setinfo Log_Balance --description="log10(Balance + 1)"
 # model 7
-logit Exited 0 CreditScore Age Balance NumOfProducts Female Germany \
-  Tenure IsActiveMember --p-values
+logit Exited 0 CreditScore Age NumOfProducts IsActiveMember Female \
+  Germany Tenure --p-values
+delete Log_Balance
 Log_Balance = log10(Balance + 1)
 # model 8
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember Log_Balance --p-values
-WealthAccumulation = Balance/Age
-# model 9
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember Log_Balance WealthAccumulation --p-values
-# model 10
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember Log_Balance WealthAccumulation --p-values
-# model 11
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember WealthAccumulation --p-values
-Log_WA = log10(Balance/Age + 1)
-# model 12
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember WealthAccumulation Log_WA --p-values
-# model 13
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember Log_WA --p-values
-# model 14
-logit Exited 0 CreditScore Age NumOfProducts Female Germany Tenure \
-  IsActiveMember Log_WA Log_Balance --p-values
+logit Exited 0 CreditScore Age NumOfProducts IsActiveMember Female \
+  Germany Tenure Log_Balance --p-values
