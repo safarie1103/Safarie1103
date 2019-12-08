@@ -19,7 +19,7 @@ library(reshape)
 
 # setwd("~/Public/Academic/Data/DSU_R/Chapter 03 (The R Environment)")
 # setwd("~/Documents/Academic/Data/DSU_R/Chapter 03 (The R Environment)")
-setdw("./")
+setwd("./")
 #-----------Metallica Data---------------------------------------------------------------------------
 
 metallica<-c("lars", "james", "Jason", "Kirk")
