@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Resume Creator</title>
+	<script script type="text/javascript" src="FinalExecrcise.js"></script>
+</head>
+<body>
+<a href="javascript:toggleFormVisibility();" id="EnterInfoLink">Enter Your Information.</a>
+<form name ="PersonalInfo" id="PersonalInfo_frm" action="#" style="display: none"> 
+<div>
+	<p>Please enter your information in the fields provided</p> 			
+	<p><label for="FirstName">Your First Name: </label><input type="text" name="FirstName" id="txt_FirstName"></p>
+	<p><label for="LastName">Your Last Name: </label><input type="text" name="LastName" id="txt_LastName"></p>
+	<p><label for="StreetAddress">Street Address: </label><input type="text" name="StreetAddress" id="txt_StreetAddress"></p>
+	<p><label for="City">City: </label><input type="text" name="City" id="txt_City"><label for="ZipCode">Zip Code: </label><input type="text" name="ZipCode" id="txt_ZipCode"></p>
+	<p><label for="State">State: </label><input type="text" name="State" id="txt_State"></p>
+	<p><label for="Country">Country: </label><input type="text" name="Country" id="txt_Country"></p>
+	<p><label for="Occupation">Occupation: </label><input type="text" name="Occupation" id="txt_Occupation"></p>
+	<p><label for="EducationLevel">Education Level: <select name="EducationLevel" id="select_EducationLevel">
+						<option value="--Select one--">--Select one--</option>
+						<option value="HighSchool">High School</option>
+						<option value="College">College Graduate</option>
+						<option value="PostGraduate">Post College Graduate</option>
+						<option value="Other">Other</option>
+						</select>
+	</p> 	
+	<p><label for="HobbiesAndInterests">Hobbies and Interests: </label><br><textarea id="txt_HobbiesAndInterests" rows="10" cols="64"></textarea></p>
+	<p><input type="button" name="submit" value="submit" onclick="processFormData();" ></p>
+</div> 
+<a href="javascript:toggleFormVisibility();" id="NoThanks" style="display: none">No, Thank you! Some other time, perhaps....</a>
+</form>
+</body>

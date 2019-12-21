@@ -1,0 +1,55 @@
+<html>
+
+<title>Javascript Example</title>
+
+<head>
+
+<script language="JavaScript">
+
+function showData(){
+
+var str = "";
+
+with( document.form1){
+
+str += "txt = " + txt.value;
+
+str += "\nchkbx1.checked = " + chkbx1.checked;
+
+str += "\nchkbx1.value = " + chkbx1.value;
+
+str += "\nchkbx2.checked = " + chkbx2.checked;
+
+str += "\nchkbx2.value = " + chkbx2.value;
+
+};
+
+alert( str );
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<script language="JavaScript">
+
+</script>
+
+<form name="form1">
+
+<input type="text" name="txt" value="test"><br>
+
+<input type="checkbox" name="chkbx1" checked><br>
+
+<input type="checkbox" name="chkbx2" ><br>
+
+<input type="button" name="btn" value="Show Data" onClick="showData();">
+
+</form>
+
+</body>
+
+</html>

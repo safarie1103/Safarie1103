@@ -1,0 +1,47 @@
+<!doctype html>
+<html Lang="en">
+
+
+<title>Javascript Example</title>
+
+<head>
+
+<script language="JavaScript">
+
+function showData(){
+
+var str = "";
+
+with( document.form1){
+
+str += "You entered " + "\"" + txt.value + "\"";
+
+};
+
+alert( str );
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<script language="JavaScript">
+
+</script>
+
+<form name="form1">
+
+type something here and press the button:<input type="text" name="txt" value="this is a test"><br>
+
+<input type="button" name="btn" value="Show Data" onClick="showData();">
+
+</form>
+
+</body>
+
+</html>
+
+

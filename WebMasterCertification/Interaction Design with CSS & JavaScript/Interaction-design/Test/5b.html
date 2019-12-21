@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interaction Design</title>
+<script language='javascript' src='../js/emailProtector.js'></script>
+<link href="../theme.css" rel="stylesheet" type="text/css"><link href="../styles.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> <script src="../js/jquery.reveal.js"></script> <link href="../dropbox.css" rel="stylesheet" type="text/css"> <link href="../reveal.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/open-sans:n3:default.js" type="text/javascript"></script>
+<style>
+
+
+
+#pic {
+          width: 150px; 
+		  transition: all 1s ease-in-out;
+		  -moz-transition: all 1s ease-in-out;
+		  -webkit-transition: all 1s ease-in-out;
+}
+	 
+#zoom:target~ #wrapper #pic {
+     width: 400px;
+	 box-shadow: 5px 6px 8px #555;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<header id="zoom">
+<section>
+<p><a href='javascript:decrypt_and_email(0)'><img src="../images/icon-email.png" width="31" height="23"> Email the Instructor</a></p>
+<p><a href="#" data-reveal-id="dropbox"><img src="../images/icon-upload.png" width="31" height="23"> Upload a File</a></p>
+<!--<div id="dropdown" class="ddmenu">
+      <span>Other Classes</span>
+      <ul>
+        <li><a href="#">HTML/CSS</a></li>
+        <li><a href="#">Dreamweaver</a></li>
+        <li><a href="#">Interface Design</a></li>
+      </ul>
+    </div>-->
+</section>
+<h1>Interaction Design with CSS & JavaScript</h1>
+<h2>Class ends Sun. Dec. 18 at 5pm</h2><nav>
+<ul class="primary">
+<li><a href="../index.php">Introduction</a></li>
+<li><a href="../lesson1/animation1.html">Animation</a></li>
+<li class="active"><a href="../lesson2/events1.html">Event Handling</a>
+
+<ul class="secondary">
+<li><a href="events1.html">1</a></li>
+<li class="active"><a href="events2.html">2</a></li>
+<li><a href="events3.html">3</a></li>
+
+</ul></li>
+
+<!-- rest of nav -->
+<li><a href="../lesson3/javascript1.html">JavaScript</a></li>
+<li><a href="../lesson4/drag-and-drop1.html">Drag and Drop</a></li>
+<li><a href="../lesson5/parallax1.html">Parallax</a></li>
+</ul>
+
+</nav>
+
+<!--drag & drop-->
+<div id="dropbox" class="reveal-modal">
+<a class="close-reveal-modal">&#215;</a>
+  <p class="message">Drag your file here to upload it.</p>
+ </div>
+<div class="preview done">
+	<span class="imageHolder">
+        <img src="" />
+        <span class="uploaded"></span>
+    </span>
+    <div class="progressHolder">
+        <div class="progress"></div>
+    </div>
+</div>
+       
+        <script src="../js/jquery.filedrop.js"></script>
+
+        <script src="../js/dropscript.js"></script>
+        
+</header>
+<div id="wrapper">
+  <article>
+<h1>The :target hack</h1>
+<p>The <b>:target</b> pseudo-selector targets the element with an ID matching the part of the URL following an octothorpe (#). In other words, like the :hover CSS rule is applied when the state of the element is being hovered over, the :target CSS rule is applied when the state of the URL has the matching ID at its end.</p>
+<figure>
+<figcaption>
+           <a href="#zoom">Zoom In</a> | <a href="#">Zoom Out</a>
+      </figcaption>
+      <img id="pic" src="http://lorempixel.com/400/400"  />
+      
+   </figure>
+   
+  <p>&nbsp;</p>
+  <h1>Exercise 5b - Click Events (part 2)</h1>
+  <p>In this exercise you'll recreate the zoom in/out feature above.</p>
+  <ol>
+    <li>Open the completed <b>5-css-click-events.html</b>.</li>
+    <li>Add an &lt;h1&gt; containing the name of this exercise.</li>
+    <li>Add a &lt;figure&gt; element, with a nested &lt;figcaption&gt; element.</li>
+    <li>In the &lt;figcaption&gt;, write &quot;zoom in&nbsp; |&nbsp; zoom out&quot; <br>
+      NOTE: the pipe character (|) is on the key above the RETURN key.</li>
+    <li>Insert an image in the &lt;figure&gt; (but before the &lt;figcaption&gt;). Use a placeholder image from lorempixel.com:<br>
+      <span class="code">&lt;img src=&quot;http://lorempixel.com/400/400&quot;  /&gt;      </span><br>
+      <i>NOTE: this requests a random 400x400px image. Do not assign a width or height.</i></li>
+    <li>Assign this image an ID of &quot;zoom&quot;.</li>
+    <li>Make the &quot;zoom in&quot; text a link that leads to &quot;#zoom&quot; and the &quot;zoom out&quot; text a link that leads to &quot;#&quot;.</li>
+    <li>Write a CSS rule for the #zoom element that sets a 150px width, and a transition of all properties over 1 sec. with the ease-in-out easing function.</li>
+    <li>Write a CSS rule using the <span class="code">#zoom:target</span> selector that assigns a width of 400px.</li>
+    <li>Save the page and test it in a browser.<br>
+      <i><b>TIP</b>: if the page is long enough to scroll, zooming out will scroll back to the top. You can change the zoom out link from &quot;#&quot; to &quot;#zoomout&quot; and assign that ID to the figure element to avoid that. But as you see on this page, the shrinking size of the zoomed element scrolls the page in  odd ways. This method is therefore only good for  pages without much content that might force a scroll.</i></li></ol></article>
+</div>
+</body>
+</html>

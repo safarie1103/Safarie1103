@@ -1,0 +1,65 @@
+Advanced WWW Authoring HTML and CSS
+◄ Previous activityNext activity ►
+Home
+Courses
+Calendar
+You are here
+AWS / ► ITNW-1072 / ► CSS and Vendor Prefixes
+ 
+CSS3 Compatibility & Vendor Prefixes
+
+CSS3 includes a handful of properties that allow us to use visual effects on the web that print designers have had access to for ages. For many years we couldn't fully use these properties because of various browser incompatibilities. Browsers have come a long ways since then and we can now use many of these properties.
+
+Checking Compatibility
+
+Up until now, most of the CSS you've learned is fully supported in all browsers. For newer properties, from CSS3 and later, that's not always going to be the case.
+
+It's important to check the compatibility of a property to know if you should use it. You should consider the following things:
+
+Is this feature essential to make my website/app work or is it a visual enhancement
+Which browsers is this feature not supported in
+Can I provide a reasonable fallback option?
+Define a "breaking point" for the feature. How far back should support go?
+There are many resources online that collect information on browser compatibilities. Sometimes it's hard to tell how recent the information is. It's important to get up to date information. One of the best resources is Can I Use ____?
+
+caniuse.com
+caniuse.com gives you current information on all relevant browser support. You also can check common known issues and other resources listed for each property. caniuse.com also features information on compatibility for HTML5, JavaScript and other things.
+
+CSS Vendor Prefixes
+
+The process of introducing new CSS properties and HTML elements can be a long and convoluted process. Sometimes changes are proposed by standards committees (like the W3C) and other times browser vendors create their own properties.
+
+
+A property created by the W3C doesn't actually work until browser vendors implement them in new versions of their browsers. Additionally, sometimes there are disagreements in how a standard should be implemented. Other times a browser vendor creates a new property which later becomes a standard, but with a slightly different syntax. And even worse, if end users never upgrade their browsers none of the new features work at all.
+
+Browser vendors needed a way to add support for new features that were not yet standardized, but without messing up later changes or creating incompatibles. To solve this issue Vendor Prefixes were created. A vendor prefixes is a special prefix added to a CSS property. Each rendering engine has it's own prefix which will only apply the property to that particular browser.
+
+Browser	Vendor Prefix
+Internet Explorer	-ms-
+Chrome	-webkit-
+Safari	-webkit-
+Firefox	-moz-
+iOS	-webkit-
+Andriod	-webkit-
+Opera	-o-
+
+Note: Both Chrome and Opera now use a forked version of webkit called Blink as their rendering engine. This continuing using the -webkit prefix for now, but in the future will not use prefixes at all and will require 'experimental' features to be turned on via a preference setting. Firefox will be doing a similar thing.
+
+Vendor Prefix Example Vendor Prefixes are best understood by example. In CSS, you can create rounded corners by using the border-radius property. Here it is in it's simplest form:
+.rounded { border-radius: 10px; }
+All four corners are rounded by 10 pixels. Today, the border-radius is sufficiently supported to make vendor prefixes unnecessary. However, only a few years ago, you would need to use vendor prefixes to ensure support. You would write this:
+.rounded {
+ -moz-border-radius: 10px; /* support for Firefox */
+ -webkit-border-radius: 10px;
+ /* support for webkit based browsers (Chrome, Safari, iOS, etc.) */
+ -o-border-radius: 10px; /* support for Opera */
+ border-radius: 10px; /* standardized property */
+ }
+/* Example only. You do not need to use vendor prefixes for
+ border-radius */
+In CSS, a browser simply ignores properties it does not understand.
+Vendor Prefixes are used by their specified browsers and ignored by others.
+Always put the standardized property last. Any browser that understands it will use the last definition, overwriting any previous one.
+Last modified: Wednesday, 15 July 2015, 10:48 AM
+You are logged in as edris safari (Logout)
+ITNW-1072

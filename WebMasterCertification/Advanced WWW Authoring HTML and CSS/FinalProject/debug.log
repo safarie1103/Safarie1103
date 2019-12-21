@@ -1,0 +1,38 @@
+[1216/191405:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1216/191405:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1216/191405:ERROR:process_info.cc(103)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64> *): Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1216/191405:ERROR:process_info.cc(542)] ReadProcessData failed
+[1216/191405:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7fef39af0c0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1216/191405:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:process_info.cc(103)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64> *): Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1216/191405:ERROR:process_info.cc(542)] ReadProcessData failed
+[1216/191405:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7fef39af0c0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1216/191405:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 3456 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 1928 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 4908 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 4040 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 664 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191405:ERROR:exception_snapshot_win.cc(87)] thread ID 2140 not found in process
+[1216/191405:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191406:ERROR:exception_snapshot_win.cc(87)] thread ID 2856 not found in process
+[1216/191406:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1216/191406:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1216/191406:ERROR:exception_snapshot_win.cc(87)] thread ID 5048 not found in process
+[1216/191406:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1218/230026:ERROR:exception_snapshot_win.cc(87)] thread ID 2156 not found in process
+[1218/230026:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1218/230026:ERROR:exception_snapshot_win.cc(87)] thread ID 4780 not found in process
+[1218/230026:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1218/230026:ERROR:exception_snapshot_win.cc(87)] thread ID 4564 not found in process
+[1218/230026:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1218/230027:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1218/230027:ERROR:exception_snapshot_win.cc(87)] thread ID 3560 not found in process
+[1218/230027:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed

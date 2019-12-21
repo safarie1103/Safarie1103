@@ -1,0 +1,60 @@
+ import java.io.*;
+ import java.util.Scanner;
+ import Jam;
+ import Pantry;
+
+ class Exercise1 {
+
+ public static void main ( String[] args ) {
+
+ Scanner keyboard = new Scanner( System.in );
+ boolean done = false;
+ int Option;
+ int amount;
+ 
+ 
+ Jam goose = new Jam( "Gooseberry", "7/4/86", 12 );
+
+ Jam apple = new Jam( "Crab Apple", "9/30/99", 8 );
+
+ Jam rhub = new Jam( "Rhubarb", "10/31/99", 16 );
+ 
+ Pantry hubbard = new Pantry( goose, apple, rhub );
+ while(!done)
+ {
+	 hubbard.print();
+	 Option = keyboard.nextInt();
+	 if (Option == -1)
+		 done = true;	 
+	 else if (Option > 3 || Option < 1)
+	 {
+		 System.out.println("Invalid entry. Please try again.");
+	 }
+	 else
+	 {
+		 System.out.println("Enter amount to spread:");
+		 amount = keyboard.nextInt();
+		 if (amount < 0)
+			 System.out.println("Enter a valid amount to spread:");
+		 else
+		 {
+			 switch(Option){
+			 	case 1:
+			 		goose.spread(amount);
+			 		break;
+			 	case 2:
+			 		apple.spread(amount);;
+			 		break;
+			 	case 3:
+			 		rhub.spread(amount);
+			 		break;
+			 	default:
+			 		break;
+			 }
+		 }
+	 }
+ }
+ System.out.println("Thank you. Bye.");
+ }
+
+}

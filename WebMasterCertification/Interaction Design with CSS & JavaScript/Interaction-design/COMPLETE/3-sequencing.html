@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Exercise 3: Sequencing</title>
+<link href="../resources/reset.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width">
+    <style>
+        @keyframes headlineDrop{
+            0%{font-size:6em;filter:blur(40px);}
+            100%{font-size:2em;filter:blur(0px);}
+        }
+        @-moz-keyframes headlineDrop{
+            0%{font-size:6em;filter:blur(40px);}
+            100%{font-size:2em;filter:blur(0px);}
+        }
+        @-ms-keyframes headlineDrop{
+            0%{font-size:6em;filter:blur(40px);}
+            100%{font-size:2em;filter:blur(0px);}
+        }
+        @-webkit-keyframes headlineDrop{
+            0%{font-size:6em;filter:blur(40px);}
+            100%{font-size:2em;filter:blur(0px);}
+        }
+        @keyframes subheadSlide{
+            0%{opacity:0 ; transform:translateX(-300px);}
+            100%{opacity:1 ; transform:translateX(0px);}
+        }
+        @-moz-keyframes subheadSlide{
+            0%{opacity:0 ; transform:translateX(-300px);}
+            100%{opacity:1 ; transform:translateX(0px);}
+        }
+        @-ms-keyframes subheadSlide{
+            0%{opacity:0 ; transform:translateX(-300px);}
+            100%{opacity:1 ; transform:translateX(0px);}
+        }
+        @-webkit-keyframes subheadSlide{
+            0%{opacity:0 ; transform:translateX(-300px);}
+            100%{opacity:1 ; transform:translateX(0px);}
+        }
+        @keyframes fadeIn{
+            0%{opacity:0;}
+            100%{opacity:1;}
+        }
+        @-moz-keyframes fadeIn{
+            0%{opacity:0;}
+            100%{opacity:1;}
+        }
+        @-ms-keyframes fadeIn{
+            0%{opacity:0;}
+            100%{opacity:1;}
+        }
+        @-webkitkeyframes fadeIn{
+            0%{opacity:0;}
+            100%{opacity:1;}
+        }
+        h1 {animation: headlineDrop 1s ease-in;}
+        h2 {animation: subheadSlide 1s ease-in 1s;animation-fill-mode: both}
+        body{text-align:center;}
+        
+        div{
+            animation: fadeIn .5s linear; 
+            animation-fill-mode: both;
+            width:200px;
+            height:200px;
+            display:inline-block;
+            margin:10px;
+            opacity: 0;
+        }
+        #div1{background: #264c89;animation-delay: 2s;}
+        #div2{background: #388967;animation-delay: 2.5s;}
+        #div3{background: #41bfc4;animation-delay: 3s;}
+      
+      
+    </style>
+</head>
+<body>
+<h1>Exercise 3: Sequencing</h1>
+    <h2>Example subheading</h2>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+</html>

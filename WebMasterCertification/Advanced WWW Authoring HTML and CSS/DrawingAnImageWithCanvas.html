@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Drawing image with Canvas</title>
+<style>
+body {
+margin: 0px;
+padding: 0px;
+}
+</style>
+</head>
+<body>
+<canvas id="w3rCanvas" width="500" height="400"></canvas>
+<script>
+var canvas = document.getElementById('w3rCanvas');
+var context = canvas.getContext('2d');
+var imgObj = new Image();
+
+imgObj.onload = function() {
+context.drawImage(imgObj, 150, 78);
+};
+imgObj.src = 'http://www.w3resource.com/images/logo.png';
+</script>
+</body>
+</html>

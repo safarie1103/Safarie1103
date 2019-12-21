@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML5 Canvas Text example</title>
+<script>
+function CreateText() {
+var canvas=document.getElementById("myCanvas");
+var context=canvas.getContext("2d");
+
+var x = 100;
+var y = 100;
+context.font = 'bold 32pt Arial';//sets font style, size and type
+context.fillStyle = 'orange';//sets font color
+context.fillText("Welcome to My Site!", x, y);//sets text to be rendered
+}
+
+</script>
+</head>
+<body onload="CreateText()">
+<canvas id="myCanvas" width="700" height="150"></canvas>
+</body>
+</html>

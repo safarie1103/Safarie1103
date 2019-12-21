@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Exercise 5 - CSS Click Events</title>
+<link href="../resources/reset.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width">
+    <style>
+        input[type=checkbox]{
+            display:none;
+        }
+        lable {
+            cursor:pointer; 
+            padding:3px; 
+            border:1px solid #A8A8A8;
+        }
+        input[type=checkbox]:checked ~ #target {
+            background:#ffb101;
+        }
+        #target{
+            transition: background 1.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercise 5 - CSS Click Events</h1>
+    <input type='checkbox' id='toggle'/>
+    <label for='toggle'>click me!</label>
+    <div id='target'>
+        <p>object being changed</p>
+    </div>
+</body>
+</html>

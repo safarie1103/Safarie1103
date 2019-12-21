@@ -1,0 +1,45 @@
+<!doctype html>
+<html Lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSSFormExercise</title>
+<style>
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+input[type=text]:enabled {
+    background: #ffff00;
+}
+
+input[type=text]:disabled {
+    background: #dddddd;
+}
+</style>
+
+</head>
+<body>
+
+
+<form action="">
+    Radio button checked/Unchecked<br>
+    <input type="radio"  value="male" name="gender"> Male<br>
+    <input type="radio" checked="checked" value="female" name="gender"> Female<br>
+    <hr>
+    First name and last name are enabled. Country disabled<br>
+    First name: <input type="text" value="Joen"><br>
+    Last name: <input type="text" value="Doe"><br>
+    Country: <input type="text" disabled="disabled" value="Neverland">
+</form>
+
+
+<footer>
+<a href="http://validator.w3.org/check?uri=referer">HTML5</a>
+</footer>
+</body>
+</html>

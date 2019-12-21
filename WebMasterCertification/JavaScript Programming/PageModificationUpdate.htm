@@ -1,0 +1,16 @@
+<!doctype html>
+<html Lang="en">
+<head>
+<script type="text/JavaScript">
+document.write("this page updated on " + document.lastModified);
+var mo =  new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+var da = new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var d = new Date(document.lastModified);
+s = d.getDate + "/" + mo[d.getMonth()] + "/" + d.getYear + "," + da[getDay()];
+document.write("Hello " + s);
+
+</script>
+</head>
+<body>
+</body>
+</html>

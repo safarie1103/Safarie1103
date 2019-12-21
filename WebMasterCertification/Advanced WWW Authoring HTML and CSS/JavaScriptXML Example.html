@@ -1,0 +1,23 @@
+<html>
+ <head>
+ <script language="JavaScript" for="window" event="onload">
+ var xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+ xmlDoc.async="false"
+ xmlDoc.load("note.xml")
+ nodes = xmlDoc.documentElement.childNodes
+ to.innerText = nodes.item(0).text
+ from.innerText = nodes.item(1).text
+ header.innerText = nodes.item(2).text
+ body.innerText = nodes.item(3).text
+ </script>
+ <title>HTML using XML data</title>
+ </head>
+ <body bgcolor="yellow">
+ <h1>Data Internal Note</h1>
+ <b>To: </b>
+ <span id="to"></span> <br>
+ <b>From: </b><span id="from"></span> <hr>
+ <b><span id="header"></span></b> <hr>
+ <span id="body"></span>
+ </body>
+ </html> 

@@ -1,0 +1,35 @@
+<html>
+<head>
+<script>
+var wnd
+
+function newWindow() {
+//wnd=window.open("Exercise3.htm","displayWindow","toolbar=no,scrollbars=yes,width=1000,height=300");
+wnd=window.open("","displayWindow","toolbar=no,scrollbars=yes,width=undefined,height=undefined",true);
+wnd.document.write("<body>");
+wnd.document.write("<h1>This is Your Resume!</h1>");
+//wnd.document.write("<form name ="PersonalInfo" id="PersonalInfo_frm" action="#" style="display: none">");
+wnd.document.write("<p>This is it</p>");
+//wnd.opener.document.write("<p>This is the source window!</p>");
+//wnd.document.write("<p><input type="button" name="Exit" value="Exit" onclick="delWindow();" ></p>");
+//wnd.document.write("</form>");
+wnd.document.write("</body>");
+}
+
+function delWindow() {
+	if (wnd != undefined) {
+		wnd.close();
+	}
+	else {
+		alert ("window is closed");
+	}
+}
+</script>
+</head>
+<body>
+<p><a href="javascript:newWindow()">open new window</a>
+
+<p><a href="javascript:delWindow()">close new window</a>
+
+</body>
+</html>

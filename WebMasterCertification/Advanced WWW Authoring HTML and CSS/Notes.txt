@@ -1,0 +1,445 @@
+onBlur	Focus is removed from a form field, a window or a frame.
+onClick	User clicks on a button or link.
+onError	Any error is caused by loading an image or document.
+onAbort	The user stops the loading of an image.
+onChange	The content of form select lists, text boxes, or text areas are changed by the user.
+onLoad	The page is loaded into the browser.
+onUnload	The user leaves the page.
+onMouseout	The user moves the mouse out of an area, such as a link.
+onMouseover	The user moves the mouse into an area, such as a link.
+onReset	The user clicks the reset button on a form.
+onSelect	A form element's input field is clicked on.
+onSubmit	The submit button of a form is clicked.
+
+Several alternatives to CGI have appeared in recent years. They all build upon CGI's legacy and provide their own approaches to the same underlying goal: responding to queries and presenting dynamic content via HTTP. Most of them also attempt to avoid the main drawback to CGI scripts: creating a separate process to execute the script every time it is requested. Others also try to make less of a distinction between HTML pages and code by moving code into HTML pages. Here is a list of some of the major alternatives to CGI:
+
+ASP
+Active Server Pages, or ASP, was created by Microsoft for its web server, but it is now available for many servers. The ASP engine is integrated into the web server so it does not require an additional process. It allows programmers to mix code within HTML pages instead of writing separate programs. There are modules available that allow us to do similar things using CGI. ASP supports multiple languages; the most popular is Visual Basic, but JavaScript is also supported.
+
+
+
+PHP
+
+PHP is a programming language that is similar to Perl, and its interpreter is embedded within the web server. PHP supports embedded code within HTML pages. PHP is supported by the Apache web server.
+
+
+
+ColdFusion
+
+Allaire's ColdFusion creates more of a distinction than PHP between code pages and HTML pages. HTML pages can include additional tags that call ColdFusion functions. A number of standard functions are available with ColdFusion, and developers can create their own controls as extensions. ColdFusion was originally written for Windows, but versions for various Unix platforms are now available as well. The ColdFusion interpreter is integrated into the web server.
+
+
+
+Java servlets
+
+
+Servlets are similar to CGI scripts in that they are code that creates documents. However, servlets, because they use Java, must be compiled as classes before they are run, and servlets are dynamically loaded as classes by the web server when they are run. The interface is quite different than CGI. JavaServer Pages, or JSP, is another technology that allows developers to embed Java in web pages, much like ASP.
+
+
+Node.js
+
+
+Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+
+
+Despite a proliferation of these competing technologies, CGI continues to be the most popular method for delivering dynamic pages, and, despite what the marketing literature for some of its competitors may claim, CGI will not go away any time soon. Even if you do imagine that you may begin using other technologies down the road, learning CGI is a valuable investment. Because CGI is such a thin interface, learning CGI teaches you how web transactions works at a basic level, which can only further your understanding of other technologies built upon this same foundation. Additionally, CGI is universal. Many alternative technologies require that you install a particular combination of technologies in addition to your web server in order to use them. CGI is supported by virtually every web server "right out of the box" and will continue to be that way far into the future.
+
+
+
+
+XML
+
+
+XML stands for Extensible Markup Language. It is a subset of SGML, which stands for Standard Generalized Markup Language, which is defined by ISO 8879. SGML is much more difficult to use, and does not work very well for Internet applications, so XML was developed to fill this void. XML is a language that structures data. It differs from HTML in that with HTML all tags that are used are pre-defined. For example, in HTML the <h1> tag is used to define a type of header. If you used <header1> instead of <h1>, browsers would not be able to interpret your directive because they do not know what to do with a <header1> tag. Also, HTML defines the way that a collection of data should appear on a computer screen, while XML is not concerned with, nor is capable of determining the appearance of data on a screen. XML is used to conceptualize and store the data only.
+
+When writing an XML document, you are really writing a meta-language, a language that describes your data. For that reason, there are no pre-defined tags in XML, only those tags that you create on your own. The tags that you create use symantics that help you organize your data. For example, if we want to declare the use of a date in XML, we could create a tag called <date>, <mydate>, <thedate>, or <todaysdate>. There is no predefined date tag, so we can name the tag as we wish.
+
+Writing an XML document is the process of organizing the data and creating tags that describe the use of that data. Here is a short example of an XML document:
+
+<email>
+ <to>A friend</to>
+ <from>Me</from>
+ <message> Hi There!</message>
+</email> 
+The function of the XML document should be very easy to understand by the use of the tag names. The document above defines an email that has sender, a recipient and a message. In the document, <email>, <to>,<from> and <message> are called elements.
+
+XML
+
+
+Attributes are name-value pairs that can be used in element tags. For example, <customer id=1045> defines an element customer with an attribute id, given the value of 1045. The use of attributes may be convenient, but it is usually better to re-structure the code so that id is actually an element itself. For example:
+
+<customer>
+<id>1045</id>
+</customer>
+The function of the XML document should be very easy to understand by the use of the tag names. The document above defines an email that has sender, a recipient and a message. In the document, <email>, <to>, <from> and <message> are called elements.
+
+
+Comments begin with <!-- and end with --> . Comments can contain any data except the literal string --. You can place comments between markup anywhere in your document. Comments are not part of the textual content of an XML document. An XML processor is not required to pass them along to an application.
+
+CDATA sections can be used much the same way as the <pre>(Preformated Text)tag is used in HTML. These sections block off a section of the document that is not parsed by the XML parser. For example, if you wanted to specify a block of programming code in an XML document, you would need to use characters that the parser would misinterpret, so you can place this code into a CDATA section and it will not be parsed:
+
+
+<!--[CDATA [c = (i < 7);] ]-->
+
+
+
+Element Type Declarations define the type of data that can be used with an element. For example:
+
+ <!--ELEMENT email (recipient+, to, bcc?)-->
+defines the element date. The parenthesis hold a description of the types of data that can be related or used with the element email. The example above states that for the element email, more than one "recipient" can be declared, only one "to" attribute can be used, and the "bcc" attribute is optional.
+
+
+An XML Declaration should be placed as the very first line of your XML file. A typical declaration would be <?xml version="1.0"?>. This declared the use of version 1.0 of XML.
+
+
+
+
+
+Using XML
+
+XML is used to share data primarily over the Web. Many future Web Services will depend on XML for data storage. The use of XML opens up all kinds of possibilities on the Web, because it enables programmers to write programs that can use many different data sources without being concerned with the type of platform that is being used on any particular server. There are many different methods of parsing XML data, which means to interpret and use the data, but all are really beyond the scope of this course. So we will now briefly describe some of the methods of working with XML.
+
+Javascript can be used to import data from an XML document into an HTML document. The following HTML document uses Javascript to define and import an XML document named "note.xml" into an HTML document:
+
+<html>
+ <head>
+ <script language="JavaScript" for="window" event="onload">
+ var xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+ xmlDoc.async="false"
+ xmlDoc.load("note.xml")
+ nodes = xmlDoc.documentElement.childNodes
+ to.innerText = nodes.item(0).text
+ from.innerText = nodes.item(1).text
+ header.innerText = nodes.item(2).text
+ body.innerText = nodes.item(3).text
+ </script>
+ <title>HTML using XML data</title>
+ </head>
+ <body bgcolor="yellow">
+ <h1>Data Internal Note</h1>
+ <b>To: </b>
+ <span id="to"></span> <br>
+ <b>From: </b><span id="from"></span> <hr>
+ <b><span id="header"></span></b> <hr>
+ <span id="body"></span>
+ </body>
+ </html> 
+XML can also be displayed using Cascading Style Sheets and from within many different programming languages. The next step in learning how to use XML would be to become proficient at any one of the programming languages that are used for Web programming. Then study the methods that the language uses to parse XML. In the Perl language, for example, there is an XMLParser module that would be used for this purpose.
+
+Ultimately, JSON is used as a data model, but compared to other data models like Relational Database or XML, it has a low learning curve. In fact, if you are familiar with any of the modern day programming language (e.g PHP, JavaScript, Ruby) you are already familiar with the data structures used in JSON. Moreover, any modern programming language can work with JSON. Maybe that is why JSON has wide acceptance from the developer community.
+What is JSON
+
+JSON is a lightweight text-based open standard data-interchange format. It is human readable. JSON is derived from a subset of JavaScript programming language (Standard ECMA-262 3rd Edition—December 1999). It is entirely language independent and can be used with most of the modern programming languages.
+
+
+JSON is often used to serialize and transfer data over a network connection, for example between web server and a web application. In computer science, serialization is a process to transforming data structures and objects in a format suitable to be stored in a file or memory buffer or transmitted over a network connection. Later on, this data can be retrieved.
+
+Because of the very nature of the JSON, it is useful for storing or representing semi structured data. JSON files are saved with .json extension. The media type of JSON is "application/json".
+
+What JSON looks like
+
+The following code snippet is valid JSON, representing information about a book.
+
+
+xml
+Now we will discuss the basic constructs of JSON.
+
+
+Basic Constructs
+
+There four basic and built-in data types in JSON. They are strings, numbers, booleans (i.e true and false) and null. Besides there are two data types which are structured - objects and arrays.
+Objects are wrapped within '{' and '}'. Arrays are enclosed by '[' and ']'. Objects are list of label-value pairs. Arrays are list of values.
+Both objects and arrays can be nested.
+strings, numbers, booleans (i.e true and false) and null can be used as values.
+Following image and then text following will be useful to get you started with how JSON data is constructed.
+
+
+A simple json file
+
+The entire content of the JSON data shown above is enclosed within an object. "Title": "The Cuckoo's Calling", "Author": "Robert Galbraith", "Genre": "classic crime novel", are label-value pairs separated by commas. Labels and their values are separated by a colon. Notice that both labels and values are enclosed by quotations, since they are strings.
+
+
+Notice the '"Detail"' label. It contains another object, which again contains several label-value pairs. This is an example of how nesting (object within an object in this case) is done in JSON.
+
+
+Then '"Price"' label contains an array, which is turn contains two separate objects. Another example of nesting.
+
+
+Also notice that numbers are not enclosed by quotations.
+
+
+
+
+Data Structures supported by JSON
+
+JSON supports two widely used (amongst programming languages) data structures.
+
+A collection of name/value pairs. Different programming languages support this data structure in different names. Like object, record, struct, dictionary, hash table, keyed list, or associative array.
+
+An ordered list of values. In various programming languages, it is called as array, vector, list, or sequence.
+
+
+Since data structure supported by JSON is also supported by most of the modern programming languages, it makes JSON a very useful data-interchange format.
+
+Data Types in JSON
+
+JSON supports an array of data types. We will discuss those in detail in the following section of this page of the JSON tutorial.
+
+Object
+
+Syntax
+
+{ string : value, .......}
+
+Explanation of Syntax
+
+An object starts and ends with '{' and '}'. Between them, a number of string value pairs can reside. String and value is separated by a ':' and if there are more than one string value pairs, they are separated by ','.
+
+Example
+
+2 
+In JSON, objects can nest arrays (starts and ends with '[' and ']') within it. The following example shows that.
+
+3
+Array
+
+Syntax
+
+[ value, .......]
+
+Explanation of Syntax
+
+An Array starts and ends with '[' and ']'. Between them, a number of values can reside. If there are more than one values reside, they are separated by ','.
+
+Example
+
+[100, 200, 300, 400]
+
+If the JSON data describes an array, and each element of that array is an object.
+
+4
+Remember that even arrays can also be nested within an object. The following shows that.
+
+5
+Value
+
+Syntax
+
+String || Number || Object || Array || TRUE || FALSE || NULL
+
+A value can be a string, a number, an object, an Array, a Boolean value (i.e. true or false) or Null. This structure can be nested.
+
+String
+
+A string is a sequence of zero or more Unicode characters, enclosed by double quotes, using backslash escapes. A character is represented as a single character string, similar to a C or Java string.
+
+The following table shows supported string types.
+
+
+String Types	Description
+"	A double quotation mark.
+\	Reverse Solidus
+/	Solidus
+b	Backspace
+f	form feed
+n	newline
+r	Carriage return
+t	Horizontal tab
+u	Four hexadecimal digits
+Number
+
+The following table shows supported number types.
+
+Number Types	Description
+Integer	Positive or negative Digits.1-9. And 0.
+Fraction	Fractions like .8.
+Exponent	e, e+, e-, E, E+, E-
+Whitespace
+
+Whitespace can be placed between any pair of supported data-types.
+
+
+
+Advanced WWW Authoring HTML and CSS
+◄ Previous activityNext activity ►
+Home
+Courses
+Calendar
+You are here
+AWS / ► ITNW-1072 / ► Online JSON Viewers
+ 
+While working with JSON, often you may need a JSON viewer. This document discusses several online JSON viewer. Hopefully, this will help you to select one depending upon your requirement.
+
+jsonviewer.stack.hu
+
+This may be the most widely used online JSON viewer. Indeed it is feature rich to be used widely.
+
+
+jsonviewer.stack.hu
+
+
+
+
+
+You can directly copy your JSON text in this online viewer. Or you may use the load JOSN data button to supply an url and the viewer will load JSON form that resource. After the JSON code is visible in the viewer, you can click on Format to format the code.
+
+
+jsonviewer.stack.hu format
+
+
+Clicking on Viewer then will change the mode of the viewer and you can expand or collapse the JSON tree on the left hand side pane to view the name and values on the right hand side pane.
+
+
+jsonviewer.stack.hu view
+
+
+
+In the Text mode, you can minify the JSON code by clicking on the Remove white space.
+
+
+jsonviewer.stack.hu remove white space
+
+
+And finally, you can clear the code by clicking on Clear.
+
+jsoneditoronline.org
+
+jsoneditoronline.org is another excellent JOSN viewer. It comes with a default JSON code which you may clear by clicking on clear button.You may load your own JSON code by clicking on Open and then you choose to open from a local file (Open file) and form a url (Open url).
+
+
+josn online editor open
+
+
+You click on JSON to editor and you can see the code you loaded as a JSON tree on the right hand side pane.
+
+
+josn online editor JSON to Editor
+
+
+You can then expand and collapse the tree to view various components of the JSON tree.
+
+
+josn online editor tree
+
+
+There is search box on the editor, which you may use to search various components of the JSON code.
+
+
+josn online editor search
+
+
+Once you click on the Save button, the document in question is saved on your local machine (within default download location).
+
+On the left hand pane, the left most button is to format your JSON code.
+
+
+josn online editor format
+
+
+And the button net to that is to remove all the white spaces and make it compact.
+
+
+josn online editor compact
+
+Online JSON Tree Viewer Tool
+
+This is tool is located at http://www.jquery4u.com/demos/online-json-tree-viewer/. You can either click on Choose a file and upload a JSOn file or you may click on Copy and Paste and simply copy JSON code from a source.
+
+
+jquery4you json viewer
+
+
+Once the code is there, click on the Generate JSON tree to obtain a tree view of the JSON code.
+
+
+jquery4you json generate
+
+
+You can now Collapse and Expand the JSON tree. Another good feature of this tool is, when you select a component of the JSON tree, you can see a popup on the browser showing you the path of the JSON object selected.
+
+
+jquery4you json select
+
+
+You can not save, clear or remove white space using this tool though.
+
+JSON Visualization
+
+This is feature rich online JSON viewer, available at http://chris.photobooks.com/json/default.htm. You can paste the JSON code under Input. You may also click Load and load a JSON file from remote.
+
+
+json visualization
+
+
+Click on render to generate either JSON or HTML, depending upon the selection you have made under radio boxes of Output.
+
+
+json visualization render
+
+
+By clicking on Expand/Collapse you can expand and collapse the JSON tree rendered. You can click on any of the JSON component and it shows it's location in the JSON tree.
+
+
+json visualization selection
+
+
+Clicking on validate will validate your JSON code.
+
+Clicking on reencode will reencode the JSON code.
+
+
+
+json visualization reencode
+
+Json viewer
+
+This tool is available at http://www.jsonviewer.com/. Like other tools, this also allows you to load JSON from either url or you can directly paste the code. Though the loading from url is available on IE only. After you click on Parse JSON data, Json Object view is rendered.
+
+
+
+json viewer
+
+JSON Parser Online
+
+You can access this tool at http://json.parser.online.fr/. Once you paste code on the left hand side panel, you can view JSON tree w.r.t string parsing and eval.
+
+
+JSON Parser online
+
+
+
+Clicking on the Options opens a menu and you can choose various options from there.
+
+
+JSON Parser online options
+
+
+
+
+
+This tool has several JSON samples including one Invalid JSON sample which is great, particularly for beginners.
+
+
+JSON Parser online samples
+
+Free Online JSON Parser
+
+http://jsonparser.com/ offers this tool. You can copy code, format, view JSON tree and collapse and expand the tree with this tool.
+
+
+online json parser
+
+JSONView in Chrome
+
+This browser extension for Chrome is an excellent tool. You can obtain it from https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en. You can use the context menu to copy the JSON path or the value.
+
+
+JSON View
+
+
+There is an extension for Firefox also. You can obtain it from here:https://addons.mozilla.org/EN-us/firefox/addon/jsonview/.
+
+Last modified: Wednesday, 29 July 2015, 11:45 AM
+You are logged in as edris safari (Logout)
+ITNW-1072

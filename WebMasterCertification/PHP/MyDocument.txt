@@ -1,0 +1,5 @@
+The SDD (Software Detailed Design) document describes a software implementation addressing the software requirements specified in Reference B  and consistent with the Architectural level design described in Reference C. The SDD provides for:
+the solution designers and implementers: a solid high-level description of the solution on which to base the ensuing detailed design and implementation.
+the testers: a reference for detailed software behavior to allow test procedure design prior to availability of running software
+This is the Software Detailed Design (SDD) for <<project name>> for <<customer name>>. This project is intended for deployment to production in <<timeframe>>.
+Reference B contains the Solution Overview which describes what the solution does and the essential implementation approach.

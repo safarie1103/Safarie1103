@@ -1,0 +1,149 @@
+Advanced WWW Authoring HTML and CSS
+◄ Previous activityNext activity ►
+Home
+Courses
+Calendar
+You are here
+AWS / ► ITNW-1072 / ► The Demo Application
+ 
+The Application
+
+
+The application we will be looking at has two main functions. When the user clicks on the "submit" button on the HTML form, the CGI script processes the data that is sent to the server. Then is passes a response back to the browser.
+
+The actual program has comment lines at the top of the file, which are just installation notes for the user. The comment lines will not be included here.
+
+The first line of the script tells the program where to find the Perl Interpreter on the server where the application is running:
+
+
+#!/usr/bin/perl
+
+
+The next line turns on readable error messages in case something goes wrong in the program:
+
+
+use CGI::Carp qw(fatalsToBrowser);
+
+
+The next line tells the computer what type of data should be returned to the browser. It creates a header that is sent using a print statement:
+
+
+print "Content-type: text/html\n\n";
+
+The next line is a comment in Perl. The line that follows sets a variable equal to the url of the program on the server. This will be used later in the program. Notice that all Perl variables must start with the $ character, and that a semicolon is needed at the end of every Perl statement:
+
+
+# URL of story.cgi
+$progurl = "http://www.myserver.com/cgi-bin/story/story.cgi";
+
+The next two lines set two variables, one that holds the background color to use when displaying HTML to the browser, and one for the text color:
+
+
+$background = "#FFB573";
+$text = "black";
+
+
+
+The next block of code is the most important part of the Perl program. This code receives the information that is sent to it via an HTML form. It parses the information, and stores the form fields that were sent into an array. It also deciphers the encoding characters that are present.
+
+if ($ENV{'REQUEST_METHOD'} eq "POST") {
+read(STDIN,$buffer,$ENV{'CONTENT_LENGTH'});
+} else {
+$buffer = $ENV{'QUERY_STRING'};
+}
+@pairs= split(/&/,$buffer);
+foreach $pair (@pairs) {($name,$value) = split(/=/,$pair);
+$value =~ tr/+/ /;
+$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C",hex($1))/eg;
+$DATA{$name} = $value;
+}
+
+
+After the above code executes, we have an associative array named DATA which holds all of the fields of the form that initiated this program to run.
+
+
+So,
+
+
+$DATA{'name'} holds the name value the user typed into the form.
+$DATA{'number'} holds the number from 1 to 15 that the user typed in, and so on...
+
+
+Now that we have the contents of the form we can do some work on the data. The next block of code puts this data into Perl variables so we can use the information in the program:
+
+
+$name = $DATA{'name'};
+$areaofstudy = $DATA{'areaofstudy'};
+$number = $DATA{'number'};
+$himorher = $DATA{'himorher'};
+
+
+The final block of code prints out HTML code to the browser. Javascript is embedded into the HTML code to create a button that will close the window.
+
+
+print qq~
+<html>
+<HEAD>
+<TITLE>My Story</TITLE>
+</HEAD>
+<body bgcolor="$background" text="$text">
+<table width=350>
+<tr><td width=350>
+<font face="verdana,arial" size=4>
+<center>A Story About $name<br><br>
+</center></font>
+<font face="verdana,arial" size=3>
+$name is the coolest person I know! $name was born in
+a small fishing village a few miles from Mt. Everest.
+$name has a degree in $areaofstudy, and it only took
+$himorher $number years to complete the degree.
+The instructors were very proud of $himorher!<br>
+On warm summer evenings $name can be found sitting by
+the water contemplating the nature of the universe and
+wondering how to add pull-down menus to a Web page.
+<br><br>
+</font>
+<form><center>
+<input type="submit" value="Close Window" onClick="window.close();">
+</form>
+<br></tr></td></table>
+</body>
+</html>
+~;
+# End of Program
+
+Notice how we can embed our Perl variables right into the HTML code, and the computer will replace the variables with their current values. This short program demonstrates what goes on in most CGI applications. The browser is sending information to the CGI program, via a form that a user has submitted, and the CGI script is collecting the data and sending back an HTML response.
+
+Popping Up the Window
+
+
+You probably noticed, when you ran the script, that the HTML file storyform.htm opened up in a small window that popped up on the screen. Then when the script was finished executing, there was a button at the bottom that said, "Close Window".
+
+Javascript is used to pop up the small window, and now we will take a look at how it is done.
+
+Place the following code in the <head> section of your HTML page:
+
+<script language=JavaScript>
+<!--
+var file = "http://www.yourserver.com/classes/xhtml3/storyform.htm";
+function dowindow(page) {
+thewindow = window.open(page,"thewindow","left=200,top=40,
+ location=no,scrollbars=no,height=450,width=375,
+ resizable=yes,menubars=no,toolbars=no");
+}
+-->
+</script>
+And in the <body> section of your page place the following code:
+
+Click the button to run the script:
+
+<center><form>
+<input type="button" value="Tell My Story!" onClick="dowindow(file)">
+</form></center>
+Explanation
+
+
+The Javascript at the top of the page defines a function that uses the built-in method called, "window.open". When the function is called, the window.open() method runs and passes a list of window attributes to the browser. Most of the attributes are self-explanatory, the height and width of the window, whether to include toolbars on the browser window, whether to include menubars or scrollbars, etc. Left and top are used to define the exact location of the window on the screen.
+
+P.S. This is also a good example of how Web technologies are used together to get the desired effect or functionality.
+

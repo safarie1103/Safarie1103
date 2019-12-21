@@ -1,0 +1,16 @@
+ FileZilla Information:
+ 
+HostName: webtrain.austincc.edu
+ 
+User login name is: esafari
+User password is: JzBT_HTML-31565
+
+
+
+EID: e1805633
+
+User home directory is: /home/students/esafari 
+
+URL:  http://webtrain.austincc.edu/~esafari
+
+This user account will expire: 09/08/2018 

@@ -1,0 +1,7 @@
+*{margin:0; padding:0; }
+html, body{min-height:100%;}
+body{ margin: 1em; 
+      font-family:sans-serif;}
+
+h2{font-weight:100;
+    margin: 1em 0 .5em 0;}

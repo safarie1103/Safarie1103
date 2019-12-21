@@ -1,0 +1,61 @@
+<!doctype html>
+<html Lang="en">
+<head>
+<script>
+
+
+function validate(obj, lowval, hival) {
+ if ((obj.value < lowval) || (obj.value > hival))
+ alert("Incorrect Value!");
+ };
+var strVariable = "<hr>";
+var myFirstCar, MySecondCar, MyCurrentCar;
+ myFirstCar = {
+  name: "Toyota",
+  color: "blue",
+  wheels: 4,
+  power: "150 hrs"
+};
+mySecondCar = {
+  name: "Ford",
+  color: "green",
+  wheels: 6,
+  power: "200 hrs"
+};
+myCurrentCar = {
+  name: "Mersedes",
+  color: "black",
+  wheels: 8,
+  power: "320 hrs"
+};
+
+function carname() {
+  document.write(myFirstCar.name + strVariable);
+  document.write(mySecondCar.name + strVariable);
+  document.write(myCurrentCar.name + strVariable);
+}
+
+function carcolor() {
+  document.write(myFirstCar.color + strVariable);
+  document.write(mySecondCar.color + strVariable);
+  document.write(myCurrentCar.color + strVariable);
+}
+</script>
+</head>
+<body>
+<script>
+
+document.write("<h1>My car's names</h1>");
+carname();
+document.write("<h1>My car's colors</h1>");
+carcolor();
+
+</script>
+<form action="demo_form.asp" method="get">
+  Enter Your Age: <input type="text" name="Age"><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+
+
+</html>

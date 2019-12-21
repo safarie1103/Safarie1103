@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Exercise 3: Sequencing</title>
+<link href="../resources/reset.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <style>
+        
+        h1{
+            opacity:0;
+            font-size:6em;
+        }
+        h2{
+            opacity:0;
+            font-size:6em
+            position: relative;
+            left: -300px;
+        }
+        body{
+            text-align:center;
+        }
+        div{
+            width:200px;
+            height:200px;
+            display:inline-block;
+            margin:10px;
+            opacity:0;
+            animation-fill-mode: both;
+        }
+        
+         
+        #div1{background: #264c89;}
+        #div2{background: #388967;}
+        #div3{background: #41bfc4;}
+      
+    </style>
+</head>
+<body>
+    <input type="button" value="Go!" id="start_btn"/>
+<h1>Exercise 8: jQuery Sequencing</h1>
+    <h2>Example subheading</h2>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <script>function go(){           
+                $('h1').animate({opacity:1, fontSize:"2em"},4000,"swing");
+                $('h2').delay(1750).animate({opacity:1}, 750,"swing");
+                $('#div1').delay(2500).animate({opacity:1},750,"swing");
+                $('#div2').delay(3500).animate({opacity:1},750,"swing");
+                $('#div3').delay(4500).animate({opacity:1},750,"swing");
+            };
+        $('#start_btn').click(go);
+        </script>
+      
+</body>
+</html>

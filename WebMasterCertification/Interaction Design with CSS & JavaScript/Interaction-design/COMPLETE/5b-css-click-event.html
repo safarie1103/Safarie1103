@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Exercise 5b - CSS Click Events</title>
+    <link href="../resources/reset.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width">
+    <style>  
+        #zoom {
+            width: 150px; 
+            transition: width 3s ease-in;
+        }
+	 
+        #zoom:target {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercise 5b - CSS Click Events</h1>
+    <figure>
+        <img id="zoom"  src="http://lorempixel.com/400/400" />
+        <figcaption>
+                <a href="#zoom">Zoom In</a> | <a href="#">Zoom Out</a>
+        </figcaption>
+    </figure>   
+</body>
+</html>

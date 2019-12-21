@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Exercise 14 - Parallax</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+    <link href="../resources/reset.css" rel="stylesheet"/>
+    <style>
+          
+        #glassBackground {
+            background:url('../resources/background-glass.jpg') center center no-repeat; 
+            background-size:cover; 
+            position:absolute; 
+            width:100%;
+            height:100%; 
+        }
+        
+        body{
+            margin:0;
+        }
+        
+        section{
+            height:100vh;
+            text-align:center;
+            color:#fff;
+            overflow:hidden;
+            background:#000;
+        }
+       h1{
+           font-size:4em;
+           font-weight:normal;
+           margin-top:42vh;
+           position:relative;
+        }
+        
+        #screen2{
+            background:url('../resources/background-dark-blue.jpg') center center no-repeat;
+            background-size:cover;
+            background-attachment:fixed; 
+        }
+        
+        #screen3{
+            background:#1d2a48;
+        }
+       
+    </style>
+</head>
+    
+    
+<body>
+    <section id="screen1">
+        <h1
+            data-start="top:0px; opacity:1;" 
+            data-top="top:-100px; opacity:0;">
+            Exercise 14 - Parallax
+        </h1>
+    </section>
+    
+    
+    <section id="screen2">
+        <h1>
+            Curtain effect
+        </h1>
+    </section>
+    
+    
+    <section id="screen3">
+        <h1  
+            data-bottom-top="transform:scale(3)"
+            data-top-bottom="transform:scale(.2)">
+            Scaling
+        </h1>
+    </section>
+    
+    
+    <section id="screen4"> 
+        <div id="glassBackground"
+            data-300-end="filter:blur(0px)"
+            data-150-end="filter:blur(10px)"
+            >
+        </div>
+       <h1 
+           data-anchor-target="#glassBackground";
+           data-100-end="filter:blur(5px)"
+           data-end="filter:blur(0px)">
+           Blurring
+        </h1>
+    </section>
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../resources/skrollr.min.js"></script> 
+    <script>
+        var s = skrollr.init();        
+    </script>
+</body>
+</html>

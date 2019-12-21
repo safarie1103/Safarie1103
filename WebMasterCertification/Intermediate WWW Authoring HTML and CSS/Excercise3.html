@@ -1,0 +1,94 @@
+<!doctype html>
+<html Lang="en">
+<head>
+<meta charset="utf-8">
+<title>Excercise3</title>
+<style>
+
+table {border="0" cellspacing="10" cellpadding="4"}
+
+</style>
+
+</head>
+<body>
+<FORM action="mailto:edris.safari1@g.austincc.edu"  METHOD="POST" enctype="text/plain">
+<TABLE>
+  <TR>
+    <TD>First Name</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="FirstName" SIZE="20">
+    </TD>
+    <TD>Last Name</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="LastName" SIZE="20">
+    </TD>
+    <TD>Middle Initial</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="MiddleInitial" SIZE="1">
+    </TD>
+  </TR>
+  <TR>
+    <TD>Street Address</TD>
+    <TD colspan=5 ><INPUT TYPE="TEXT" NAME="StreetAddress" SIZE="30"></TD>
+  </TR>
+  <TR>
+    <TD>City</TD>
+    <TD><INPUT TYPE="TEXT" NAME="City" SIZE="30"></TD>
+    <TD>ZipCode</TD>
+    <TD><INPUT TYPE="TEXT" NAME="ZipCode" SIZE="10"></TD>
+    <TD>Country</TD>
+    <TD><INPUT TYPE="TEXT" NAME="Country" SIZE="15"></TD>
+  </TR>
+  <TR>
+  <TD>Credit Card Type</TD>
+  <TD colspan=5>
+	<select name="CreditCardType">
+		<option value="Visa">Visa
+		<option value="MasterCard">Master Card
+		<option value="AmericanExpress">American Express
+	</select>  
+  </TD>
+  </TR>
+  <TR>
+  <TD>Credit Card Number</TD>
+  <TD><INPUT TYPE="TEXT" NAME="CreditCardNumber" SIZE="30"></TD>
+  <TD>Expiration Month</TD>
+  <TD>
+	<select name="Expiration Month">
+		<option value="Jan">January
+		<option value="Feb">February
+		<option value="Mar">March
+		<option value="Apr">April
+		<option value="May">May
+		<option value="Jun">June
+		<option value="Jul">July
+		<option value="Aug">August
+		<option value="Sep">September
+		<option value="Oct">October
+		<option value="Nov">November
+		<option value="Dec">December
+	</select>  
+  </TD>
+  <TD>Expiration Year</TD>
+  <TD>
+  	<select name="Expiration Year">
+		<option value="2016">2016
+		<option value="2017">2017
+		<option value="2018">2018
+		<option value="2019">2019
+		<option value="2020">2020
+	</select>  
+  </TD>
+  </TR>
+</TABLE>
+<BR>
+ <TEXTAREA name="AdditionalComment" rows="10" cols="60" wrap="hard">
+ </TEXTAREA>
+ <BR><BR>
+<INPUT TYPE="SUBMIT" VALUE="Submit"><INPUT TYPE="RESET" VALUE="Reset">
+</FORM>
+<footer>
+<a href="http://validator.w3.org/check?uri=referer">HTML5</a>
+</footer>
+</body>
+</html>

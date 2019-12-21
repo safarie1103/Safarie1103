@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Demo: Using getElementById to get the elements in a form</title>
+	<script script type="text/javascript" src="demo1.js"></script>
+</head>
+<body>
+<a href="javascript:toggleFormVisibility();" id="sub">Subscribe to our Newsletter!</a>
+<form name ="subscribe" id="subscribe_frm" action="#" style="display: none"> 
+<div>
+	<p>Please enter your subscription information:</p> 			
+	<p><label for="name">Your Name: </label><input type="text" name="name" id="txt_name"></p>
+	<p><label for="email">Your Email: </label><input type="text" name="email" id="txt_email"></p>
+	<p><label for="mail_format">Mail Format: <select name="mail_format" id="slt_mail_format">
+						<option value="TEXT">Plain Text</option>
+						<option value="HTML">HTML</option>
+						</select></p> 	
+	<p><input type="button" name="submit" value="submit" onclick="processFormData();" ></p>
+</div> 
+<a href="javascript:toggleFormVisibility();" id="nosub" style="display: none">No, Thank you! Some other time, perhaps....</a>
+</form>

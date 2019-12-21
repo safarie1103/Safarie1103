@@ -1,0 +1,13 @@
+Compilation error when value thatcannot be represented in than 32 bits is assigned to short.
+
+Change the 'A' into 'Z' and compile and run.
+	Prints "A char: Z"
+Change the 'A' into 'AA' and try to compile the program.
+	Compilation Error
+Change the 'A' into ' ' and compile and run the program.
+	Prints "A char:  "
+Notice carefully: there is a single space between the two ' marks.
+Change the 'A' into '' and try to compile.
+	Compilation error
+Change the 'A' into "A" and try to compile the program.
+	Compilation error

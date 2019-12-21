@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Exercise 6 - CSS Lightbox</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            html{min-height:100%;}
+            
+            body{color:#fff; 
+            background:#000 url(../resources/nebula.jpg) no-repeat center center;
+            background-size:cover; 
+            font-family:sans-serif;
+            }
+            
+            figure{text-align:center;}
+            
+            .popup{width:75%; 
+                background:rgba(0, 0, 0, .6);
+                border-radius:12px; 
+                font-size:16px;
+                padding:25px; 
+                position:absolute; 
+                top:70px; 
+                left:12%;
+                opacity:0; 
+                line-height:1.75em;
+                box-shadow:0px 0px 40px rgba(49, 159, 253, 0.77);
+                pointer-events: none;
+                transform:scale(0.5);            
+            }
+            .popup img{float:left; 
+                -webkit-filter:drop-shadow(-20px 20px 25px #000);
+			     filter:drop-shadow(-20px 20px 25px #000);
+            }
+            
+            .x{position:absolute; 
+                right:-10px; 
+                top:-10px;
+                padding:8px; 
+                background:#000; 
+                border-radius:50%; 
+                line-height:.5em; 
+                width:.5em;  
+                border:2px solid #fff;
+            }
+            
+            a, a:visited{color:#fff; text-decoration:none;}
+            
+            
+            #marsposition{transform:translate(-160px, -80px);}
+            #saturnposition{transform:translate(180px,0px);}
+            
+            .popup:target {opacity:1;
+                pointer-events: all;
+                transition: all 1s ease-in;
+                transform:scale(1);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exercise 6 - CSS Lightbox</h1>
+       
+        <figure>
+            <a href="#mars"><img src="../resources/mars.png" width="50" id="marsposition"/></a>
+            <a href="#jupiter"> <img src="../resources/Jupiter.png" width="400"/> </a>
+            <a href="#saturn"><img src="../resources/Saturn.png" width="300" id="saturnposition"/></a>
+        </figure>
+        
+        
+        
+        <div class="popup" id="mars">
+            <div class="x"><a href="#">&#215;</a></div>
+            <img src="../resources/mars.png"/><h1>Mars</h1>
+            <p>Half the mass of Earth, Mars is a rocky planet with a thin atmosphere. Named after the Roman god of War due to its red hue, this red color is caused by iron oxide in the martian soil. Mars has long excited the imagination due to its earth-like features including mountains, volcanos, valleys, and riverbeds that appear to have been caused by flowing water.</p>
+        </div>
+        
+        
+        <div class="popup" id="jupiter">
+            <div class="x"><a href="#">&#215;</a></div>
+            <img src="../resources/Jupiter.png"/><h1>Jupiter</h1>
+            <p>Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a gas giant with mass one-thousandth of that of the Sun but is two and a half times the mass of all the other planets in the Solar System combined. The planet was known by astronomers of ancient times. The Romans named the planet after Jupiter, the king of the gods. When viewed from Earth, Jupiter can reach an apparent magnitude of −2.94, bright enough to cast shadows, and making it on average the third-brightest object in the night sky after the Moon and Venus.</p>
+        </div>
+        
+        
+        <div class="popup" id="saturn">
+            <div class="x"><a href="#">&#215;</a></div>
+            <img src="../resources/Saturn.png"/><h1>Saturn</h1>
+            <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. Although only one-eighth the average density of Earth, with its larger volume Saturn is just over 95 times more massive. Saturn is named after the Roman god of agriculture </p>
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+*{margin:0; padding:0;}
+
+body, html{height:100%;
+    font-family: 'Oswald', sans-serif; 
+    background:#000; 
+    color:#fff;
+}
+
+section{height:100%;
+    position:relative;
+    background-size:cover;
+    overflow:hidden;
+}
+
+section, section *{box-sizing:border-box;}
+
+#screen2{background-image:url(../resources/mars-surface.jpg);}
+
+#screen3{background-image:url(../resources/mars-rocks.jpg);}
+
+#screen4{background-image:url(../resources/mars-mountains.jpg);}
+
+h1, h2{text-transform:uppercase; 
+    text-align:center;
+}
+
+h1{
+    font-size:3.3em;
+    color:#ea783b;
+    position:absolute;
+    width:100%;
+    top:100px;
+}
+
+
+h2{font-weight:300;
+    font-size:2.2em;
+    padding-top: 1em;
+}
+
+.light{background: radial-gradient(ellipse closest-side, rgba(252,252,252,1) 0%,rgba(252,245,179,0.81) 20%,rgba(241,218,54,0) 100%);
+}
+
+.info{
+    position:absolute;
+    width:25%;
+    padding: 5em 2em 2em 2em;
+    background: rgba(0,0,0,.5);
+    line-height:1.6em;
+    font-weight:300;
+    top:0;
+    bottom:0;
+}
+ 

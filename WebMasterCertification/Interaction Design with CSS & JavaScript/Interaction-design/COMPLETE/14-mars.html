@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+<script src="../resources/jquery.min.js"></script>   
+<script src="../resources/jquery.easing.js"></script>   
+<script src="../resources/skrollr.min.js"></script> 
+<link href="../resources/mars.css" rel="stylesheet"/>
+    <style>
+        #cover{
+            background:#000;
+            position:absolute;
+            top: 0;
+            bottom:0;
+            left:0;
+            right:0;
+            z-index:101;
+        }
+        
+        #mars{
+            position:absolute;
+            width:100%;
+            height:40%;
+            top:50px;
+            background-size:contain;
+            background: url(../resources/mars-horizon.png) no-repeat center top;            
+        }
+        
+        #sun, #shine{
+            position:absolute; 
+            left:50%;
+        }
+        #sun{
+            width:200px;
+            height:200px;
+            margin-left:-100px;
+            top:100px
+        }
+        #shine{
+            width:900px;
+            height:20px;
+            top: 190px;
+            margin-left:-10px;
+            opacity:0;
+            width:20px;
+        }
+        #skrollr-body{
+            width:100%;
+            height:100%;
+            position:absolute;
+        }
+        #screen2 .info{
+            width:100%;
+            top:20%;
+            bottom:20%;
+        }
+        #screen2 img{
+            float:left;
+            margin-right:3em;
+            shape-outside:circle();
+            max-width: 50%;
+        }
+        #screen3 .info{right:0;}
+        
+        #viking{
+            max-width:40%;
+            position:absolute;
+            left:15%;
+        }
+        #rover{
+            max-width:40%;
+            position:absolute;
+        }      
+        nav{
+            position:fixed;
+            right:0;
+            top:50%;
+            height:200px;
+                margin-top:-100px;
+            opacity:.5;
+            z-index:99;
+        }
+        nav li{
+            width:10px;
+            height:10px;
+            list-style:none;
+            border:2px solid #fff;
+            border-radius:50%;
+            margin:2em;
+            cursor:pointer;
+        }
+        .active{background:#fff;}    
+    </style>
+</head>
+<body>
+    <div id="cover"></div>
+    <nav>
+        <ul>
+            <li data-screen="#screen1" class="active"></li>
+            <li data-screen="#screen2"></li>
+            <li data-screen="#screen3"></li>
+            <li data-screen="#screen4"></li>
+        </ul>
+    </nav>
+    <div id="skrollr-body">
+        
+            <section id="screen1">
+                <h1>Red Planet</h1>
+                <div
+                     id="sun" class="light"
+                     data-start="transform:translateY(0px)"
+                     data--300-top="transform:translateY(-100px)">
+                </div>
+                <div 
+                     id="mars"
+                     data-start="transform:translateY(0px)"
+                     data--300-top="transform:translateY(-200px)">
+                </div>
+                <div 
+                     id="shine" class="light"
+                     data-start="transform:translateX(0px)"
+                     data-1-start="transform:translateX(3000px)">
+                </div>                    
+            </section>
+
+
+            <section id="screen2">
+                <h2>Exploration of Mars</h2>
+                <div 
+                     class="info"
+                     data-bottom-top="transform:translateY(250px)"
+                     data-top-bottom="transform:translateY(-250px)">
+                    <img 
+                         src="../resources/mars.png"
+                         data-bottom-top="transform:rotate(25deg)"
+                         data-top-bottom="transform:rotate(-25deg)"/>                    
+                        The exploration of Mars has taken place over hundreds of years, beginning in earnest with the invention and development of the telescope during the 1600s. Increasingly detailed views of the planet from Earth inspired speculation about its environment and possible life &mdash;even intelligent civilizations&mdash; that might be found there. Probes sent from Earth beginning in the late20th century have yielded a dramatic increase in knowledge about the Martian system, focused primarily on understanding its geology and habitability potential.
+                </div>
+                
+            </section>
+
+
+            <section id="screen3">
+                <h2>Viking Lander</h2>
+                <div 
+                     class="info"
+                     data-150-top="right:-25%"
+                     data-top="right:0%">
+                        The Viking 1 lander touched down on the surface of Mars on July 20, 1976 and was joined by the Viking 2 lander on September 3. The Viking landers conducted biological experiments designed to detect life in the Martian soil, as well as measure temperature, wind, and seismology.
+                </div>
+                <img 
+                     id="viking" src="../resources/viking.png"
+                     data-anchor-target="#screen3"
+                     data-200-top="bottom:100%"
+                     data-50-bottom="bottom:12%"/>
+            </section>
+
+            <section id="screen4">
+                <h2>Mars Rovers</h2>
+                <div 
+                     class="info"
+                     data-150-top="left:-25%"
+                     data-top="left:0%">
+                        Launched in 2003, Opportunity landed on Mars on January 25, 2004 on the other side of Mars from its twin rover Spirit. With a planned 90-day duration of activity, Opportunity is still active, gathering data and making scientific observations, and reporting back to Earth for over 40 times its designed lifespan.
+                </div>
+                <img 
+                     id="rover" src="../resources/opportunity.png"
+                     data-200-end="right:-600px; bottom:20%; transform:scale(.6)"
+                     data-end="right:100px; bottom:3%;transform:scale(1)"/>
+            </section>
+    </div>
+
+    <script>
+ $(window).load(function(){
+        
+		$('#cover').fadeOut('slow',function(){
+			$(this).remove();
+		});
+	
+            
+     $('h1').delay(300).animate({letterSpacing:'1em'}, 2000, 'easeOutQuart');
+        $('#mars').animate({top:'200px'}, 2000, 'easeOutCubic');
+        $('#shine').delay(1300).animate({width:'900px', marginLeft:'-450px', opacity:1}, 200, 'easeInOutSine');
+          
+    
+    var s=skrollr.init();
+        
+        $('nav li').click(function(){
+         var destination = $(this).data('screen');
+            $('html, body').animate({scrollTop:$(destination).offset().top}, 2000, 'easeOutCubic');
+        });
+        
+        $(document).scroll(function(){
+            var as=Math.round($(document).scrollTop()/$(window).height())+1;
+          $('nav li').removeClass('active');
+            $('nav li:nth-child('+as+')').addClass('active');
+        });
+    });     
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+a.homepage:link, a.homepage:visited{
+    padding: 1px 10px 1px 10px;
+    color: #0f7;
+    background: #666;
+    border-radius: 2px;
+    border:1px outset rgba(50,50,50,.5);
+    font-family:georgia,serif;
+    fonnt-size: 14px font-style:italic;
+    text-decoration:none
+}
+a.homepage:hover, a.homepage.focus, a.homepage:active{
+    background-color: #333;
+}
+div.menu-nav ul ul {
+    display:block;
+}
+div.menu-bar ul ul {
+    display: block;
+}
+div.menu-bar li:hover > ul {
+    display:block
+}

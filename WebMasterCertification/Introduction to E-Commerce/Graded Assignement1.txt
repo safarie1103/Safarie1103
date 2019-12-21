@@ -1,0 +1,83 @@
+From my research on the web, I found the following to be the current types of e-commerce systems:
+
+	1.Business-to-Business (B2B)
+	2.Business-to-Consumer (B2C 
+	3.Consumer-to-Consumer (C2C)
+	4.Consumer-to-Business (C2B).
+	5.Business-to-Administration (B2A)
+	6.Consumer-to-Administration (C2A)
+	
+Most of the e-commerce sites in existence today  fall under one of these types(the jury is still out as to what other type the 
+market demand will uncover next).
+
+All web sites use the underlying technology required to transfer data from one locality to another. The origin of data is 
+usually the seller/presenter/provider/... and the destination is typically an entity in need of a product.
+
+It is worth mentioning that there are businesses in these arenas that provid the technology to businesses that are 
+players(see below) in each particular arena. For example amazon could deal with a company that provides services 
+to facilitate them to sell products to consumers(B2C) and one that does the same for its B2B ventures.
+
+E-Commerce System Type: B2B
+---------------------------
+As the origin and destination names imply, this system type involves a Business as the provider and a Business as the 
+consumer. For example, IBM Corporation makes a deal with Office Depot to provide its empoloyees with office supplied.
+
+
+WebSite1:Quill.com
+WebSiteDescription:Quill.com is owned by Staples.  Staples.com is actually the #2 e-commerce site in the world only surpassed 
+by Amazon.com.  While Staples sells about 80% to B2B, the Quill.com site is intentionally built for B2B e-commerce.
+
+WebSite2:www.ferguson.com
+WebSiteDescription:
+This is a web site that offers B2B as well as B2C. They specialize in providing to and/or partnering with  indoor lighting, plumbing 
+and HVAC businesses.
+
+Their B2C model provided bathroom and plumbing supplied from garbage disposals to Jacuzzi tubs to sinks(kitchen AND bathroom).
+
+WebSite3:www.grainger.com
+WebSiteDescription:
+This B2B website is really a search engine. The users have to type in what they want and they will be directed to businesses that 
+provide them. They reported sales of $3.11  Billion out of the total market size of $9.44 Billion in 2013. However, 
+google and amazon are chipping away at that share AND contributing to the huge growth in the market.
+
+WebSite4:www.mscdirect.com
+WebSiteDescription:
+MSC Industrial Supply is a direct marketer and distributor of Metalworking and Maintenance, Repair and Operations
+supplies to industrial customers.
+
+WebSite5:www.fastenal.com
+WebSiteDescription:
+This is a business that began before there was internet, but cought up with the time and has manged to stay as a leading fastener 
+distributor to OEM, Repair and Operations and construction materials.
+
+E-Commerce System Type:B2C
+---------------------------
+The most popular and widely know e-commerce type, B2C is way to get products to thhe general public. In this arena, the sky 
+is the limit. Well as limited as there are consumers and the goods they need.  
+
+WebSite1:amazon.com
+WebSiteDescription:
+amazon.com started by selling books! And now, a consumer can type anything in their search field and if amazon doesn't 
+have it, it will direct the user to several alternative sites.
+
+WebSite2:bestbuy.com
+WebSiteDescription:
+Bestbuy was a brick and mortar company up until internet and online shopping became popular. The almost missed the 
+boat and went bankrupt but they've shows some resilience as of late. It will be very tough for them to compete with 
+amazon as amazon is investing heavily and outright winning the "time from warehouse to the house" battle.
+
+WebSite3:staples.com
+WebSiteDescription:
+staples is earning it bread from B2Bs, but trying to stay afloat in providing office supplies.
+
+WebSite4:homedepot.com
+WebSiteDescription:
+homedepot a primarily brick and mortar, also has an online presence. They not only sell and ship certain products on their web site, 
+consumers can opt to pick up the items from a local store. Customers can also order lumber and building material and have it either delivered
+or picked up.
+
+WebSite5:www.frys.com
+WebSiteDescription:
+frys used to be the "geek's"(I am one!) heaven. We could get anything from for transistors, resistors and capacitors, to CPUs and memory and 
+such for making transistor radios to computers. They still provide this and anything else electronic. They have bothe brick and mortar and
+web presence.
