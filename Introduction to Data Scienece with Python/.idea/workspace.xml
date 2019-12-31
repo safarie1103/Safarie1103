@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa1245f8-c2b6-4975-bbbc-fbc34fcd219a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bellevue University/Courses/DSC510/Safari_Edris_DSC510/FinalProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bellevue University/Courses/DSC510/Safari_Edris_DSC510/FinalProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Introduction to Data Scienece with Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Introduction to Data Scienece with Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2.ipynb" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +26,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
   <component name="ProjectId" id="1TLNalIse7bXo1SGuXlfNv24nJb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ThinkStats2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -65,6 +66,7 @@
       <workItem from="1573410611564" duration="602000" />
       <workItem from="1576100912758" duration="1884000" />
       <workItem from="1576105035471" duration="840000" />
+      <workItem from="1577637184081" duration="903000" />
     </task>
     <servers />
   </component>
@@ -83,5 +85,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="212" key="SettingsEditor" timestamp="1577638136953">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="430" y="212" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577638136953" />
   </component>
 </project>
