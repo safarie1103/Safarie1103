@@ -38,16 +38,16 @@ library(plyr)
 facebookData <- read.delim("FacebookNarcissism.dat",  header = TRUE)
 
 graph <- ggplot(facebookData, aes(NPQC_R_Total, Rating))
-graph + geom_point() + opts(title = "geom_point()")
+graph + geom_point() # + opts(title = "geom_point()")
 saveInImageDirectory("04 Tutorial Point.png")
 
-graph + geom_point(shape = 17) + opts(title = "geom_point(shape = 17)")
+graph + geom_point(shape = 17) # + opts(title = "geom_point(shape = 17)")
 saveInImageDirectory("04 Tutorial Triangle.png")
 
-graph + geom_point(size = 6) + opts(title = "geom_point(size = 6)")
+graph + geom_point(size = 6) #+ opts(title = "geom_point(size = 6)")
 saveInImageDirectory("04 Tutorial Size.png")
 
-graph + geom_point(aes(colour = Rating_Type)) + opts(title = "geom_point(aes(colour = Rating_Type))")
+graph + geom_point(aes(colour = Rating_Type)) # + opts(title = "geom_point(aes(colour = Rating_Type))")
 saveInImageDirectory("04 Tutorial Colour Point.png")
 
 graph + geom_point(aes(colour = Rating_Type), position = "jitter") + opts(title = "geom_point(aes(colour = Rating_Type), position = jitter)")

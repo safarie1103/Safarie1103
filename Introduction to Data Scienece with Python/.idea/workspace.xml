@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa1245f8-c2b6-4975-bbbc-fbc34fcd219a" name="Default Changelist" comment="" />
+    <list default="true" id="fa1245f8-c2b6-4975-bbbc-fbc34fcd219a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bellevue University/Courses/DSC520/DataCamp/StatisticalSoftwarePackages.R" beforeDir="false" afterPath="$PROJECT_DIR$/../Bellevue University/Courses/DSC520/DataCamp/StatisticalSoftwarePackages.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,7 @@
       <workItem from="1573410611564" duration="602000" />
       <workItem from="1576100912758" duration="1884000" />
       <workItem from="1576105035471" duration="840000" />
-      <workItem from="1577637184081" duration="1588000" />
+      <workItem from="1577637184081" duration="2278000" />
     </task>
     <servers />
   </component>
@@ -85,6 +88,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="545" y="312" key="FileChooserDialogImpl" timestamp="1578255580891">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="545" y="312" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578255580891" />
+    <state x="727" y="312" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1577982520036" />
     <state x="430" y="212" key="SettingsEditor" timestamp="1577638136953">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

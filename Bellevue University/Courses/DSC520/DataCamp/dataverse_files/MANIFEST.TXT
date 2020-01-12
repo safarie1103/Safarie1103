@@ -1,0 +1,3 @@
+galton-stata11.dta (application/x-stata) 25056 bytes.
+galton.dta (application/x-stata) 29023 bytes.
+readme.txt (text/plain) 482 bytes.

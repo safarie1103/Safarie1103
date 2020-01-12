@@ -1,0 +1,102 @@
+---
+title: "Assignment 5 - StudentSurvey"
+author: "edris safari"
+date: "1/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment
+
+a.  Use R to calculate the covariance of the Survey variables and provide an explanation of why you would use this calculation and what the results indicate.
+b.  Examine the Survey data variables. What measurement is being used for the variables? Explain what effect changing the measurement being used for the variables would have on the covariance calculation. Would this be a problem? Explain and provide a better alternative if needed.
+c.  Choose the type of correlation test to perform, explain why you chose this test, and make a prediction if the test yields a positive or negative correlation?
+d.  Perform a correlation analysis of:
+    1.  All variables
+    2.  A single correlation between two of the variables
+    3.  Repeat your correlation test in step 2 but set the confidence interval at 99%
+    4.  Describe what the calculations in the correlation matrix suggest about the relationship between the variables. Be specific with your explanation.
+e.  Calculate the correlation coefficient and the coefficient of determination, describe what you conclude about the results.
+f.  Based on your analysis can you say that watching more TV caused students to read less? Explain.
+g.  Use TV Time and Happiness while controlling for Gender and perform a partial correlation. Explain how this changes your interpretation and explanation of the results.
+
+```{r }
+library(ggplot2)
+library(stats)
+getwd()
+setwd(".\\")
+getwd()
+
+survey <- read.csv("student-survey.csv")
+
+head(survey)
+```
+
+## 
+
+```{r covariance}
+cov(survey)
+```
+The covariance of variables in survey shows the relationship between 
+variables *TimeReading* ,*TimeTV*,*Happiness*, and *Gender*
+
+The Covariance function returns a matrix showing the relationnships as follows:
+
+1. TimeReading vs. TimeTV = -20.36 *Interpretation: These two variables have negative covariance which mean they deviate from the mean in opposite direction or as Reading time increases and devviate from the mean, TimeTV decrease(less TV and more reading)*
+2. TimeReading vs. Happiness = -10.35 *Interpretation: Same as above*
+TimeReading vs. Gender = -0.08 *Interpretation: These is no relationship between the two as the deviation from the mean in very small*
+3. TimeTV vs Happiness = 114.37*Interpretation: : THese two variables have positive relationship which means they deviate from the mean in the same direction, as one increases so does the other and as one decreases so does the other(i.e. more TV more happiness, less TV less happiness)*
+4. TimeTV vs Gender = 0.04 *Interpretation: These is no relationship between the two*
+5. Happiness vs Gender = 1.11 *Interpretation: These is very little relationship between the two*
+
+Variables *TimeReading*  and *TimeTV* are both measured in time(Mins, hours) and they covariance is effective in analysis. However, Happiness and Gender are not  measure in time, so theie covariance with *TimeReading*  and *TimeTV* does not reveal anything meaningfull.We must calculate standard deviation in order to standardize the unit of measure for all variables. This is done by calculating the pearson coefficient for the variables.
+
+The Plots bellow show the correlation coeeficient between variables.
+
+```{r GGally}
+GGally::ggpairs(survey)
+```
+
+for example the correlation coeeficient between TimeTV and TimeReading is -0.883
+
+```{r corr}
+cor(survey[,c(1,2)])
+```
+
+```{r t.test}
+t.test(survey$TimeTV,survey$TimeReading, paired=TRUE,alt="two.sided",conf.level = 0.99)
+```
+
+This test shows whether the mean of*TimeTV* and *TimeReading* are equal.The null hypothesisis that they are equal. with confidence level of 99% and tus significance level of .1% and p value less than .05, we can assume the null hypothesis is not likely to be true.   
+
+
+
+```{r coefficient of determination}
+survey.lm = lm(survey$TimeTV ~survey$TimeReading,data=survey)
+summary(survey.lm)$r.squared
+```
+
+[reference to this material](https://stattrek.com/statistics/dictionary.aspx?definition=coefficient_of_determination)
+
+
+1.  The coefficient of determination is the square of the correlation (r) between predicted y scores and actual y scores; thus, it ranges from 0 to 1.
+2.  With linear regression, the coefficient of determination is also equal to the square of the correlation between x and y scores.
+3.  An R2 of 0 means that the dependent variable cannot be predicted from the independent variable.
+4.  An R2 of 1 means the dependent variable can be predicted without error from the independent variable.
+5.  An R2 between 0 and 1 indicates the extent to which the dependent variable is predictable. An R2 of 0.10 means that 10 percent of the variance in Y is predictable from X; an R2 of 0.20 means that 20 percent is predictable; and so on.
+
+
+```{r corr TimeTV & ReadingTime}
+cor(survey[,c(1,2)],use="complete.obs",method="pearson")
+```
+Analysis shows that the crrelation between TimeTV and TimeReadaing is -.88 which is close to -1 but not in the +/-0.5 and +/-1. This means as one variable increases in value the other one decrease.
+
+
+```{r corr TimeTV & Happiness among men}
+cor(subset(survey,Gender == 1)[,c(2,3)],use="complete.obs",method="pearson")
+```
+
+Analysis shows that the crrelation between TimeTV and Happiness among men is .23 which is positive and close to zero.This means that TimeTV and Happiness are likely not related.

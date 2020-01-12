@@ -52,7 +52,7 @@ work <- read_sav("http://s3.amazonaws.com/assets.datacamp.com/production/course_
 # Display summary of work$GENDER
 summary(work$GENDER)
 
-
+summary(work)
 # Convert work$GENDER to a factor
 
 work$GENDER <- as_factor(work$GENDER)
@@ -129,3 +129,4 @@ demo_2 <- read.spss("international.sav",to.data.frame = TRUE,use.value.label = F
 
 # Print out the head of demo_2
 head(demo_2,n=2)
+
