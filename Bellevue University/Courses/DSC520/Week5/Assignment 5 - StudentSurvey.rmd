@@ -2,7 +2,10 @@
 title: "Assignment 5 - StudentSurvey"
 author: "edris safari"
 date: "1/5/2020"
-output: html_document
+output:
+  html_document:
+    df_print: paged
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
