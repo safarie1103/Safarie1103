@@ -1,0 +1,43 @@
+---
+title: "Assignment 8.2 - BinaryClassifierData"
+author: "edris safari"
+date: "2/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment 8.2 -  BinaryClassifierData
+
+a. What is the accuracy of the logistic regression classifier?
+
+b. How does the accuracy of the logistic regression classifier compare to the nearest neighbors algorithm?
+
+c. Why is the accuracy of the logistic regression classifier different from that of the nearest neighbors?
+ ```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(scatterplot3d)
+library(lm.beta)
+library("readxl")
+```
+### Import dataset
+
+```{r import dataset,echo=FALSE,message=FALSE,warning=FALSE}
+getwd()
+setwd(".\\")
+getwd()
+dataset = read.csv('binary-classifier-data.csv')
+names(dataset)
+```
+
+```{r classifiert,echo=FALSE,message=FALSE,warning=FALSE}
+
+classifier = glm(formula = label ~ .,
+                 family = binomial,
+                 data = dataset)
+summary(classifier)
+```

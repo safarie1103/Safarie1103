@@ -1,0 +1,132 @@
+---
+title: "Assignment 6"
+author: "Edris Safari"
+date: "1/17/2020"
+output:
+  html_document: default
+  df_print: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment Part 1
+Data set file is **gss-2016.csv**
+
+1. Construct a scatterplot of these two variables in R studio and place the best-fit linear regression line on the scatterplot. Describe the relationship between the number of siblings a respondent has **(SIBS)** and the number of his or her children **(CHILDS)**.
+2. Use R to calculate the covariance of the two variables and provide an explanation of why you would use this calculation and what the results indicate.
+3. Choose the type of correlation test to perform, explain why you chose this test, and make a prediction if the test yields a positive or negative correlation?
+4. Perform a correlation analysis of the two variables and describe what the calculations in the correlation matrix suggest about the relationship between the variables. Be specific with your explanation.
+5. Calculate the correlation coefficient and the coefficient of determination, describe what you conclude about the results.
+6. Based on your analysis, what can you say about the relationship between the number of siblings and the number of his or her children?
+7. Produce an appropriate graph for the variables. Report, critique and discuss the skewness and any significant scores found.
+8. Expand your analysis to include a third variable – **SEX**. Perform a partial correlation, “controlling” the Sex variable. Explain how this changes your interpretation and explanation of the results.
+
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(scatterplot3d)
+```
+
+```{r import dataset,echo=FALSE,message=FALSE,warning=FALSE}
+getwd()
+setwd(".\\")
+getwd()
+survey <- read.csv("gss-2016.csv")
+```
+
+
+```{r exploratory,echo=FALSE}
+survey[1:15,c('CHILDS','SIBS','SEX')]
+
+# Assuming 1 for males and 2 for females.
+males =subset(survey,SEX==1)
+females = subset(survey,SEX==2)
+
+males[1:10,c('CHILDS','SIBS','SEX')]
+females[1:10,c('CHILDS','SIBS','SEX')]
+```
+## Scatter Plot with best-fit linear regression line
+
+```{r scatter plot,echo=FALSE,message=FALSE,warning=FALSE}
+ggplot(data = survey,aes(x = CHILDS, y = SIBS)) +
+  geom_point(na.rm = TRUE) +
+  stat_smooth(method = "lm",na.rm = TRUE, col = "dodgerblue3") +
+  theme(panel.background = element_rect(fill = "white"),
+        axis.line.x=element_line(),
+        axis.line.y=element_line()) +
+  ggtitle("Linear Model Fitted to Data")
+```
+Scatter plot shows number of respondats' children and number of his/her siblings do not vary as much. Respondtant with zero children had as many siblings as those with 1,2 to 8 children. The mean number of siblings is **`r mean(survey$SIBS,na.rm=TRUE)`**. Note that the best fit linear model is almost a straight line.
+
+## Correlation between CHILDS and SIBS
+```{r Correlation, echo=FALSE,message=FALSE,warning=FALSE}
+GGally::ggpairs(data=survey,columns=c('CHILDS','SIBS','SEX'),title="survey data")
+rp <- cor(survey$CHILDS,survey$SIBS,use="complete.obs",method="pearson")
+rs <- cor(survey$CHILDS,survey$SIBS,use="complete.obs",method="spearman")
+rk <- cor(survey$CHILDS,survey$SIBS,use="complete.obs",method="kendall")
+
+```
+Correlation value of 
+
+* **Pearson: `r rp`**
+* **Spearman: `r rs`**
+* **Kendall: `r rk`** 
+
+are between small effect value of 0.1 and medium effect value of 0.3. This indicates weak correlartion between the two variables.
+
+
+```{r coefficient of determination, echo=FALSE,message=FALSE,warning=FALSE}
+survey.lm = lm(survey$CHILDS ~survey$SIBS,data=survey)
+```
+
+coefficient of determination is **`r summary(survey.lm)$r.squared`**
+
+[reference to this material](https://stattrek.com/statistics/dictionary.aspx?definition=coefficient_of_determination)
+
+
+1.  The coefficient of determination is the square of the correlation (r) between predicted y scores and actual y scores; thus, it ranges from 0 to 1.
+2.  With linear regression, the coefficient of determination is also equal to the square of the correlation between x and y scores.
+3.  An R2 of 0 means that the dependent variable cannot be predicted from the independent variable.
+4.  An R2 of 1 means the dependent variable can be predicted without error from the independent variable.
+5.  An R2 between 0 and 1 indicates the extent to which the dependent variable is predictable. An R2 of 0.10 means that 10 percent of the variance in Y is predictable from X; an R2 of 0.20 means that 20 percent is predictable; and so on.
+
+# Assignment Part 2
+1. Run a regression analysis where SIBS predicts CHILDS.
+2. What are the intercept and the slope? What are the coefficient of determination and the correlation coefficient?
+3. For this model, how do you explain the variation in the number of children someone has? What is the amount of variation not explained by the number of siblings?
+4. Based on the calculated F-Ratio does this regression model result in a better prediction of the number of children than if you had chosen to use the mean value of siblings?
+5. Use the model to make a prediction: What is the predicted number of children for someone with three siblings?
+6. Use the model to make a prediction: What is the predicted number of children for someone without any siblings?
+
+## Hypothesis is that  people with more siblings tend to have more children of their own. This makes the nul hypothesis that more siblings does not means more children. 
+
+```{r Linear regression,echo=FALSE,message=FALSE,warning=FALSE}
+fit_1 <- lm(CHILDS ~ SIBS,data=survey)
+summary(fit_1)
+```
+
+
+The intercept is **1.46**. This means people with no children had at least 1.46 siblings! Null hypotheis can be rejected due to large t value of **31.30** and p value less than **.05**. we can accept the hypothisis that number of siblings are related to number of children(in this dataset).
+
+```{r Model Residuals,echo=FALSE,message=FALSE,warning=FALSE}
+
+ggplot(data=survey.lm, aes(fit_1$residuals)) +
+  geom_histogram(binwidth = 1, color = "black", fill = "purple4") +
+  theme(panel.background = element_rect(fill = "white"),
+        axis.line.x=element_line(),
+        axis.line.y=element_line()) +
+  ggtitle("Histogram for Model Residuals")
+```
+
+The histogram of model residuls does not show normal distribution around 0 and seems to have no obvious pattern. This means linear model is not appropriate for this data. This can be shown by making a few predictions:
+
+* Predict people with 0 sibling: **`r  round(predict(fit_1, data.frame(SIBS = 0)))`**
+* Predict people with 1 sibling: **`r  round(predict(fit_1, data.frame(SIBS = 1)))`**
+* Predict people with 2 siblings: **`r  round(predict(fit_1, data.frame(SIBS = 2)))`**
+* Predict people with 3 siblings: **`r  round(predict(fit_1, data.frame(SIBS = 3)))`**
+* Predict people with 5 siblings: **`r  round(predict(fit_1, data.frame(SIBS = 5)))`**
+* Predict people with 7 siblings: **`r  round(predict(fit_1, data.frame(SIBS = 7)))`**

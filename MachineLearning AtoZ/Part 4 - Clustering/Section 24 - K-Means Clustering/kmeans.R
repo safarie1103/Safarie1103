@@ -27,6 +27,7 @@ plot(1:10,
      xlab = 'Number of clusters',
      ylab = 'WCSS')
 
+
 # Fitting K-Means to the dataset
 set.seed(29)
 kmeans = kmeans(x = dataset, centers = 5)
@@ -45,3 +46,4 @@ clusplot(dataset,
          main = paste('Clusters of customers'),
          xlab = 'Annual Income',
          ylab = 'Spending Score')
+

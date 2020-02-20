@@ -1,0 +1,190 @@
+---
+title: "Assignment 7"
+author: "edris safari"
+date: "1/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment 7.1 - Housing Data Exploration
+a. Explain why you choose to remove data points from your ‘clean’ dataset.
+b. Create two variables; one that will contain the variables Sale Price and Square Foot of Lot (same variables used from previous assignment on simple regression) and one that will contain Sale Price, Bedrooms, and Bath Full Count as predictors.  
+c. Execute a summary() function on two variables defined in the previous step to compare the model results. What are the R2 and Adjusted R2 statistics?  Explain what these results tell you about the overall model. Did the inclusion of the additional predictors help explain any large variations found in Sale Price?
+d. Considering the parameters of the multiple regression model you have created. What are the standardized betas for each parameter and what do the values indicate?
+e. Calculate the confidence intervals for the parameters in your model and explain what the results indicate.
+f. Assess the improvement of the new model compared to your original model (simple regression model) by testing whether this change is significant by performing an analysis of variance.
+g. Perform casewise diagnostics to identify outliers and/or influential cases, storing each functions output in a dataframe assigned to a unique variable name.
+h. Calculate the standardized residuals using the appropriate command, specifying those that are +-2, storing the results of large residuals in a variable you create.
+i. Use the appropriate function to show the sum of large residuals.
+j. Which specific variables have large residuals (only cases that evaluate as TRUE)?
+k. Investigate further by calculating the leverage, cooks distance, and covariance rations. Comment on all cases that are problematics.
+l. Perform the necessary calculations to assess the assumption of independence and state if the condition is met or not.
+n. Perform the necessary calculations to assess the assumption of no multicollinearity and state if the condition is met or not.
+o. Visually check the assumptions related to the residuals using the plot() and hist() functions. Summarize what each graph is informing you of and if any anomalies are present.
+p. Overall, is this regression model unbiased?  If an unbiased regression model, what does this tell us about the sample vs. the entire population model?
+
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(scatterplot3d)
+library(lm.beta)
+library("readxl")
+```
+### Import dataset
+
+```{r import dataset,echo=FALSE,message=FALSE,warning=FALSE}
+getwd()
+setwd(".\\")
+getwd()
+housing1 <- read_excel("week-7-housing.xlsx")
+```
+
+### Cleanup Na's
+
+```{r clean dataset,echo=FALSE,message=FALSE,warning=FALSE}
+columns_to_Cleanup <- c('Sale_Price','sale_warning','zip5','ctyname','building_grade','square_feet_total_living','bedrooms','bath_full_count','bath_half_count','bath_3qtr_count','year_built','year_renovated','current_zoning','sq_ft_lot','prop_type','present_use')
+# Remove rows with NA's and NaN's
+housing <- housing1[complete.cases(housing1[,columns_to_Cleanup]) == TRUE, ]
+# Compute two new columns
+housing$ValuePerSqFtLiving <- housing$Sale_Price/housing$square_feet_total_living
+housing$ValuePerSqFtTotal <- housing$Sale_Price/housing$sq_ft_lot
+```
+
+### Column names
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+names(housing)
+```
+
+### Create models
+
+* mod_slr is the single linear regression model
+* mod_mlr is the multilinear regression model
+
+```{r create models,echo=FALSE,message=FALSE,warning=FALSE}
+mod_slr <- lm(Sale_Price ~ sq_ft_lot ,data=housing )
+mod_mlr <- lm(Sale_Price ~ bedrooms + bath_full_count ,data=housing )
+```
+
+### Summaries
+
+* mod_slr summary
+```{r model summary1 ,echo=FALSE,message=FALSE,warning=FALSE}
+slr_summary <- summary(mod_slr)
+slr_R2 <- slr_summary$r.squared 
+slr_Adj_R2 <- slr_summary$adj.r.squared
+slr_summary
+```
+* mod_mlr summary
+```{r model summary2 ,echo=FALSE,message=FALSE,warning=FALSE}
+mlr_summary <- summary(mod_mlr)
+mlr_R2 <- mlr_summary$r.squared 
+mlr_Adj_R2 <- mlr_summary$adj.r.squared
+mlr_summary
+```
+
+Summary of the two models show $R^{2}$ and adjusted $R^{2}$ as shown below:
+
+* mod_slr $R^{2}$ and adjusted $R^{2}$: `r slr_R2` and  `r slr_Adj_R2`
+* mod_mlr $R^{2}$ and adjusted $R^{2}$: `r mlr_R2` and  `r mlr_Adj_R2`
+
+The adjusted $R^{2}$ increased from slr to mlr model suggesting that the added variable improved the model fit. 
+
+In the slr model the low value of  $R^{2}$ and adjusted $R^{2}$ suggest high variablility in the response value. The b value for sq_ft_lot is negative and small; therefore it doesn't contribute to response value. This is also shown by high value of P further proving the insignificance of the preditor.
+
+### Beta for sq_ft_lot in slr : 
+
+```{r model coefficients1 dataset,echo=FALSE,message=FALSE,warning=FALSE}
+lm_slr_beta <- lm.beta(mod_slr)
+summary(lm_slr_beta,standardized=TRUE)
+coef(lm_slr_beta,standardized=TRUE)
+```
+Beta value for sq_ft_lot is negative. If used in the model, it will should that for every square foot added, the sales price decreases by .006, and if price is in 1000's, this would mean a decrease of $6 in the sale proce for each additional square foot.
+
+### Beta for bedrooms and bat_full_count in mlr 
+```{r model coefficients2 dataset,echo=FALSE,message=FALSE,warning=FALSE}
+lm_mlr_beta <- lm.beta(mod_mlr)
+summary(lm_mlr_beta,standardized=TRUE)
+coef(lm_mlr_beta,standardized=TRUE)
+```
+
+In this model, both predictors have p value less than .05 and positive betas. From the standardized ebta values for each additional bedroom holdinh bath_full_count constant would incread the sale price by $150(0.1508032 * $1000). Inversely, holding vedrooms constant, each aditional full batch would add $305(0.3051728 * 1000) to the sale price.
+
+### Confident intervals
+```{r model confidence interval dataset,echo=FALSE,message=FALSE,warning=FALSE}
+confint(mod_mlr)
+```
+
+The gap in cofidenece interval of bedrooms is $105,656 and for full bath is 126,218. The large gap is indicative of the sample is not truely representative of the population. However, sice their value is positive, they still have some significance. More samples are needed.
+
+### Assess model improvement
+
+
+$R^{2}$ of slr is 4.134e-05 and for mlr is 0.1534. This is a considerable increase. Also the f-ratio of 100.1 for mlr and a low p value indicate the significance of addition the preictors.
+
+### casewise diagnostics 
+```{r model casewise diagnostics dataset,echo=FALSE,message=FALSE,warning=FALSE}
+housing$standardized.residuals<- rstandard(mod_mlr) 
+housing$studentized.residuals <-rstudent(mod_mlr) 
+housing$cooks.distance<-cooks.distance(mod_mlr) 
+housing$dfbeta<-dfbeta(mod_mlr) 
+housing$dffit<-dffits(mod_mlr) 
+housing$leverage<-hatvalues(mod_mlr) 
+housing$covariance.ratios<-covratio(mod_mlr)
+cwd <- c('standardized.residuals','studentized.residuals','cooks.distance','dfbeta','dffit','leverage','covariance.ratios')
+head(housing[,cwd])
+```
+
+### Standardized residuals
+```{r Standardized residuals,echo=FALSE,message=FALSE,warning=FALSE}
+housing$large.residual <- housing$standardized.residuals > 2 | housing$standardized.residuals < -2 
+high_residual_housing <- housing[housing$large.residual,]
+head(high_residual_housing[,c('Sale_Price','large.residual')])
+tail(high_residual_housing[,c('Sale_Price','large.residual')])
+
+total_dataset_length <- nrow(housing)
+number_of_large_residuals <- nrow(high_residual_housing)
+total_dataset_length
+number_of_large_residuals
+```
+
+percent of data outside the limit is %`r (number_of_large_residuals/total_dataset_length) * 100`. This indicates that the sample moderately conforms to the model. A %1 of data outside the limit would show a stronger comformity to the model.
+
+### calculating the leverage, cooks distance, and covariance rations.
+
+```{r leverage, cooks distance, and covariance rations,echo=FALSE,message=FALSE,warning=FALSE}
+high_residual_housing[,c('cooks.distance', 'leverage', 'covariance.ratios')]
+```
+Number of cook's distances greater than 1 is `r nrow(subset(high_residual_housing, cooks.distance < 1 ,select = c('cooks.distance', 'leverage', 'covariance.ratios')))` so none of the cases has undue influence on the model.
+
+### assumption of independence 
+
+```{r lassumption of independences,echo=FALSE,message=FALSE,warning=FALSE}
+library(car)
+dwt(mod_mlr)  
+```
+
+The D-W Statistics is .521 which is below 1 and p value of 0 indicates that the assumption is not met.
+
+
+###  assumption of no multicollinearity 
+
+```{r assumption of no multicollinearity ,echo=FALSE,message=FALSE,warning=FALSE}
+vif(mod_mlr)
+tolerance <- 1/vif(mod_mlr)
+mn <- mean(vif(mod_mlr))
+tolerance
+mn
+```
+
+###  plot() and hist() function
+```{r plot() and hist() function ,echo=FALSE,message=FALSE,warning=FALSE}
+plot(mod_mlr)
+hist(rstudent(mod_mlr))
+```
+
+

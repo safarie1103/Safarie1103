@@ -33,6 +33,8 @@ head(smoking)
 str(smoking)
 ggplot(data = smoking, aes(x = age,y = amtWeekdays)) +
   geom_point(na.rm = TRUE)
+ggplot(data = smoking, aes(x = age,y = amtWeekdays)) +
+  geom_point()
 
 ggplot(data = mammals, aes(x = BodyWt, y = BrainWt)) +
   geom_point() + 
@@ -163,6 +165,19 @@ mammals %>%
 # Spurious over time(variables move together over time)
 
 # Create faceted scatterplot
+#x <- rnorm(20)
+#y <- rnorm(20)
+#z <- seq.int(20)
+x <- c()
+y <- c()
+z <- c()
+for (i in c(1:50)) {
+  x <- append(x, rnorm(20), after = length(x))
+  y <- append(y, rnorm(20), after = length(y))
+  z <- append(z, seq.int(20), after = length(z))
+}
+noise <- data.frame(x,y,z)
+nrow(noise)
 ggplot(data = noise,aes(x=x,y=y)) +
   geom_point() +
   facet_wrap(~z)
@@ -170,10 +185,10 @@ ggplot(data = noise,aes(x=x,y=y)) +
 
 
 # Compute correlations for each dataset
+
 noise_summary <- noise %>%
   group_by(z) %>%
   summarize(N = n(), spurious_cor = cor(x, y))
-
 # Isolate sets with correlations above 0.2 in absolute strength
 noise_summary %>%
   filter(abs(spurious_cor) > .2)

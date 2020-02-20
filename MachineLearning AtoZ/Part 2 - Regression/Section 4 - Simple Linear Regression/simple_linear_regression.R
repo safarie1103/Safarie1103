@@ -1,6 +1,9 @@
 # Simple Linear Regression
 
 # Importing the dataset
+getwd()
+setwd(".\\")
+getwd()
 dataset = read.csv('Salary_Data.csv')
 
 # Splitting the dataset into the Training set and Test set
