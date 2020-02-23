@@ -1,0 +1,19 @@
+---
+title: "Real Estate EDA"
+author: "edris safari"
+date: "2/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Final Project
+
+The purpose of this project is to use techniques learned in this class to exercise exploratory data analysis on a given data set, The dataset chosen for this project  are:
+
+* properties_2016.csv
+* train_2016.csv
+
+

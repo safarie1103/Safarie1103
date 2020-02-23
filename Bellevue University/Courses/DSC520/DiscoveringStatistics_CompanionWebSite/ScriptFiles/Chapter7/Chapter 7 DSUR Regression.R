@@ -10,14 +10,15 @@
 
 
 #----Set the working directory------
-setwd("~/Dropbox/Team Field/DSUR/DSUR_2/DSUR2 Data Files/Chapter 07 (Regression)")
-setwd("~/Documents/Academic/Data/DSU_R/Chapter 07 (Regression)")
-imageDirectory<-"~/Documents/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
+#setwd("~/Dropbox/Team Field/DSUR/DSUR_2/DSUR2 Data Files/Chapter 07 (Regression)")
+#setwd("~/Documents/Academic/Data/DSU_R/Chapter 07 (Regression)")
+#imageDirectory<-"~/Documents/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
 
-setwd("~/Public/Academic/Data/DSU_R/Chapter 07 (Regression)")
-imageDirectory<-"~/Public/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
+#setwd("~/Public/Academic/Data/DSU_R/Chapter 07 (Regression)")
+#imageDirectory<-"~/Public/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
 
-
+setwd("./")
+imageDirectory<- "./"
 
 #----Install Packages-----
 install.packages("QuantPsyc")
@@ -47,6 +48,7 @@ album1<-read.delim("Album Sales 1.dat", header = TRUE)
 #----run the simple linear regression model---
 albumSales.1 <- lm(sales ~ adverts, data = album1)
 summary(albumSales.1)
+summary.lm(albumSales.1)
 sqrt(0.3346)
 
 #----access the album2 data----
@@ -78,7 +80,7 @@ album2$dfbeta <- dfbeta(albumSales.3)
 album2$dffit <- dffits(albumSales.3)
 album2$leverage <- hatvalues(albumSales.3)
 album2$covariance.ratios <- covratio(albumSales.3)
-
+str(album2)
 #Save file
 write.table(album2, "Album Sales With Diagnostics.dat", sep = "\t", row.names = FALSE)
 #look at the data (and round the values)

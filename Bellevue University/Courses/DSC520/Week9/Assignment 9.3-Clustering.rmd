@@ -26,7 +26,7 @@ d. One way of determining the “right” number of clusters is to look at the g
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
- ```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
 library(ggplot2)
 library(stats)
 library(GGally)
