@@ -9,7 +9,7 @@ library(leaflet)
 library(lubridate)
 
 properties <- read.csv("zillow-prize-1/properties_2016.csv")
-transactions <- read.csv("zillow-prize-1/train_2016.csv")
+transactions <- read.csv("zillow-prize-1/transactions_2016.csv")
 #sample_submission <- read.csv("zillow-prize-1/sample_submission.csv")
 names(properties)
 properties <- properties %>% rename(
@@ -155,7 +155,7 @@ missing_values %>%
 good_features <- filter(missing_values, missing_pct<0.75)
 
 
-names(good_features)
+good_features
 #Correlation with absolute logerror
 #num_ features:
 

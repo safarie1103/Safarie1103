@@ -1,0 +1,164 @@
+---
+title: "test"
+author: "edris safari"
+date: "2/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Final Project
+
+The purpose of this project is to use techniques learned in this class to exercise exploratory data analysis on a given data set, The dataset chosen for this project  are:
+
+* properties_2016.csv
+* transactions_2016.csv
+
+properties dataset contins the information about individual homes that were sold in 2016. The transaction dataset has the transaction date when the house was sold and the log error from the sales price estimated by zillow(zestimate).
+
+
+```{r load libraries,echo=FALSE,message=FALSE,warning=FALSE}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(DT)
+library(tidyr)
+library(corrplot)
+library(leaflet)
+library(lubridate)
+library(ggmap)
+# VIM library for using 'aggr'
+library(VIM)
+library(ff)
+```
+
+
+```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
+properties <- read.csv("zillow-prize-1/properties_2016.csv")
+transactions <- read.csv("zillow-prize-1/transactions_2016.csv")
+```
+
+```{r rename features,echo=FALSE,message=FALSE,warning=FALSE}
+# Rename features
+
+properties <- properties %>% rename(
+  parcelid = parcelid,
+  build_year = yearbuilt,
+  area_basement = basementsqft,
+  area_patio = yardbuildingsqft17,
+  area_shed = yardbuildingsqft26, 
+  area_pool = poolsizesum,  
+  area_lot = lotsizesquarefeet, 
+  area_garage = garagetotalsqft,
+  area_firstfloor_finished = finishedfloor1squarefeet,
+  area_total_calc = calculatedfinishedsquarefeet,
+  area_base = finishedsquarefeet6,
+  area_live_finished = finishedsquarefeet12,
+  area_liveperi_finished = finishedsquarefeet13,
+  area_total_finished = finishedsquarefeet15,  
+  area_unknown = finishedsquarefeet50,
+  num_unit = unitcnt, 
+  num_story = numberofstories,  
+  num_room = roomcnt,
+  num_bathroom = bathroomcnt,
+  num_bedroom = bedroomcnt,
+  num_bathroom_calc = calculatedbathnbr,
+  num_bath = fullbathcnt,  
+  num_75_bath = threequarterbathnbr, 
+  num_fireplace = fireplacecnt,
+  num_pool = poolcnt,  
+  num_garage = garagecarcnt,  
+  region_county = regionidcounty,
+  region_city = regionidcity,
+  region_zip = regionidzip,
+  region_neighbor = regionidneighborhood,  
+  tax_total = taxvaluedollarcnt,
+  tax_building = structuretaxvaluedollarcnt,
+  tax_land = landtaxvaluedollarcnt,
+  tax_property = taxamount,
+  tax_year = assessmentyear,
+  tax_delinquency = taxdelinquencyflag,
+  tax_delinquency_year = taxdelinquencyyear,
+  zoning_property = propertyzoningdesc,
+  zoning_landuse = propertylandusetypeid,
+  zoning_landuse_county = propertycountylandusecode,
+  flag_fireplace = fireplaceflag, 
+  flag_tub = hashottuborspa,
+  quality = buildingqualitytypeid,
+  framing = buildingclasstypeid,
+  material = typeconstructiontypeid,
+  deck = decktypeid,
+  story = storytypeid,
+  heating = heatingorsystemtypeid,
+  aircon = airconditioningtypeid,
+  architectural_style= architecturalstyletypeid
+)
+transactions <- transactions %>% rename(
+  parcelid = parcelid,
+  date = transactiondate
+)
+```
+
+## Summary of transactions data set
+```{r Summary transactions,echo=FALSE,message=FALSE,warning=FALSE}
+summary(transactions)
+```
+
+## head of transactions data set
+```{r head transactions,echo=FALSE,message=FALSE,warning=FALSE}
+head(transactions)
+```
+## head of properties data set
+```{r head properties,echo=FALSE,message=FALSE,warning=FALSE}
+head(properties)
+```
+
+## Column names
+
+### properties
+`r names(properties)`
+
+
+### transactions 
+`r names(transactions)`
+
+
+## statistics of logerror in transactions
+* Mean : `r mean(transactions$logerror)`
+* median : `r median(transactions$logerror)`
+* std : ' `r sd(transactions$logerror)`
+
+
+
+```{r get percentage of missing values in each feature ,echo=FALSE,message=FALSE,warning=FALSE}
+# Cleanup features with too many missing values
+missing_values <- properties %>% summarize_each(funs(sum(is.na(.))/n()))
+missing_values <- gather(missing_values, key="feature", value="missing_pct")
+# select features with less than 75% missing values
+good_features <- filter(missing_values, missing_pct<0.75)
+```
+
+## Features with percentage of missing values
+```{r Plot features with missing percentage,echo=FALSE,message=FALSE,warning=FALSE}
+# Plot the missing value histogram
+missing_values %>% 
+  ggplot(aes(x=reorder(feature,-missing_pct),y=missing_pct)) +
+  geom_bar(stat="identity",fill="red")+
+  coord_flip()+theme_bw()
+```
+
+## Selected features
+
+`r good_features$feature`
+
+
+```{r plots,echo=FALSE,message=FALSE,warning=FALSE}
+#Scatter plot of log error
+transactions %>%
+  ggplot(aes(x=date,y=logerror))  + ggtitle("loggerror") +
+  geom_point()
+```
+

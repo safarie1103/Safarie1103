@@ -54,10 +54,10 @@ data14$Month
 
 
 head(data14,n=10)
-
+head(data14[,2:3])
 set.seed(20)
 clusters <- kmeans(data14[,2:3], 5)
-
+clusters$cluster
 # Save the cluster number in the dataset as column 'Borough'
 data14$Borough <- as.factor(clusters$cluster)
 head(data14,n=10)
