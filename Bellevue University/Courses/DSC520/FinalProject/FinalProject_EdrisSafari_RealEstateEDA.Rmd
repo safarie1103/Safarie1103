@@ -4,8 +4,8 @@ author: "Edris Safari"
 date: "2/27/2020"
 output: 
   word_document: default
-  pdf_document: default
   html_document: default
+always_allow_html: true  
 ---
 
 ```{r setup, include=FALSE}
@@ -21,7 +21,25 @@ The purpose of this project is to use techniques learned in this class to exerci
 
 properties dataset contins the information about individual homes that were sold in 2016. The transaction dataset has the transaction date when the house was sold and the log error from the sales price estimated by zillow(zestimate).
 
+For more details about the progression and assembly of this project, please refer to the accompanying document ***DSC520_FinalProject-EdrisSafari-week_12.pdf***
 
+***NOTE***
+The properties data file was far too large and took a lot of time to process, so we reduced its size by to 20, and 30 percent respectively. After tests, we submit this project with the smaller size of 20 percent.
+
+properties <- read.csv("zillow-prize-1/properties_2016.csv")
+nrow(properties) # almost 3 million records
+sample_20 <- properties[sample(nrow(properties), nrow(properties)*.20),]
+sample_30 <- properties[sample(nrow(properties), nrow(properties)*.30),]
+nrow(sample_20)
+nrow(sample_30)
+write.csv(sample_20,"zillow-prize-1/properties_2016_sample_20.csv")
+write.csv(sample_30,"zillow-prize-1/properties_2016_sample_30.csv")
+
+properties <- read.csv("zillow-prize-1/properties_2016_sample_20.csv")
+nrow(properties)
+
+
+Also note that the output to pdf is not supported, and the absolute log error map at the end of this file does not output to word document, so we copied it from HTML file, and saved the word document as pdf for submission. 
 ```{r load libraries,echo=FALSE,message=FALSE,warning=FALSE}
 library(data.table)
 library(dplyr)
@@ -37,11 +55,13 @@ library(ggmap)
 library(VIM)
 library(ff)
 ```
-
+```{r tinytext , echo=FALSE,message=FALSE,warning=FALSE}
+#tinytex::install_tinytex()
+```
 # Data Preparation
 
 ```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
-properties <- read.csv("zillow-prize-1/properties_2016.csv")
+properties <- read.csv("zillow-prize-1/properties_2016_sample_20.csv")
 transactions <- read.csv("zillow-prize-1/transactions_2016.csv")
 ```
 
@@ -116,6 +136,7 @@ good_features <- filter(missing_values, missing_pct<0.75)
 ```
 
 ## Features with percentage of missing values
+
 ```{r Plot features with missing percentage,echo=FALSE,message=FALSE,warning=FALSE}
 # Plot the missing value histogram
 missing_values %>% 
@@ -131,15 +152,19 @@ missing_values %>%
 # Data set info
 
 ## Summary of transactions data set
+
 ```{r Summary transactions,echo=FALSE,message=FALSE,warning=FALSE}
 summary(transactions)
 ```
 
 ## head of transactions data set
+
 ```{r head transactions,echo=FALSE,message=FALSE,warning=FALSE}
 head(transactions)
 ```
+
 ## head of properties data set
+
 ```{r head properties,echo=FALSE,message=FALSE,warning=FALSE}
 head(properties)
 ```
@@ -147,14 +172,17 @@ head(properties)
 ## Column names
 
 ### properties
+
 `r names(properties)`
 
 
 ### transactions 
+
 `r names(transactions)`
 
 
 ## statistics of logerror in transactions
+
 * Mean : `r mean(transactions$logerror)`
 * median : `r median(transactions$logerror)`
 * std : ' `r sd(transactions$logerror)`
@@ -164,13 +192,16 @@ head(properties)
 # Data exploration
 
 ## Scatter plot of logerror
+
 ```{r plot1,echo=FALSE,message=FALSE,warning=FALSE}
 #Scatter plot of log error
 transactions %>%
   ggplot(aes(x=date,y=logerror))  + ggtitle("loggerror") +
   geom_point()
 ```
+
 ## histogram of logerror
+
 ```{r plot2,echo=FALSE,message=FALSE,warning=FALSE}
 
 # Histogram  of logerror 
@@ -178,7 +209,9 @@ transactions %>%
   ggplot(aes(x=logerror)) +  ggtitle("logerror") +
   geom_histogram()
 ```
+
 ## histogram of logerror binned
+
 ```{r plot3,echo=FALSE,message=FALSE,warning=FALSE}
 # Histogram of logerror with binning
 transactions %>% 
@@ -194,7 +227,9 @@ transactions$year_month <- make_date(year=year(transactions$date),month=month(tr
 transactions$abs_logerror <- abs(transactions$logerror)
 head(transactions)
 ```
+
 ## Scatter plot of abs_loggerror
+
 ```{r plot4,echo=FALSE,message=FALSE,warning=FALSE}
 #Scatter plot of absolute log error
 transactions %>%
@@ -202,14 +237,18 @@ transactions %>%
   geom_point()
 head(transactions)
 ```
+
 ## Histogram of abs_loggerror
+
 ```{r plot5,echo=FALSE,message=FALSE,warning=FALSE}
 # Histogram  of abs_loggerror 
 transactions %>%
   ggplot(aes(x=abs_logerror)) +  ggtitle("abs_loggerror") +
   geom_histogram()
 ```
+
 ## Histogram of abs_loggerror binned
+
 ```{r plot6,echo=FALSE,message=FALSE,warning=FALSE}
 # Histogram of abs_logerror with binning
 transactions %>% 
@@ -219,7 +258,9 @@ transactions %>%
   ylab("Count")+coord_cartesian(x=c(0,0.5))
   geom_histogram()
 ```
+
 ## graph of abs_logerror groupped by month of year 
+
 ```{r plot7,echo=FALSE,message=FALSE,warning=FALSE}
 # graph of abs_logerror groupped by month of year 
 transactions %>% 
@@ -228,7 +269,9 @@ transactions %>%
   geom_line(size=1.5, color="red")+ ggtitle("abs_loggerror by month") +
   geom_point(size=5, color="red")+theme_bw()
 ```
+
 ## graph of abs_logerror within strandard deviation
+
 ```{r plot8,echo=FALSE,message=FALSE,warning=FALSE}
 # graph of abs_logerror within strandard deviation
 std <- sd(transactions$logerror)
@@ -237,7 +280,7 @@ within_sd <- subset(transactions,abs_logerror <= std)
 within_sd %>%
   group_by(year_month) %>% summarize(mean_abs_logerror = mean(abs_logerror)) %>% 
   ggplot(aes(x=year_month,y=mean_abs_logerror)) + 
-  geom_line(size=1.5, color="red")+ggtitle("abs_loggerror with std") +
+  geom_line(size=1.5, color="red")+ggtitle("abs_loggerror within std") +
   geom_point(size=5, color="blue")+theme_bw()
 ```
 
@@ -265,6 +308,7 @@ GGally::ggpairs(sample,use="complete.obs")
 ```
 
 ### correlation using corrplot
+
 ```{r correlation2,echo=FALSE,message=FALSE,warning=FALSE}
 corrplot(cor(dataset_num_features, use="complete.obs"),type="lower")
 ```
@@ -310,7 +354,9 @@ perc_all %>% ggplot(aes(x=latitude, fill=type, color=type)) +
 
 properties_and_transacions %>% ggplot(aes(x=latitude,y=abs_logerror))+geom_smooth(color="red")+theme_bw()
 ```
+
 ### denisity of longitude. Worst predictions are in the -118500000 and -118000000
+
 ```{r density plot on longitude,echo=FALSE,message=FALSE,warning=FALSE}
 
 perc_all %>% ggplot(aes(x=longitude, fill=type, color=type)) + 
@@ -332,6 +378,7 @@ perc_all %>% ggplot(aes(x=area_total_finished, fill=type, color=type)) +
 # PLot of abs_logerror against longitude
 properties_and_transacions %>% ggplot(aes(x=area_total_finished,y=abs_logerror))+geom_smooth(color="red")+theme_bw()
 ``` 
+
 ### num_room
 
 ```{r num_room,echo=FALSE,message=FALSE,warning=FALSE}
@@ -342,7 +389,9 @@ perc_all %>% ggplot(aes(x=num_room, fill=type, color=type)) +
 # PLot of abs_logerror against longitude
 properties_and_transacions %>% ggplot(aes(x=num_room,y=abs_logerror))+geom_smooth(color="red")+theme_bw()
 ```
+
 ### maps based on a sampling of 10000 properties
+
 ```{r maps,echo=FALSE,message=FALSE,warning=FALSE}
 lat <- range(properties$latitude/1e06,na.rm=T)
 lon <- range(properties$longitude/1e06,na.rm=T)
@@ -354,7 +403,7 @@ tmp <- properties %>%
   select(parcelid,lat,lon) %>% 
   left_join(transactions,by="parcelid")
 
-API_key <- "AIzaSyDBRpHoEPCnVtcFPit-jVx26fkbrAemzN0"
+API_key <- "Please obtain your API key from google"
 register_google(key = API_key)
 register_google(key = API_key, write = TRUE)
 ```
@@ -368,6 +417,7 @@ ggmap(Map) + geom_point(aes(x = lon[], y = lat[]),data = tmp  ) +
   ggtitle("properties in LA area")
 
 ```
+
 #### Map of Orange County
 
 ```{r mapOrange,echo=FALSE,message=FALSE,warning=FALSE}
@@ -377,14 +427,18 @@ ggmap(Map) + geom_point(aes(x = lon[], y = lat[]),data = tmp  ) +
   ggtitle("properties in Orange county area")
 
 ```
+
 #### Map of Ventura County
+
 ```{r mapVentura,echo=FALSE,message=FALSE,warning=FALSE}
 
 Map <- get_map("Ventura County", zoom = 10)
 ggmap(Map) + geom_point(aes(x = lon[], y = lat[]),data = tmp  ) +
   ggtitle("properties in Ventura county area")
 ```
+
 ### Absolute log error based on location
+
 ```{r maptransactions,echo=FALSE,message=FALSE,warning=FALSE}
 
 

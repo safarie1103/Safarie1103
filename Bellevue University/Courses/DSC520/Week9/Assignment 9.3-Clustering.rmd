@@ -3,8 +3,8 @@ title: "Assignment 9.2 - Clustering"
 author: "edris safari"
 date: "2/7/2020"
 output:
-  word_document: default
   pdf_document: default
+  word_document: default
   html_document: default
 ---
 
@@ -47,6 +47,8 @@ str(clustering_data)
 head(clustering_data)
 #names(clustering_data)
 ```
+
+
 
 ### Scatter plots
 #### Scatter plot of binary data

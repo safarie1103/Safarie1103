@@ -1,0 +1,255 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={test},
+  pdfauthor={edris safari},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{test}
+\author{edris safari}
+\date{2/25/2020}
+
+\begin{document}
+\maketitle
+
+\hypertarget{final-project}{%
+\section{Final Project}\label{final-project}}
+
+The purpose of this project is to use techniques learned in this class
+to exercise exploratory data analysis on a given data set, The dataset
+chosen for this project are:
+
+\begin{itemize}
+\tightlist
+\item
+  properties\_2016.csv
+\item
+  transactions\_2016.csv
+\end{itemize}
+
+properties dataset contins the information about individual homes that
+were sold in 2016. The transaction dataset has the transaction date when
+the house was sold and the log error from the sales price estimated by
+zillow(zestimate).
+
+\hypertarget{summary-of-transactions-data-set}{%
+\subsection{Summary of transactions data
+set}\label{summary-of-transactions-data-set}}
+
+\begin{verbatim}
+##     parcelid            logerror                date      
+##  Min.   : 10711738   Min.   :-4.60500   2016-07-29:  910  
+##  1st Qu.: 11559500   1st Qu.:-0.02530   2016-04-29:  902  
+##  Median : 12547337   Median : 0.00600   2016-09-30:  894  
+##  Mean   : 12984656   Mean   : 0.01146   2016-06-30:  874  
+##  3rd Qu.: 14227552   3rd Qu.: 0.03920   2016-05-27:  863  
+##  Max.   :162960842   Max.   : 4.73700   2016-08-31:  737  
+##                                         (Other)   :85095
+\end{verbatim}
+
+\hypertarget{head-of-transactions-data-set}{%
+\subsection{head of transactions data
+set}\label{head-of-transactions-data-set}}
+
+\begin{verbatim}
+##   parcelid logerror       date
+## 1 11016594   0.0276 2016-01-01
+## 2 14366692  -0.1684 2016-01-01
+## 3 12098116  -0.0040 2016-01-01
+## 4 12643413   0.0218 2016-01-02
+## 5 14432541  -0.0050 2016-01-02
+## 6 11509835  -0.2705 2016-01-02
+\end{verbatim}
+
+\hypertarget{head-of-properties-data-set}{%
+\subsection{head of properties data
+set}\label{head-of-properties-data-set}}
+
+\begin{verbatim}
+##         X parcelid aircon architectural_style area_basement num_bathroom
+## 1 1234018 11073844      1                  NA            NA            3
+## 2 2580667 12681060     NA                  NA            NA            2
+## 3  884268 12298768     NA                  NA            NA            2
+## 4 1072195 10836492     NA                  NA            NA            2
+## 5  609104 14126112     NA                  NA            NA            2
+## 6  972322 11973991     NA                  NA            NA            1
+##   num_bedroom framing quality num_bathroom_calc deck area_firstfloor_finished
+## 1           5      NA       4                 3   NA                       NA
+## 2           3      NA       7                 2   NA                       NA
+## 3           3      NA       7                 2   NA                       NA
+## 4           4      NA       7                 2   NA                       NA
+## 5           2      NA      NA                 2   NA                       NA
+## 6           2      NA       7                 1   NA                       NA
+##   area_total_calc area_live_finished area_liveperi_finished area_total_finished
+## 1            3036                 NA                     NA                3036
+## 2            1158               1158                     NA                  NA
+## 3            1348               1348                     NA                  NA
+## 4            1610                 NA                     NA                1610
+## 5            1212               1212                     NA                  NA
+## 6             979                979                     NA                  NA
+##   area_unknown area_base fips num_fireplace num_bath num_garage area_garage
+## 1           NA        NA 6037            NA        3         NA          NA
+## 2           NA        NA 6037            NA        2         NA          NA
+## 3           NA        NA 6037            NA        2         NA          NA
+## 4           NA        NA 6037            NA        2         NA          NA
+## 5           NA        NA 6059            NA        2          2         400
+## 6           NA        NA 6037            NA        1         NA          NA
+##   flag_tub heating latitude  longitude area_lot num_pool area_pool pooltypeid10
+## 1               NA 34266433 -118515891       NA       NA        NA           NA
+## 2                2 33817148 -118366118     6355       NA        NA           NA
+## 3                7 33962939 -118226118     5094       NA        NA           NA
+## 4               NA 34192310 -118506742     8099       NA        NA           NA
+## 5               NA 33848859 -118024802     6000       NA        NA           NA
+## 6                7 34123857 -118201009     5200        1        NA           NA
+##   pooltypeid2 pooltypeid7 zoning_landuse_county zoning_landuse zoning_property
+## 1          NA          NA                  0200            246            LAR1
+## 2          NA          NA                  0100            261         TORR-LO
+## 3          NA          NA                  0100            261          LCR305
+## 4          NA          NA                  0200            246            LAR2
+## 5          NA          NA                   122            261                
+## 6          NA           1                  0101            261            LAR1
+##   rawcensustractandblock region_city region_county region_neighbor region_zip
+## 1               60371112       12447          3101           31817      96370
+## 2               60376512       54722          3101          416967      96163
+## 3               60375348       39076          3101              NA      96110
+## 4               60371320       12447          3101           32368      96415
+## 5               60591103       10608          1286              NA      96180
+## 6               60371833       12447          3101          115609      96023
+##   num_room story num_75_bath material num_unit area_patio area_shed build_year
+## 1        0    NA          NA       NA        2         NA        NA       2008
+## 2        0    NA          NA       NA        1         NA        NA       1956
+## 3        0    NA          NA       NA        1         NA        NA       1925
+## 4        0    NA          NA       NA        2         NA        NA       1948
+## 5        6    NA          NA       NA       NA         NA        NA       1955
+## 6        0    NA          NA       NA        1         NA        NA       1941
+##   num_story flag_fireplace tax_building tax_total tax_year tax_land
+## 1        NA                      361423    411051     2015    49628
+## 2        NA                      121581    331215     2015   209634
+## 3        NA                      102501    263854     2015   161353
+## 4        NA                       54376    144898     2015    90522
+## 5         1                       58199    230925     2015   172726
+## 6        NA                       61066    264501     2015   203435
+##   tax_property tax_delinquency tax_delinquency_year censustractandblock
+## 1      5234.38                                   NA        6.037111e+13
+## 2      4017.45                                   NA        6.037651e+13
+## 3      5107.38                                   NA        6.037535e+13
+## 4      1993.37                                   NA        6.037132e+13
+## 5      2851.24                                   NA        6.059110e+13
+## 6      3231.99                                   NA        6.037183e+13
+\end{verbatim}
+
+\hypertarget{column-names}{%
+\subsection{Column names}\label{column-names}}
+
+\hypertarget{properties}{%
+\subsubsection{properties}\label{properties}}
+
+X, parcelid, aircon, architectural\_style, area\_basement,
+num\_bathroom, num\_bedroom, framing, quality, num\_bathroom\_calc,
+deck, area\_firstfloor\_finished, area\_total\_calc,
+area\_live\_finished, area\_liveperi\_finished, area\_total\_finished,
+area\_unknown, area\_base, fips, num\_fireplace, num\_bath, num\_garage,
+area\_garage, flag\_tub, heating, latitude, longitude, area\_lot,
+num\_pool, area\_pool, pooltypeid10, pooltypeid2, pooltypeid7,
+zoning\_landuse\_county, zoning\_landuse, zoning\_property,
+rawcensustractandblock, region\_city, region\_county, region\_neighbor,
+region\_zip, num\_room, story, num\_75\_bath, material, num\_unit,
+area\_patio, area\_shed, build\_year, num\_story, flag\_fireplace,
+tax\_building, tax\_total, tax\_year, tax\_land, tax\_property,
+tax\_delinquency, tax\_delinquency\_year, censustractandblock
+
+\hypertarget{transactions}{%
+\subsubsection{transactions}\label{transactions}}
+
+parcelid, logerror, date
+
+\hypertarget{statistics-of-logerror-in-transactions}{%
+\subsection{statistics of logerror in
+transactions}\label{statistics-of-logerror-in-transactions}}
+
+\begin{itemize}
+\tightlist
+\item
+  Mean : 0.0114572
+\item
+  median : 0.006
+\item
+  std : ' 0.1610788
+\end{itemize}
+
+\hypertarget{features-with-percentage-of-missing-values}{%
+\subsection{Features with percentage of missing
+values}\label{features-with-percentage-of-missing-values}}
+
+\includegraphics{test_files/figure-latex/Plot features with missing percentage-1.pdf}
+
+\hypertarget{selected-features}{%
+\subsection{Selected features}\label{selected-features}}
+
+X, parcelid, aircon, num\_bathroom, num\_bedroom, quality,
+num\_bathroom\_calc, area\_total\_calc, area\_live\_finished, fips,
+num\_bath, num\_garage, area\_garage, flag\_tub, heating, latitude,
+longitude, area\_lot, zoning\_landuse\_county, zoning\_landuse,
+zoning\_property, rawcensustractandblock, region\_city, region\_county,
+region\_neighbor, region\_zip, num\_room, num\_unit, build\_year,
+flag\_fireplace, tax\_building, tax\_total, tax\_year, tax\_land,
+tax\_property, tax\_delinquency, censustractandblock
+
+\includegraphics{test_files/figure-latex/plots-1.pdf}
+
+\end{document}

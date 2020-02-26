@@ -2,7 +2,7 @@
 title: "test"
 author: "edris safari"
 date: "2/25/2020"
-output: html_document
+output: word_document
 ---
 
 ```{r setup, include=FALSE}
@@ -37,7 +37,7 @@ library(ff)
 
 
 ```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
-properties <- read.csv("zillow-prize-1/properties_2016.csv")
+properties <- read.csv("zillow-prize-1/properties_2016_sample.csv")
 transactions <- read.csv("zillow-prize-1/transactions_2016.csv")
 ```
 

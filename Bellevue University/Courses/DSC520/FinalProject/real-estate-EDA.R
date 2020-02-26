@@ -12,7 +12,17 @@ library(ggmap)
 library(VIM)
 
 properties <- read.csv("zillow-prize-1/properties_2016.csv")
+nrow(properties)
+sample <- properties[sample(nrow(properties), nrow(properties)*.20),]
+nrow(sample)
+write.csv(sample,"zillow-prize-1/properties_2016_sample_20.csv")
+properties <- read.csv("zillow-prize-1/properties_2016_sample_20.csv")
+nrow(properties)
+
+
 transactions <- read.csv("zillow-prize-1/transactions_2016.csv")
+
+properties
 summary(properties)
 summary(transactions)
 
@@ -164,7 +174,7 @@ missing_values %>%
 good_features <- filter(missing_values, missing_pct<0.75)
 
 
-good_features
+good_features$feature
 
 
 #Correlation of num_ features with logerror and abs_logerror:
