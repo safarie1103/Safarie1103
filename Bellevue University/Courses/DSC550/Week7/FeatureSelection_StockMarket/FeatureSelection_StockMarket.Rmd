@@ -1,0 +1,194 @@
+---
+title: "FeatureSelecion"
+author: "edris safari"
+date: "4/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r FeatureSelection_StockMarket}
+library('Metrics')
+
+library('randomForest')
+
+library('ggplot2')
+
+library('ggthemes')
+
+library('dplyr')
+
+#set random seed
+
+set.seed(101)
+
+#loading dataset
+
+data<-read.csv("train.csv",stringsAsFactors= T)
+
+#checking dimensions of data
+
+dim(data)
+
+## [1] 3000  101
+
+#specifying outcome variable as factor
+
+ 
+
+data$Y<-as.factor(data$Y)
+
+data$Time<-NULL
+
+#dividing the dataset into train and test
+
+train<-data[1:2000,]
+
+test<-data[2001:3000,]
+
+#applying Random Forest
+
+model_rf<-randomForest(Y ~ ., data = train)
+
+ 
+
+preds<-predict(model_rf,test[,-101])
+
+table(preds)
+
+##preds
+
+## -1   1
+
+##453   547
+
+ 
+
+#checking accuracy
+
+auc(preds,test$Y)
+
+##[1] 0.4522703
+
+Now, instead of trying a large number of possible subsets through say forward selection or backward elimination, we’ll keep it simple by using the top 20 features only to build a Random forest. Let’s find out if it can improve the accuracy of our model.
+
+
+Let’s look at the feature importance:
+
+importance(model_rf)
+
+#MeanDecreaseGini
+
+##x1           8.815363
+
+##x2          10.920485
+
+##x3           9.607715
+
+##x4          10.308006
+
+##x5           9.645401
+
+##x6          11.409772
+
+##x7          10.896794
+
+##x8           9.694667
+
+##x9           9.636996
+
+##x10          8.609218
+
+…
+
+…
+
+##x87          8.730480
+
+##x88          9.734735
+
+##x89         10.884997
+
+##x90         10.684744
+
+##x91          9.496665
+
+##x92          9.978600
+
+##x93         10.479482
+
+##x94          9.922332
+
+##x95          8.640581
+
+##x96          9.368352
+
+##x97          7.014134
+
+##x98         10.640761
+
+##x99          8.837624
+
+##x100         9.914497
+
+ 
+
+Applying Random forest for most important 20 features only
+
+model_rf<-randomForest(Y ~ X55+X11+X15+X64+X30
+
+                          +X37+X58+X2+X7+X89
+
+                          +X31+X66+X40+X12+X90
+
+                          +X29+X98+X24+X75+X56,
+
+                        data = train)
+
+ 
+
+preds<-predict(model_rf,test[,-101])
+
+ 
+
+table(preds)
+
+##preds
+
+##-1   1
+
+##218 782
+
+#checking accuracy
+
+auc(preds,test$Y)
+
+##[1] 0.4767592
+
+So, by just using 20 most important features, we have improved the accuracy from 0.452 to 0.476. This is just an example of how feature selection makes a difference. Not only we have improved the accuracy but by using just 20 predictors instead of 100, we have also:
+
+increased the interpretability of the model.
+reduced the complexity of the model.
+reduced the training time of the model.
+ 
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

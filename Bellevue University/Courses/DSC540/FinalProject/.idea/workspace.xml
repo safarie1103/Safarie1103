@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC550" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +69,7 @@
       <workItem from="1586379652202" duration="2294000" />
       <workItem from="1586458090384" duration="598000" />
       <workItem from="1587219979686" duration="5398000" />
+      <workItem from="1587414603505" duration="107000" />
     </task>
     <servers />
   </component>
@@ -79,10 +80,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1505" y="347" key="FileChooserDialogImpl" timestamp="1587258866752">
+    <state x="1505" y="347" key="FileChooserDialogImpl" timestamp="1587414697501">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1505" y="347" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1587258866752" />
+    <state x="1505" y="347" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1587414697501" />
     <state width="657" height="262" key="GridCell.Tab.0.bottom" timestamp="1586104653082">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

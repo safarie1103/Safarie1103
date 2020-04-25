@@ -1,0 +1,272 @@
+Model: VIISta-810     Engine: 07.20.2079 SP4     Config: V810 07 20 27     Serial: 00138045     Name: IAN00138045 Implanter
+
+ImplantReport : ImplantReport-2014-10-14-23-59-56-328--795446.txt (GMT -06:00)
+    ImplantID : 795446
+         PPID : Process.ZP150K65012S0_0
+      Carrier : EF207217 (Slot 2) - Wafer: EF207217.2
+          Lot : 4677008 - Batch: 
+      Chamber : 0  (LoadPort = 3)  (LoadLock = 0)
+ Recipe Event : 2014-10-14 23:56:04.656 - MPM: Downloaded Recipe Process.ZP150K65012S0_0
+  Start Event : 2014-10-14 23:59:56.328 - Starting implant. ID , Carrier EF207217, slot 2,  Port 03, Wafer ID PJQXA066MX, Wafer Lot ID 4677008, Left loadlock
+ Middle Event : 2014-10-15 00:00:05.078 - Wafer 50.0 % percent complete. ID , Carrier EF207217, slot 2,  Port 03, Wafer ID PJQXA066MX, Wafer Lot ID 4677008, Left loadlock
+    End Event : 2014-10-15 00:00:15.625 - Implant complete. ID , Carrier EF207217, slot 2,  Port 03, Wafer ID PJQXA066MX, Wafer Lot ID 4677008, Left loadlock
+  Start Archive Record : 1600664248
+ Middle Archive Record : 1600664423
+    End Archive Record : 1600664634
+
+ Factory-Defined Signal Count : 122
+ Custom Signal Count : 0
+
+Parameter                                        Recipe            Program Start           Middle            End              
+-------------------------------------------------------------------------------------------------------------------------------
+AutoAnalyzer.EffectiveMass                       31.00 amu         NA      31.30 amu       31.30 amu         31.30 amu        
+Map Velocity.Actual                              30.000 cm/s       NA      30.00 cm/s      30.00 cm/s        30.00 cm/s       
+Charge.Actual                                    1                 NA      1               1                 1                
+Beam Energy.BeamEnergyFdbk                       150.0 keV         NA      149.613 keV     149.599 keV       149.595 keV      
+Implant.Total Dose                               6.50e12 ions/cm2  NA      6.50e12         6.50e12           6.50e12          
+Pre Orient Offset.Actual                         0.0 deg           NA      0.0 deg         0.0 deg           0.0 deg          
+Implant Angle.Actual                             0.00 deg          NA      0.00 deg        0.00 deg          0.00 deg         
+Orient Angle.Actual                              0.00 deg          NA      0.00 deg        0.00 deg          0.00 deg         
+Implant.Current Step Number                      1 cnts            NA      1               1                 1                
+Ion Beam Control.LastSpotModeSetupCurrent        1.18e-4 A         NA      1.28e-4 A       1.28e-4 A         1.28e-4 A        
+SetupCup.NoiseFdbkout                            NA                NA      0.7 %           0.7 %             0.7 %            
+SetupCup.RippleFdbkout                           NA                NA      0.0 %           0.0 %             0.0 %            
+UniformityControl.UniformCurrent                 NA                NA      8.05e-5 A       8.05e-5 A         8.05e-5 A        
+DoseBoard.Sampled Beam Current                   NA                NA      0.00 A          7.67e-5 A         0.00 A           
+BeamIProfile.Uniformity                          0.500 %           NA      0.12 %          0.12 %            0.12 %           
+Implant.Percent Complete                         NA                NA      0.0 %           50.2 %            100.0 %          
+Implant.Total Accumulated Dose                   NA                NA      0.00 ions/cm2   3.26e12 ions/cm2  6.50e12 ions/cm2 
+Implant.Total Pass Number                        NA                NA      0               6                 12               
+DoseBoard.MinDose                                NA                NA      0.00 %          0.00 %            99.95 %          
+DoseBoard.MaxDose                                NA                NA      0.00 %          0.00 %            100.07 %         
+DoseBoard.MeanDose                               NA                NA      0.00 %          0.00 %            100.00 %         
+DoseBoard.SigmaDose                              NA                NA      0.00 %          0.00 %            0.08 %           
+Dopant Feed.Actual                               PH3_SDS           NA      PH3_SDS         PH3_SDS           PH3_SDS          
+Dopant Gas Flow.Actual                           0.40 sccm         NA      0.40 sccm       0.40 sccm         0.40 sccm        
+Vaporizer Temperature.Actual                     0 C               NA      0 C             0 C               0 C              
+Dilution Feed.Actual                             No_Feed           NA      No_Feed         No_Feed           No_Feed          
+Filament Controller.Current1Fdbk                 NA                NA      -1.00 A         -1.00 A           -1.00 A          
+Filament Controller.Current2Fdbk                 NA                NA      -1.00 A         -1.00 A           -1.00 A          
+IHC Filament Controller.CurrentFdbk              NA                NA      102.1 A         102.1 A           102.1 A          
+Arc Controller.Volt1Fdbk                         65.00 V           NA      -1.00 V         -1.00 V           -1.00 V          
+Arc Controller.Volt2Fdbk                         NA                NA      -1.00 V         -1.00 V           -1.00 V          
+IHC Arc Controller.VoltFdbk                      NA                NA      65.0 V          65.0 V            65.0 V           
+IHC Bias Controller.VoltFdbk                     NA                NA      383.5 V         383.6 V           383.9 V          
+IHC Bias Controller.CurrentFdbk                  NA                NA      2.322 A         2.322 A           2.324 A          
+Source Magnet Current.Actual                     8.5 A             NA      8.5 A           8.5 A             8.5 A            
+Extraction Supp Voltage.Actual                   2.50 kV           NA      2.5045 kV       2.5045 kV         2.5045 kV        
+Extraction Voltage.Actual                        70.00 kV          NA      70.00 kV        70.00 kV          70.00 kV         
+Extraction Current.Actual                        1.56 mA           NA      1.56 mA         1.56 mA           1.56 mA          
+IHC Ext Current Controller.mAFdbk                NA                NA      1.560 mA        1.562 mA          1.561 mA         
+X Axis Position.Actual                           -1.27 mm          NA      -1.27           -1.27             -1.27            
+Y Axis Position.Actual                           1.15 mm           NA      1.15            1.15              1.15             
+Z Axis Position.Actual                           24.87 mm          NA      24.87           24.87             24.87            
+Filter Magnet Controller.kGauss1Fdbk             NA                NA      2.8063 kGauss   2.8066 kGauss     2.8065 kGauss    
+Filter Magnet Controller.kGauss2Fdbk             NA                NA      2.8083 kGauss   2.8084 kGauss     2.8084 kGauss    
+Accel Suppression Voltage.Actual                 5.00 kV           NA      5.00 kV         5.00 kV           5.00 kV          
+Accel Controller.kVoltFdbk                       NA                NA      79.97 kV        79.99 kV          79.99 kV         
+Accel Controller.mAFdbk                          NA                NA      0.334 mA        0.334 mA          0.335 mA         
+Decel Controller.kVoltFdbk                       NA                NA      -4.18e-1 kV     -4.18e-1 kV       -4.18e-1 kV      
+Decel Controller.mAFdbk                          NA                NA      1.16e-3 mA      1.16e-3 mA        1.16e-3 mA       
+Analyzer Magnet Controller.kGauss1Fdbk           NA                NA      10.4167 kGauss  10.4167 kGauss    10.4167 kGauss   
+Analyzer Magnet Controller.kGauss2Fdbk           NA                NA      10.3577 kGauss  10.3576 kGauss    10.3575 kGauss   
+Mass Slit Aperture Controller.mmApertureFdbk     3.50 mm           NA      3.46 mm         3.46 mm           3.46 mm          
+Focus Controller.kVoltFdbk                       63.53 kV          NA      63.59 kV        63.59 kV          63.58 kV         
+Focus Controller.mAFdbk                          NA                NA      0.33 mA         0.33 mA           0.33 mA          
+Scanner Offset Voltage.Actual                    0.00 kV           NA      0.00 kV         0.00 kV           0.00 kV          
+Pre Scan Supp Controller.kVoltFdbk               1.00 kV           NA      1.00 kV         1.00 kV           1.00 kV          
+Post Scan Supp Controller.kVoltFdbk              4.00 kV           NA      4.00 kV         4.00 kV           4.00 kV          
+Corrector Magnet Controller.kGauss1Fdbk          NA                NA      7.9487 kGauss   7.9485 kGauss     7.9486 kGauss    
+Corrector Magnet Controller.kGauss2Fdbk          NA                NA      7.9229 kGauss   7.9230 kGauss     7.9229 kGauss    
+ParallelismConvergence.BeamAngleSpread           NA                NA      -1.51e-2 deg    -1.51e-2 deg      -1.51e-2 deg     
+Flood Gun Arc Current.ActualReadback             2.000 A           NA      2.003 A         2.003 A           2.003 A          
+Flood Gun Emission Current.ActualReadback        5.000 mA          NA      5.000 mA        5.000 mA          5.000 mA         
+Flood Gun.ScanEmissionAverage                    NA                NA      0.000 mA        0.000 mA          0.000 mA         
+Flood Gun Filament Current.ActualReadback        80.000 A          NA      64.013 A        64.142 A          63.923 A         
+Flood Gun Gas Flow.ActualReadback                0.130 sccm        NA      0.13 sccm       0.13 sccm         0.13 sccm        
+Wafer Cooling.Actual                             4.000 Torr        NA      4.000 Torr      4.000 Torr        4.000 Torr       
+IG1.Gauge Pressure                               NA                NA      1.37e-5 Torr    1.38e-5 Torr      1.37e-5 Torr     
+IG4.Gauge Pressure                               NA                NA      6.08e-7 Torr    6.20e-7 Torr      6.10e-7 Torr     
+IG2.Gauge Pressure                               NA                NA      2.86e-7 Torr    3.80e-7 Torr      5.34e-7 Torr     
+IG3.Gauge Pressure                               NA                NA      2.89e-6 Torr    5.06e-6 Torr      1.08e-5 Torr     
+Implant.ChamberPressure                          1.00e-6 Torr      NA      2.89e-6 Torr    5.16e-6 Torr      3.97e-6 Torr     
+Glitch Counter.NumberOfGlitches                  NA                NA      0               0                 0                
+Ion Beam Control.ElapsedTime                     NA                NA      3.13 min        3.13 min          3.13 min         
+Ion Beam Control.Recipe Setup Time               NA                NA      1.68 min        1.68 min          1.68 min         
+Dilution Gas Flow.Actual                         0.00 sccm         NA      0.00 sccm       0.00 sccm         0.00 sccm        
+BeamIProfile.HalfWidth                           NA                NA      49.9 mm         49.9 mm           49.9 mm          
+BeamIProfile.CenterPosition                      NA                NA      15.3 mm         15.3 mm           15.3 mm          
+BeamIProfile.UniformityNoise                     NA                NA      0.11 %          0.11 %            0.11 %           
+Arc Controller.Current1Fdbk                      NA                NA      -1.00 A         -1.00 A           -1.00 A          
+Arc Controller.Current2Fdbk                      NA                NA      -1.00 A         -1.00 A           -1.00 A          
+Implant.Map XTilt Position                       NA                NA      0.00 deg        0.00 deg          0.00 deg         
+Implant.Map YTilt Position                       NA                NA      0.00 deg        0.00 deg          0.00 deg         
+RangeGainSelect.SavedCLRange                     NA                NA      200uA           200uA             200uA            
+RangeGainSelect.SavedCLStg2Gain                  NA                NA      4x              4x                4x               
+RangeGainSelect.SavedPreImplantProfilerRange     NA                NA      20uA            20uA              20uA             
+RangeGainSelect.SavedPreImplantProfilerStg2Gain  NA                NA      1x              1x                1x               
+Limiting Aperture Controller.mmFdbk              (?) mm            NA      45.39 mm        45.39 mm          45.39 mm         
+IG5.Gauge Pressure                               NA                NA      6.78e-7 Torr    1.05e-6 Torr      1.66e-6 Torr     
+Extraction Supp Controller.mAFdbk                NA                NA      0.73 mA         0.73 mA           0.72 mA          
+Dose Trim.Actual                                 100.00 %          NA      100.00 %        100.00 %          100.00 %         
+Implant.Use Tilt In Dose CalcExt                 NA                NA      1               1                 1                
+Implant.Current Process Step                     NA                NA      1               1                 1                
+Job Queue.Total Process Steps                    NA                NA      1               1                 1                
+UniformityControl.EndstationPressureExt          NA                NA      2.75e-6 Torr    2.75e-6 Torr      2.75e-6 Torr     
+ParallelismConvergence.BeamAngleMean             NA                NA      1.58 deg        1.58 deg          1.58 deg         
+Implant.Map Velocity                             NA                NA      29.363 cm/s     29.363 cm/s       29.363 cm/s      
+Ytilt.Position Degrees                           NA                NA      2.00 deg        2.00 deg          1.44e-3 deg      
+Implant.YTilt Relative To Beam                   NA                NA      -2.80e-3 deg    3.03e-4 deg       -2.00 deg        
+Implant.Beam Angle Mean Compensation             NA                NA      2.00 deg        2.00 deg          1.44e-3 deg      
+Implant.YTilt Compensation Error                 NA                NA      -2.80e-3 deg    3.03e-4 deg       -2.00 deg        
+SourceLifeCalculator.SourceLifeHours             NA                NA      159.611 hr      159.613 hr        159.616 hr       
+PreImplantComputations.CurrentRatioExt           NA                NA      1.1050          1.1050            1.1050           
+DoseBoard.Custom Implant Master Enabled          NA                NA      False           False             False            
+ChargeMonitor.ScanInboardMinimum                 NA                NA      -1.00 V         -1.00 V           -1.00 V          
+ChargeMonitor.ScanInboardAverage                 NA                NA      0.000 V         0.000 V           0.000 V          
+ChargeMonitor.ScanInboardMaximum                 NA                NA      -1.00 V         -1.00 V           -1.00 V          
+ChargeMonitor.ScanOutboardMinimum                NA                NA      -1.00 V         -1.00 V           -1.00 V          
+ChargeMonitor.ScanOutboardAverage                NA                NA      0.000 V         0.000 V           0.000 V          
+ChargeMonitor.ScanOutboardMaximum                NA                NA      -1.00 V         -1.00 V           -1.00 V          
+UniformityControl.CLFHealthPctError              NA                NA      0.0000 %        0.0000 %          0.0000 %         
+UniformityControl.ProfilerHealthPctError         NA                NA      0.0000 %        0.0000 %          0.0000 %         
+DoseBoard.Base Sweep Time                        NA                NA      2058            2058              2058             
+GenerateHorizontalWaveform.Desired Sweep Time    NA                NA      800 탎          800 탎            800 탎           
+Onetime.DoseCompensationFactor                   NA                NA      100 %           100 %             100 %            
+DoseBoard.Estimated Percent Compensation         NA                NA      0.00 %          0.00 %            0.00 %           
+DoseBoard.Sampled Dose Comp Percent              NA                NA      0.00 %          0.00 %            0.00 %           
+RangeGainSelect.RTBM Ratio S1                    NA                NA      -1.00           -1.00             -1.00            
+RangeGainSelect.RTBM Ratio S2                    NA                NA      -1.00           -1.00             -1.00            
+RangeGainSelect.RTUM Ratio                       NA                NA      -1.00           -1.00             -1.00            
+RangeGainSelect.RTUM Ratio Difference            NA                NA      -1.00 %         -1.00 %           -1.00 %          
+Implant.Scan Lines                               NA                NA      599             599               599              
+Xtilt.Position Degrees                           NA                NA      0.04 deg        0.00 deg          89.88 deg        
+-------------------------------------------------------------------------------------------------------------------------------
+
+Signal Statistics Report
+
+Parameter                                        Min             Mean               Max                Std Dev           
+-------------------------------------------------------------------------------------------------------------------------
+AutoAnalyzer.EffectiveMass                       31.30 amu       31.30 amu          31.30 amu          0.0000 amu        
+Map Velocity.Actual                              30.00 cm/s      30.00 cm/s         30.00 cm/s         0.0000 cm/s       
+Charge.Actual                                    1               1                  1                  0.00              
+Beam Energy.BeamEnergyFdbk                       149.548 keV     149.592 keV        149.621 keV        0.012842 keV      
+Implant.Total Dose                               6.500e12        6.500e12           6.500e12           0.000             
+Pre Orient Offset.Actual                         0.0 deg         0.0 deg            0.0 deg            0.00 deg          
+Implant Angle.Actual                             0.00 deg        0.00 deg           0.00 deg           0.0000 deg        
+Orient Angle.Actual                              0.00 deg        0.00 deg           0.00 deg           0.0000 deg        
+Implant.Current Step Number                      1               1                  1                  0.00              
+Ion Beam Control.LastSpotModeSetupCurrent        1.285e-4 A      1.285e-4 A         1.285e-4 A         0.000 A           
+SetupCup.NoiseFdbkout                            0.7 %           0.7 %              0.7 %              0.00 %            
+SetupCup.RippleFdbkout                           0.0 %           0.0 %              0.0 %              0.00 %            
+UniformityControl.UniformCurrent                 8.047e-5 A      8.047e-5 A         8.047e-5 A         0.000 A           
+DoseBoard.Sampled Beam Current                   0.000 A         6.592e-5 A         7.695e-5 A         2.626e-5 A        
+BeamIProfile.Uniformity                          0.12 %          0.12 %             0.12 %             0.0000 %          
+Implant.Percent Complete                         0.0 %           55.0 %             100.0 %            31.96 %           
+Implant.Total Accumulated Dose                   0.000 ions/cm2  3.577e12 ions/cm2  6.500e12 ions/cm2  2.077e12 ions/cm2 
+Implant.Total Pass Number                        0               6                  12                 3.86              
+DoseBoard.MinDose                                0.00 %          0.26 %             99.95 %            5.0743 %          
+DoseBoard.MaxDose                                0.00 %          0.26 %             100.07 %           5.0803 %          
+DoseBoard.MeanDose                               0.00 %          0.26 %             100.00 %           5.0769 %          
+DoseBoard.SigmaDose                              0.00 %          0.00 %             0.08 %             0.0041 %          
+Dopant Feed.Actual                               PH3_SDS         PH3_SDS            PH3_SDS            No_Feed           
+Dopant Gas Flow.Actual                           0.40 sccm       0.40 sccm          0.40 sccm          0.0000 sccm       
+Vaporizer Temperature.Actual                     0 C             0 C                0 C                0.00 C            
+Dilution Feed.Actual                             No_Feed         No_Feed            No_Feed            No_Feed           
+Filament Controller.Current1Fdbk                 -1 A            -1 A               -1 A               0.00 A            
+Filament Controller.Current2Fdbk                 -1 A            -1 A               -1 A               0.00 A            
+IHC Filament Controller.CurrentFdbk              102.1 A         102.1 A            102.1 A            0.00 A            
+Arc Controller.Volt1Fdbk                         -1.0 V          -1.0 V             -1.0 V             0.00 V            
+Arc Controller.Volt2Fdbk                         -1.0 V          -1.0 V             -1.0 V             0.00 V            
+IHC Arc Controller.VoltFdbk                      65.0 V          65.0 V             65.0 V             0.00 V            
+IHC Bias Controller.VoltFdbk                     383.3 V         383.6 V            383.9 V            0.12 V            
+IHC Bias Controller.CurrentFdbk                  2.319 A         2.323 A            2.327 A            0.001771 A        
+Source Magnet Current.Actual                     8.5 A           8.5 A              8.5 A              0.00 A            
+Extraction Supp Voltage.Actual                   2.5045 kV       2.5045 kV          2.5045 kV          0.00 kV           
+Extraction Voltage.Actual                        70.00 kV        70.00 kV           70.00 kV           0.0000 kV         
+Extraction Current.Actual                        1.56 mA         1.56 mA            1.56 mA            0.0000 mA         
+IHC Ext Current Controller.mAFdbk                1.559 mA        1.561 mA           1.563 mA           0.000694 mA       
+X Axis Position.Actual                           -1.27           -1.27              -1.27              0.0000            
+Y Axis Position.Actual                           1.15            1.15               1.15               0.0000            
+Z Axis Position.Actual                           24.87           24.87              24.87              0.0000            
+Filter Magnet Controller.kGauss1Fdbk             2.8062 kGauss   2.8064 kGauss      2.8066 kGauss      0.00008537 kGauss 
+Filter Magnet Controller.kGauss2Fdbk             2.8082 kGauss   2.8084 kGauss      2.8086 kGauss      0.00009116 kGauss 
+Accel Suppression Voltage.Actual                 5.00 kV         5.00 kV            5.00 kV            0.0000 kV         
+Accel Controller.kVoltFdbk                       79.96 kV        79.98 kV           80.01 kV           0.0083 kV         
+Accel Controller.mAFdbk                          0.333 mA        0.334 mA           0.335 mA           0.000335 mA       
+Decel Controller.kVoltFdbk                       -0.42 kV        -0.42 kV           -0.42 kV           0.0000 kV         
+Decel Controller.mAFdbk                          0.00 mA         0.00 mA            0.00 mA            0.0000 mA         
+Analyzer Magnet Controller.kGauss1Fdbk           10.4166 kGauss  10.4167 kGauss     10.4169 kGauss     0.00006178 kGauss 
+Analyzer Magnet Controller.kGauss2Fdbk           10.3575 kGauss  10.3576 kGauss     10.3578 kGauss     0.00006843 kGauss 
+Mass Slit Aperture Controller.mmApertureFdbk     3.46 mm         3.46 mm            3.46 mm            0.0000 mm         
+Focus Controller.kVoltFdbk                       63.58 kV        63.59 kV           63.60 kV           0.0046 kV         
+Focus Controller.mAFdbk                          0.33 mA         0.33 mA            0.33 mA            0.0000 mA         
+Scanner Offset Voltage.Actual                    0.00 kV         0.00 kV            0.00 kV            0.0000 kV         
+Pre Scan Supp Controller.kVoltFdbk               1.00 kV         1.00 kV            1.00 kV            0.0000 kV         
+Post Scan Supp Controller.kVoltFdbk              4.00 kV         4.00 kV            4.00 kV            0.0000 kV         
+Corrector Magnet Controller.kGauss1Fdbk          7.9485 kGauss   7.9486 kGauss      7.9487 kGauss      0.00005652 kGauss 
+Corrector Magnet Controller.kGauss2Fdbk          7.9227 kGauss   7.9229 kGauss      7.9230 kGauss      0.00008109 kGauss 
+ParallelismConvergence.BeamAngleSpread           -0.02 deg       -0.02 deg          -0.02 deg          0.0000 deg        
+Flood Gun Arc Current.ActualReadback             2.003 A         2.003 A            2.003 A            0.000000 A        
+Flood Gun Emission Current.ActualReadback        5.000 mA        5.000 mA           5.000 mA           0.000000 mA       
+Flood Gun.ScanEmissionAverage                    0.000 mA        0.000 mA           0.000 mA           0.000000 mA       
+Flood Gun Filament Current.ActualReadback        63.850 A        64.052 A           64.182 A           0.106803 A        
+Flood Gun Gas Flow.ActualReadback                0.13 sccm       0.13 sccm          0.13 sccm          0.0000 sccm       
+Wafer Cooling.Actual                             4.000 Torr      4.000 Torr         4.000 Torr         0.000000 Torr     
+IG1.Gauge Pressure                               1.37e-5 Torr    1.37e-5 Torr       1.38e-5 Torr       2.753e-8 Torr     
+IG4.Gauge Pressure                               6.07e-7 Torr    6.17e-7 Torr       6.24e-7 Torr       4.029e-9 Torr     
+IG2.Gauge Pressure                               2.85e-7 Torr    3.92e-7 Torr       5.43e-7 Torr       4.075e-8 Torr     
+IG3.Gauge Pressure                               2.88e-6 Torr    5.40e-6 Torr       1.13e-5 Torr       1.199e-6 Torr     
+Implant.ChamberPressure                          2.878e-6 Torr   5.287e-6 Torr      7.005e-6 Torr      9.317e-7 Torr     
+Glitch Counter.NumberOfGlitches                  0               0                  0                  0.00              
+Ion Beam Control.ElapsedTime                     03:08           03:08              03:08              :00               
+Ion Beam Control.Recipe Setup Time               01:40           01:40              01:40              :00               
+Dilution Gas Flow.Actual                         0.00 sccm       0.00 sccm          0.00 sccm          0.0000 sccm       
+BeamIProfile.HalfWidth                           49.9 mm         49.9 mm            49.9 mm            0.00 mm           
+BeamIProfile.CenterPosition                      15.3 mm         15.3 mm            15.3 mm            0.00 mm           
+BeamIProfile.UniformityNoise                     0.11 %          0.11 %             0.11 %             0.0000 %          
+Arc Controller.Current1Fdbk                      -1.00 A         -1.00 A            -1.00 A            0.0000 A          
+Arc Controller.Current2Fdbk                      -1.00 A         -1.00 A            -1.00 A            0.0000 A          
+Implant.Map XTilt Position                       0.00 deg        0.00 deg           0.00 deg           0.0000 deg        
+Implant.Map YTilt Position                       0.00 deg        0.00 deg           0.00 deg           0.0000 deg        
+RangeGainSelect.SavedCLRange                     200uA           200uA              200uA              2uA               
+RangeGainSelect.SavedCLStg2Gain                  4x              4x                 4x                 1x                
+RangeGainSelect.SavedPreImplantProfilerRange     20uA            20uA               20uA               2uA               
+RangeGainSelect.SavedPreImplantProfilerStg2Gain  1x              1x                 1x                 1x                
+Limiting Aperture Controller.mmFdbk              45.39 mm        45.39 mm           45.39 mm           0.0000 mm         
+IG5.Gauge Pressure                               6.76e-7 Torr    1.10e-6 Torr       1.71e-6 Torr       1.642e-7 Torr     
+Extraction Supp Controller.mAFdbk                0.72 mA         0.73 mA            0.73 mA            0.0020 mA         
+Dose Trim.Actual                                 100.00 %        100.00 %           100.00 %           0.0000 %          
+Implant.Use Tilt In Dose CalcExt                 1               1                  1                  0.00              
+Implant.Current Process Step                     1               1                  1                  0.00              
+Job Queue.Total Process Steps                    1               1                  1                  0.00              
+UniformityControl.EndstationPressureExt          2.747e-6 Torr   2.747e-6 Torr      2.747e-6 Torr      0.000 Torr        
+ParallelismConvergence.BeamAngleMean             1.58 deg        1.58 deg           1.58 deg           0.0000 deg        
+Implant.Map Velocity                             29.363 cm/s     29.363 cm/s        29.363 cm/s        0.000000 cm/s     
+Ytilt.Position Degrees                           -0.07 deg       1.86 deg           2.01 deg           0.5171 deg        
+Implant.YTilt Relative To Beam                   -2.07 deg       -0.15 deg          0.01 deg           0.5171 deg        
+Implant.Beam Angle Mean Compensation             -0.07 deg       1.86 deg           2.01 deg           0.5171 deg        
+Implant.YTilt Compensation Error                 -2.07 deg       -0.15 deg          0.01 deg           0.5171 deg        
+SourceLifeCalculator.SourceLifeHours             159.611 hr      159.613 hr         159.616 hr         0.001553 hr       
+PreImplantComputations.CurrentRatioExt           1.1050          1.1050             1.1050             0.00000000        
+DoseBoard.Custom Implant Master Enabled          False           False              False              False             
+ChargeMonitor.ScanInboardMinimum                 -1.000 V        -1.000 V           -1.000 V           0.000000 V        
+ChargeMonitor.ScanInboardAverage                 0.000 V         0.000 V            0.000 V            0.000000 V        
+ChargeMonitor.ScanInboardMaximum                 -1.000 V        -1.000 V           -1.000 V           0.000000 V        
+ChargeMonitor.ScanOutboardMinimum                -1.000 V        -1.000 V           -1.000 V           0.000000 V        
+ChargeMonitor.ScanOutboardAverage                0.000 V         0.000 V            0.000 V            0.000000 V        
+ChargeMonitor.ScanOutboardMaximum                -1.000 V        -1.000 V           -1.000 V           0.000000 V        
+UniformityControl.CLFHealthPctError              0.0000 %        0.0000 %           0.0000 %           0.00000000 %      
+UniformityControl.ProfilerHealthPctError         0.0000 %        0.0000 %           0.0000 %           0.00000000 %      
+DoseBoard.Base Sweep Time                        2058            2058               2058               0.00              
+GenerateHorizontalWaveform.Desired Sweep Time    800 탎          800 탎             800 탎             0.00 탎           
+Onetime.DoseCompensationFactor                   100 %           100 %              100 %              0.00 %            
+DoseBoard.Estimated Percent Compensation         0.00 %          0.00 %             0.00 %             0.0000 %          
+DoseBoard.Sampled Dose Comp Percent              0.00 %          0.00 %             0.00 %             0.0000 %          
+RangeGainSelect.RTBM Ratio S1                    -1.0000         -1.0000            -1.0000            0.00000000        
+RangeGainSelect.RTBM Ratio S2                    -1.0000         -1.0000            -1.0000            0.00000000        
+RangeGainSelect.RTUM Ratio                       -1.0000         -1.0000            -1.0000            0.00000000        
+RangeGainSelect.RTUM Ratio Difference            -1.000 %        -1.000 %           -1.000 %           0.000000 %        
+Implant.Scan Lines                               599             599                599                0.00              
+Xtilt.Position Degrees                           -0.04 deg       5.47 deg           89.88 deg          20.7748 deg       
+-------------------------------------------------------------------------------------------------------------------------------
