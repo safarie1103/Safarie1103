@@ -9,7 +9,9 @@ We will perform model selection and model validation exercises and use the model
 
 
 
-```python
+```python echo=FALSE
+
+
 # Load Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -238,7 +240,8 @@ axes[1,1].tick_params(axis='both', labelsize=15)
 # Parallel Coordinate graphe comparing ['Age', 'CreditScore', 'Balance', 'EstimatedSalary']
 
 
-```python
+```python echo = off
+
 # Step 9:  Compare variables against those who stayed and those who exited
 #set up the figure size
 %matplotlib inline
