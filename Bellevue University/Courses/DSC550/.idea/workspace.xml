@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC540/FinalProject/zillow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
