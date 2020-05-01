@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week8/DSC550 _EdrisSafari_Assignment_8.3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/DSC550_EdrisSafari_Assignment_8.2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/Data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC540/FinalProject/zillow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +42,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC540" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week8" />
       <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week8\Data" />
+      <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week8" />
       <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week7" />
       <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week7\data" />
     </key>
@@ -95,7 +94,7 @@
       <workItem from="1587504378270" duration="659000" />
       <workItem from="1587505165652" duration="11062000" />
       <workItem from="1587907258222" duration="3500000" />
-      <workItem from="1588038099333" duration="5750000" />
+      <workItem from="1588038099333" duration="8952000" />
     </task>
     <servers />
   </component>
@@ -107,11 +106,11 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587050480480" />
-    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1588275572005">
+    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1588355342573">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1039" y="303" width="525" height="653" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587184361298" />
-    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1588275572005" />
+    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1588355342573" />
     <state x="1062" y="286" key="SettingsEditor" timestamp="1587504533821">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
