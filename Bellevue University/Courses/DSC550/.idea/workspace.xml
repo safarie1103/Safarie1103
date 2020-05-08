@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/DSC510_Safari_weatherReported.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC540/Week5and6/DSC540_EdrisSafari_Week_7_8_Exercise.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/.ipynb_checkpoints/WebScraping-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/.ipynb_checkpoints/WebScraping-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/.ipynb_checkpoints/Zillow-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/.ipynb_checkpoints/Zillow-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/Webscraping.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/Zillow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/response.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/response.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +101,7 @@
       <workItem from="1587504378270" duration="659000" />
       <workItem from="1587505165652" duration="11062000" />
       <workItem from="1587907258222" duration="3500000" />
-      <workItem from="1588038099333" duration="8952000" />
+      <workItem from="1588038099333" duration="8969000" />
     </task>
     <servers />
   </component>
