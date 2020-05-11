@@ -8961,7 +8961,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MachineLearning AtoZ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -8979,6 +8979,7 @@
       <workItem from="1586626978998" duration="2031000" />
       <workItem from="1586708037782" duration="1348000" />
       <workItem from="1586711785013" duration="2703000" />
+      <workItem from="1589214886492" duration="130000" />
     </task>
     <servers />
   </component>
@@ -9009,10 +9010,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="749" height="223" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586711722667" />
-    <state x="1295" y="163" key="SettingsEditor" timestamp="1586627558654">
+    <state x="1295" y="163" key="SettingsEditor" timestamp="1589214949283">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1295" y="163" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1586627558654" />
+    <state x="1295" y="163" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1589214949283" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -9021,6 +9022,11 @@
           <url>notebook://C:/Users/safar/Documents/GitHub/Safarie1103/Bellevue University/Courses/DSC550/Week5/DSC550 _EdrisSafari_Assignment_5.2.ipynb</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/safar/Documents/GitHub/Safarie1103/Bellevue University/Courses/DSC550/Week5/ML_withPython_Chapter09.ipynb</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
