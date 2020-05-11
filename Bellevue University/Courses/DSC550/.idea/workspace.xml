@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="" />
+    <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week9and10/ML_withPython_Chapter20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DSC550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC550.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/ML_withPython_Chapter08.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/ML_withPython_Chapter08.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +97,7 @@
       <workItem from="1587505165652" duration="11062000" />
       <workItem from="1587907258222" duration="3500000" />
       <workItem from="1588038099333" duration="8969000" />
-      <workItem from="1589214535141" duration="472000" />
+      <workItem from="1589214535141" duration="4505000" />
     </task>
     <servers />
   </component>
@@ -103,16 +109,16 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587050480480" />
-    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1589214882569">
+    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1589226162505">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1039" y="303" width="525" height="653" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587184361298" />
-    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1589214882569" />
-    <state x="1062" y="286" key="SettingsEditor" timestamp="1589215006317">
+    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1589226162505" />
+    <state x="1062" y="286" key="SettingsEditor" timestamp="1589226684216">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="797" y="286" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587179783946" />
-    <state x="1062" y="286" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1589215006317" />
+    <state x="1062" y="286" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1589226684216" />
     <state x="1576" y="146" width="585" height="795" key="find.popup" timestamp="1587050624568">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
