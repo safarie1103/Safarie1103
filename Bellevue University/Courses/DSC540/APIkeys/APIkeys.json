@@ -1,0 +1,14 @@
+{
+	"OMDBapi" : {
+		"Key": "96030a0"
+	},
+	"Twitter" : {
+		"consumer_key" : "qIkdnrjuFNiRmyTYaR29jX5Yx",
+		"consumer_secret" : "qnvlOFvnmAwkSdCT5tdaAFRfxLQ9NHBJ5ArPqZeqn0Y39Ednme",
+		"token" : "1258774419851350017-WnKXHaKVKyAxVPy9dHmQbrYmdg48TX",
+		"token_secret" : "O5mHbsttf2uSD8IG1F8lG9aaUvFOaSlpW2J9hWGNQpvmt"
+	},
+	"googlemaps" : {
+		"key" : "AIzaSyDBRpHoEPCnVtcFPit-jVx26fkbrAemzN0"
+	}
+}
