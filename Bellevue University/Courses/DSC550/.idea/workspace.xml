@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_9.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_9.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC510/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +104,7 @@
       <workItem from="1589639863096" duration="234000" />
       <workItem from="1590102386401" duration="648000" />
       <workItem from="1590169002093" duration="2737000" />
+      <workItem from="1590513403197" duration="803000" />
     </task>
     <servers />
   </component>
@@ -119,11 +116,11 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587050480480" />
-    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1589640096770">
+    <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1590513661918">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1039" y="303" width="525" height="653" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587184361298" />
-    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1589640096770" />
+    <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590513661918" />
     <state x="730" y="210" key="SettingsEditor" timestamp="1589318853967">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
