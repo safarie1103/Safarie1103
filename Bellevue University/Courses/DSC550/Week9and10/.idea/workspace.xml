@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_9.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_9.2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <workItem from="1589638782535" duration="63000" />
       <workItem from="1589640102886" duration="615000" />
       <workItem from="1590102384065" duration="594000" />
-      <workItem from="1590154649164" duration="1450000" />
+      <workItem from="1590154649164" duration="5629000" />
     </task>
     <servers />
   </component>
@@ -61,14 +65,15 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1238" y="284" key="FileChooserDialogImpl" timestamp="1589640120418">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="743" y="227" key="FileChooserDialogImpl" timestamp="1590243530823">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1589640120418" />
-    <state x="800" y="173" key="SettingsEditor" timestamp="1589496196398">
+    <state x="743" y="227" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590243530823" />
+    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590168996393" />
+    <state x="197" y="213" key="SettingsEditor" timestamp="1590187559317">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="601" y="173" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589491106279" />
-    <state x="800" y="173" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1589496196398" />
+    <state x="197" y="213" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590187559317" />
   </component>
 </project>
