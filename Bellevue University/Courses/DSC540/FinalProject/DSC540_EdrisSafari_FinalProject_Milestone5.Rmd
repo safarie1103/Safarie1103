@@ -1,0 +1,45 @@
+---
+title: "FinalProject_Milestone5"
+author: "edris safari"
+date: "5/27/2020"
+output: 
+  html_document: default
+  word_document: default
+always_allow_html: true  
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Final Project MileStone 5
+
+```{r load libraries,echo=FALSE,message=FALSE,warning=FALSE}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(DT)
+library(tidyr)
+library(corrplot)
+library(leaflet)
+library(lubridate)
+library(ggmap)
+# VIM library for using 'aggr'
+library(VIM)
+library(ff)
+```
+
+
+
+```{r dbconnect, echo=FALSE}
+library(DBI)
+#library(dplyr)
+con <- dbConnect(RSQLite::SQLite(), dbname  = ":Data/DSC540_EdrisSafari_FinalProject.sqlite:")
+```
+
+```{r dbtables, echo=FALSE}
+# Show List of Tables
+as.data.frame(dbListTables(con))
+```
