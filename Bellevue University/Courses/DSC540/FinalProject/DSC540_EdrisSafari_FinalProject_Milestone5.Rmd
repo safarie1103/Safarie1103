@@ -30,12 +30,19 @@ library(ggmap)
 library(VIM)
 library(ff)
 ```
+```{r test echo=FALSE,message=FALSE,warning=FALSE}
 
+library(DBI)
+library(dplyr)
+library(RSQLite)
+# Create an ephemeral in-memory RSQLite database
+con <- dbConnect(drv=RSQLite::SQLite(), dbname = ":memory:")
+```
 
 
 ```{r dbconnect, echo=FALSE}
 library(DBI)
-#library(dplyr)
+library(dplyr)
 con <- dbConnect(RSQLite::SQLite(), dbname  = ":Data/DSC540_EdrisSafari_FinalProject.sqlite:")
 ```
 

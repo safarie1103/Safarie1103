@@ -403,7 +403,7 @@ tmp <- properties %>%
   select(parcelid,lat,lon) %>% 
   left_join(transactions,by="parcelid")
 
-API_key <- "Please obtain your API key from google"
+API_key <- "AIzaSyDBRpHoEPCnVtcFPit-jVx26fkbrAemzN0"
 register_google(key = API_key)
 register_google(key = API_key, write = TRUE)
 ```

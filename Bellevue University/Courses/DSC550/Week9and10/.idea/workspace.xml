@@ -2,10 +2,167 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/Safari_Edris_DSC510.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/gmaps_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/Week11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/Week11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/area_total_finished-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/area_total_finished-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/correlation1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/correlation1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on lat-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on lat-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on longitude-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on longitude-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/num_room-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/num_room-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone5-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone5-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/Data/comp_listing_table.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/Data/comp_listing_table.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/installed-files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps/places.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/googlemaps/places.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip-20.0.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/build_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/build_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/base_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/main_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/main_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/req_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/cli/req_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/completion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/hash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/hash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/show.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/commands/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/index/collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/index/collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/index/package_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/index/package_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/legacy_resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/search_scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/search_scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/target_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/target_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/models/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/network/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/build/metadata_legacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/build/metadata_legacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/build/wheel_legacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/build/wheel_legacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/install/legacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/install/legacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/pyproject.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/marker_files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/subprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/subprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/utils/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/git.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/mercurial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/mercurial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/subversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/certifi/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/distro.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/distro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/idnadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/idnadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/package_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/package_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/uts46data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/idna/uts46data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/packaging/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/packaging/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/_in_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/_in_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/envbuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/envbuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pep517/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/pytoml/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/requests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip3.7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/venv/Scripts/pip3.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/intermediate/artists.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/intermediate/artists.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/sample_plots.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/sample_plots.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_9.2-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_9.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_9.2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +192,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC540" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -58,6 +215,7 @@
       <workItem from="1589640102886" duration="615000" />
       <workItem from="1590102384065" duration="594000" />
       <workItem from="1590154649164" duration="5629000" />
+      <workItem from="1590770369477" duration="4360000" />
     </task>
     <servers />
   </component>
@@ -70,10 +228,10 @@
     </state>
     <state x="743" y="227" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590243530823" />
     <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590168996393" />
-    <state x="197" y="213" key="SettingsEditor" timestamp="1590187559317">
+    <state x="917" y="297" key="SettingsEditor" timestamp="1590778967795">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="601" y="173" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589491106279" />
-    <state x="197" y="213" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590187559317" />
+    <state x="917" y="297" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590778967795" />
   </component>
 </project>
