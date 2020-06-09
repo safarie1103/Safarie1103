@@ -1,0 +1,87 @@
+---
+title: "1.3 Assignment: R Refresher"
+author: "edris safari"
+date: "6/5/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment Description
+
+The first assignment is a review of R. 
+
+The purpose of this assignment is to provide a refresher of R and python. The assignment is divided into three sections.
+
+1. Import, Plot, Summarize, and Save Data
+  Using the [Bureau of Labor Statistics data](https://www.bls.gov/data/), choose a dataset that interest you. Then generate summary statistics for 2 variables, plot some of the features (e.g., histograms, box plots, density plots, etc.) of several variables, and save the data locally as CSV files.
+
+2. Explore Some Bivariate Relations
+Use the same dataset within the same website to explore some bivariate relations (e.g. bivariate plot, correlation, table cross table etc.)
+
+3. Organize a Data Report
+
+Generate a summary report. Make sure to include: summary for every variable, structure and type of data elements, discuss four results of your data.
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library("readxl")
+```
+### Import dataset
+
+```{r import dataset,echo=FALSE,message=FALSE,warning=FALSE}
+getwd()
+setwd(".\\")
+getwd()
+# Read datasets
+all_items_cpi <- read_excel("Data/All_Items.xlsx",skip = 11)
+food_cpi <- read_excel("Data/Food.xlsx",skip = 11)
+energy_cpi <- read_excel("Data/energy.xlsx",skip = 11)
+
+# Write datasets
+write.csv(all_items_cpi,"Data/All_Items.csv")
+write.csv(food_cpi,"Data/food.csv")
+write.csv(energy_cpi,"Data/energy.csv")
+
+# Factorize datasets
+all_items_cpi$Year =factor(all_items_cpi$Year)
+food_cpi$Year =factor(food_cpi$Year)
+energy_cpi$Year =factor(energy_cpi$Year)
+# Examine
+print(all_items_cpi)
+print(food_cpi)
+print(energy_cpi)
+
+```
+
+```{r explore dataset,cho=FALSE,message=FALSE,warning=FALSE}
+summary(all_items_cpi)
+str(all_items_cpi)
+```
+
+
+```{r explore dataset,cho=FALSE,message=FALSE,warning=FALSE}
+plot(Feb ~ Year, data=all_items_cpi)
+```
+
+```{r Join dataset,cho=FALSE,message=FALSE,warning=FALSE}
+food_and_energy_CPI <- food_cpi %>% left_join(energy_cpi,by="Year")
+names(food_and_energy_CPI)
+plot(Jan.x~Year,data=food_and_energy_CPI)
+plot(Jan.y~Year,data=food_and_energy_CPI)
+
+```
+```{r plot7,echo=FALSE,message=FALSE,warning=FALSE}
+# graph of abs_logerror groupped by month of year 
+food_and_energy_CPI %>% 
+  summarize(mean_CPI = mean(Jan.x)) %>% 
+  ggplot(aes(x=Year,y=mean_CPI)) + 
+  geom_line(size=1.5, color="red")+ ggtitle("mean_CPI for Jan") +
+  geom_point(size=5, color="red")+theme_bw()
+```
+```{r explore dataset,cho=FALSE,message=FALSE,warning=FALSE}
+```
+
