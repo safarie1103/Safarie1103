@@ -6,6 +6,9 @@
 
 # 1. What are the observational units in this study?
 # Import scores data
+getwd()
+setwd("Week2")
+getwd()
 scores <- read.csv("scores.csv")
 # display the structure of data frame-observationl units are: Count,Score,Section
 str(scores)  
@@ -102,5 +105,6 @@ str(scores)
   # point distributions between the two sections?
   # We have scores and number of students that attained that score. would perhaps be the subject matter. 
   # It could be that sime students made better score in greater number in one subject matter but not in others.
+  
   
   

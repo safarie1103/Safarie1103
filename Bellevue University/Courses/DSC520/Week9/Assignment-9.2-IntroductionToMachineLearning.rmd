@@ -3,9 +3,9 @@ title: "Assignment 9.2 - Intoduction to Machine Learning"
 author: "edris safari"
 date: "2/7/2020"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ## Assignment 9.2 - Intoduction to Machine Learning
