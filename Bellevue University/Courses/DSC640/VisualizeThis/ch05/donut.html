@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Donut Chart</title>
+	<script type="text/javascript" src="../../js/protovis-r3.2.js"></script>
+	<style type="text/css">
+	#figure {
+		width: 400px;
+		height: 400px;
+	}
+    </style>
+</head>
+<body>
+		<div id="figure">
+    		<script type="text/javascript+protovis">
+			var data = [172,136,135,101,80,68,50,29,19,41];
+			var cats = ["Statistics", "Design", "Business", "Cartography", "Information Science", "Web Analytics", "Programming", "Engineering", "Mathematics", "Other"];
+
+			// Sizing and scales. 
+			var w = 350,
+			    h = 350,
+			    r = w / 2,
+			    a = pv.Scale.linear(0, pv.sum(data)).range(0, 2 * Math.PI);
+
+			// Colors 
+			var depthColors = pv.Scale.linear(0, 172)
+			                    .range("white", "#821122");
+
+			// The root panel. 
+			var vis = new pv.Panel()
+			    .width(w)
+			    .height(h);
+
+			// The wedge, with centered label. 
+			vis.add(pv.Wedge)
+			    .data(data)
+			    .bottom(w / 2)
+			    .left(w / 2)
+			    .innerRadius(r - 120)
+			    .outerRadius(r)
+				.fillStyle(function(d) depthColors(d))
+				.strokeStyle("#fff")
+			    .angle(a)
+			    .title(function(d) String(d) + " votes")
+			  .anchor("center").add(pv.Label)
+				.text(function(d) cats[this.index]);
+
+			vis.anchor("center").add(pv.Label)
+				.font("bold 14px Georgia")
+				.text("May 2009");
+
+			vis.render();
+		    </script>
+		</div><!-- @end figure -->
+</body>
+</html>
