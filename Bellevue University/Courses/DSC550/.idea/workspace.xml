@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DSC540/Week1and2/.ipynb_checkpoints/DSC540_Activity02-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC540/Week1and2/.ipynb_checkpoints/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ML_withPython_Chapter20-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Prophet/Pro.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Prophet/Prophet.Rproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/Week1and2/DSC540_Activity02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/Week1and2/DSC540_Activity02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC540/Week3and4/DataWranglingWithPython_Chapter4_Exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/Week3and4/DataWranglingWithPython_Chapter4_Exercises.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_11.2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_11.2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_withPython_Chapter20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML_withPython_Chapter20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter03.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/ML_withPython_Chapter07.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/ML_withPython_Chapter07.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/ML_withPython_Chapter10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/ML_withPython_Chapter10.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,42 +124,24 @@
       <workItem from="1590513403197" duration="803000" />
       <workItem from="1590617346081" duration="2940000" />
       <workItem from="1590781756332" duration="655000" />
+      <workItem from="1596818045665" duration="658000" />
+      <workItem from="1596819260638" duration="650000" />
+      <workItem from="1599167200733" duration="5954000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1587050480480">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587050480480" />
     <state x="1385" y="303" width="525" height="653" key="FileChooserDialogImpl" timestamp="1590771312109">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1039" y="303" width="525" height="653" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587184361298" />
     <state x="1385" y="303" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590771312109" />
-    <state x="730" y="210" key="SettingsEditor" timestamp="1590772253596">
+    <state x="1091" y="241" key="SettingsEditor" timestamp="1599243733944">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="797" y="286" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589287417775" />
-    <state x="730" y="210" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590772253596" />
-    <state x="524" y="337" width="1315" height="611" key="dock-window-1" timestamp="1590187563785">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="524" y="337" width="1315" height="611" key="dock-window-1/0.0.2560.1080@0.0.2560.1080" timestamp="1590187563785" />
-    <state x="582" y="29" width="685" height="801" key="find.popup" timestamp="1590242684138">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="582" y="29" width="685" height="801" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1590242684138" />
-    <state x="1576" y="146" width="585" height="795" key="find.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1589425909310" />
-    <state x="387" y="156" width="672" height="543" key="search.everywhere.popup" timestamp="1590242386638">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="387" y="156" width="672" height="543" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1590242386637" />
-    <state x="484" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589491660770" />
-    <state x="645" y="195" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1589564254833" />
+    <state x="1091" y="241" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599243733944" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
