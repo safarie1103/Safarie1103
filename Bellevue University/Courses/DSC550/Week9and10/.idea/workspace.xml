@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_11.2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/DSC550 _EdrisSafari_Assignment_11.2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ThinkStats2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -59,26 +56,21 @@
       <workItem from="1590102384065" duration="594000" />
       <workItem from="1590154649164" duration="5629000" />
       <workItem from="1590770369477" duration="7574000" />
+      <workItem from="1599657215070" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1238" y="284" key="FileChooserDialogImpl" timestamp="1591375393067">
+    <state x="1238" y="284" key="FileChooserDialogImpl" timestamp="1599671525228">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="743" y="227" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590243530823" />
-    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1591375393067" />
-    <state x="1336" y="421" key="RollbackChangesDialog" timestamp="1590780037251">
+    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1599671525228" />
+    <state x="1368" y="260" key="SettingsEditor" timestamp="1599671497165">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1336" y="421" key="RollbackChangesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1590780037251" />
-    <state x="1047" y="333" key="SettingsEditor" timestamp="1590781440165">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="601" y="173" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589491106279" />
-    <state x="1047" y="333" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590781440165" />
+    <state x="1368" y="260" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599671497165" />
   </component>
 </project>
