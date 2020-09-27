@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DSC630.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/ClustringAlgorithms-AgglomerativeHiearchical.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/ClustringAlgorithms-Kmeans.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/.ipynb_checkpoints/ClustringAlgorithms-AgglomerativeHiearchical-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/.ipynb_checkpoints/ClustringAlgorithms-Kmeans-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/ClustringAlgorithms-AgglomerativeHiearchical.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/ClustringAlgorithms-Kmeans.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +30,7 @@
   </component>
   <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02">
     <option name="files">
-      <option value="Week3\ClustringAlgorithms-AgglomerativeHiearchical.ipynb" />
-      <option value="Week3\ClustringAlgorithms-Kmeans.ipynb" />
+      <option value="Week3\DSC630_EdrisSafari_Assignment_3.3.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1hVcQIB8ysnCJd9LESC2ni6B8XB" />
@@ -48,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC540" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600099682371</updated>
-      <workItem from="1600099689890" duration="955000" />
+      <workItem from="1600099689890" duration="3872000" />
+      <workItem from="1600992248649" duration="5405000" />
     </task>
     <servers />
   </component>
@@ -69,9 +65,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="252" key="SettingsEditor" timestamp="1600100646465">
+    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1601066829772">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1600100646465" />
+    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1601066829772" />
+    <state width="882" height="170" key="GridCell.Tab.0.bottom" timestamp="1600993854408">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="882" height="170" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1600993854408" />
+    <state width="882" height="170" key="GridCell.Tab.0.center" timestamp="1600993854406">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="882" height="170" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1600993854406" />
+    <state width="882" height="170" key="GridCell.Tab.0.left" timestamp="1600993854404">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="882" height="170" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1600993854404" />
+    <state width="882" height="170" key="GridCell.Tab.0.right" timestamp="1600993854407">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="882" height="170" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1600993854407" />
+    <state x="460" y="252" key="SettingsEditor" timestamp="1600434346659">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1600434346659" />
   </component>
 </project>

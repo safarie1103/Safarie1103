@@ -36,6 +36,7 @@ getwd()
 setwd(".\\")
 getwd()
 survey <- read.csv("gss-2016.csv")
+head(survey)
 ```
 
 

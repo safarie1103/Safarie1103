@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="" />
+    <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_DataPreparation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC630/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week3/.ipynb_checkpoints/ClustringAlgorithms-AgglomerativeHiearchical-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week3/.ipynb_checkpoints/ClustringAlgorithms-Kmeans-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week3/ClustringAlgorithms-AgglomerativeHiearchical.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week3/ClustringAlgorithms-Kmeans.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +120,8 @@
       <workItem from="1596819260638" duration="650000" />
       <workItem from="1599167200733" duration="5954000" />
       <workItem from="1599671530995" duration="1127000" />
+      <workItem from="1600556296504" duration="1831000" />
+      <workItem from="1601067084141" duration="634000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,135 @@
+---
+title: "DSC630_EdrisSafari_Assignment_3.3"
+author: "edris safari"
+date: "9/17/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment Description
+
+ 
+ 
+Using **dodgers.csv** dataset, determine ***what night would be the best to run a marketing promotion to increase attendance***. It is up to you if you decide to recommend a specific date (Jan 1, 2020) or if you want to recommend a day of the week (Tuesdays) or Month and day of the week (July Tuesdays). You will want to use TRAIN. As a reminder, the training set is the data we fit our model on. Use a combination of R and Python to accomplish this assignment. It is important to remember, there will be lots of ways to solve this problem. Explain your thought process and how you used various techniques to come up with your recommendation. From this data, at a minimum, you should be able to demonstrate the following:
+
+Box plots
+
+Scatter plots
+
+Regression Model
+
+# Description of approach
+
+
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(dplyr)
+library(tidyr)
+
+library(scatterplot3d)
+```
+
+# Load the dataset
+
+```{r Load dataset}
+getwd()
+setwd(".\\")
+getwd()
+dodgers <- read.csv("Data/dodgers.csv")
+
+str(dodgers) 
+head(dodgers)
+
+```
+# Cleanup data
+
+```{r encoding categorical variables}
+
+# Encoding categorical data
+
+# Assign month number to month name
+dodgers$month <- factor(dodgers$month,
+                         levels = c('JAN','FEB','MAR','APR', 'MAY', 'JUN','JUL','AUG','SEP','OCT','NOV','DEC'),
+                         labels = c(1,2,3,4,5, 6,7,8,9,10,11,12))
+
+# Assign Day number to day name
+dodgers$day_of_week <- factor(dodgers$day_of_week,
+                           levels = c('Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'),
+                           labels = c(1, 2,3,4,5,6,7))
+
+# Assign 0 and 1 to sky condition of clear and cloudy
+
+# Note: The variable value 'CLean' in the dataset was actually typed 'Clean '(With a space)
+# If not specified as such , the factor function returns 'NS' for the value.
+dodgers$skies <- factor(dodgers$skies,
+                       levels = c('Clear ','Cloudy'),
+                       labels = c(0,1))
+
+# Assign 0 and 1 to sky condition of night and day
+dodgers$day_night <- factor(dodgers$day_night,
+                       levels = c('Night','Day'),
+                       labels = c(0,1))
+
+
+# Assign 0 and 1 to NO and YES values
+dodgers$cap <- factor(dodgers$cap,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+dodgers$shirt <- factor(dodgers$shirt,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+dodgers$fireworks <- factor(dodgers$fireworks,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+dodgers$bobblehead <- factor(dodgers$bobblehead,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+# encode oponents
+oponent <- dodgers$opponent
+dodgers$opponent <- as.numeric(factor(oponent))
+
+
+# Write clean data to file
+write.csv(dodgers,file = "Data/Clean_Dodgers.csv")
+
+# Read back clean dataset
+dodgers <- read.csv("Data/Clean_Dodgers.csv")
+dodgers
+```
+
+```{r EDA}
+nrow(dodgers)
+
+missing_values <- dodgers %>% summarize_each(funs(sum(is.na(.))/n()))
+missing_values <- gather(missing_values, key="feature", value="missing_pct")
+missing_values
+```
+```{r summary}
+summary(dodgers)
+```
+
+```{r graphs - simplae scatter plot}
+
+# Scatter plot of body vs brain from mammals
+ggplot(dodgers,aes(x=month,y=attend)) +
+  geom_point()
+
+ggplot(dodgers,aes(x=month,y=attend)) +
+  geom_boxplot(varwidth = TRUE)
+
+ggplot(dodgers,aes(x=attend,fill=month)) +
+  geom_density(col = NA,alpha = 0.35)
+```
+

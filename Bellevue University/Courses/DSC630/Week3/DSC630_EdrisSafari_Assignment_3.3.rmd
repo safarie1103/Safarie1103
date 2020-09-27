@@ -1,0 +1,272 @@
+---
+title: "DSC630_EdrisSafari_Assignment_3.3"
+author: "edris safari"
+date: "9/17/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment Description
+
+ 
+ 
+Using **dodgers.csv** dataset, determine ***what night would be the best to run a marketing promotion to increase attendance***. It is up to you if you decide to recommend a specific date (Jan 1, 2020) or if you want to recommend a day of the week (Tuesdays) or Month and day of the week (July Tuesdays). You will want to use TRAIN. As a reminder, the training set is the data we fit our model on. Use a combination of R and Python to accomplish this assignment. It is important to remember, there will be lots of ways to solve this problem. Explain your thought process and how you used various techniques to come up with your recommendation. From this data, at a minimum, you should be able to demonstrate the following:
+
+Box plots
+
+Scatter plots
+
+Regression Model
+
+# Description of approach
+
+The night to increase attendance is the night when attendance is lowest. Given the features in this data set, low attendance could be the result of any feature or combination of features. The goal is to estimate the night when attendance is lowest so more marketing can be done on those nights.
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(dplyr)
+library(tidyr)
+library(dplyr)
+library(scatterplot3d)
+```
+
+# Load the dataset
+
+```{r Load dataset}
+getwd()
+setwd(".\\")
+getwd()
+dodgers <- read.csv("Data/dodgers.csv")
+
+str(dodgers) 
+head(dodgers)
+nrow(dodgers)
+
+```
+
+
+
+# Cleanup data
+
+```{r missing values}
+
+
+missing_values <- dodgers %>% summarize_each(funs(sum(is.na(.))/n()))
+missing_values <- gather(missing_values, key="feature", value="missing_pct")
+num_missing <-  sum(missing_values$missing_pct)
+num_missing
+print(paste0("Number of missing values = ",as.character(num_missing)))
+
+# There are no missing values
+
+```
+
+
+```{r encoding categorical variables}
+
+# Encoding categorical data
+
+# Assign month number to month name
+dodgers$month <- factor(dodgers$month,
+                         levels = c('JAN','FEB','MAR','APR', 'MAY', 'JUN','JUL','AUG','SEP','OCT','NOV','DEC'),
+labels = c(1, 2,3,4,5,6,7,8,9,10,11,12))
+
+# Assign Day number to day name
+dodgers$day_of_week <- factor(dodgers$day_of_week,
+                           levels = c('Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'),
+                           labels = c(1, 2,3,4,5,6,7))
+
+# Assign 0 and 1 to sky condition of clear and cloudy
+
+# Note: The variable value 'CLean' in the dataset was actually typed 'Clean '(With a space)
+# If not specified as such , the factor function returns 'NS' for the value.
+dodgers$skies <- factor(dodgers$skies,
+                       levels = c('Clear ','Cloudy'),
+                       labels = c(0,1))
+
+
+
+# Assign 0 and 1 to sky condition of night and day
+dodgers$day_night <- factor(dodgers$day_night,
+                       levels = c('Night','Day'),
+                       labels = c(0,1))
+
+
+# Assign 0 and 1 to NO and YES values
+dodgers$cap <- factor(dodgers$cap,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+
+
+dodgers$shirt <- factor(dodgers$shirt,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+
+
+dodgers$fireworks <- factor(dodgers$fireworks,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+
+
+dodgers$bobblehead <- factor(dodgers$bobblehead,
+                       levels = c('NO','YES'),
+                       labels = c(0,1))
+
+# encode oponents
+oponent <- dodgers$opponent
+dodgers$opponent <- as.numeric(factor(oponent))
+
+
+#add a new column for total number of items purchase}
+dodgers$tot_pchd <- as.numeric(as.character(dodgers$cap))+ as.numeric(as.character(dodgers$shirt)) + as.numeric(as.character(dodgers$fireworks)) + as.numeric(as.character(dodgers$bobblehead))
+
+
+head(dodgers)
+
+
+```
+
+```{r write clean data}
+
+#write.csv(dodgers,file="Data/Clean_Dodgers.csv",row.names = FALSE)
+
+```
+
+
+```{r load clean dataset}
+
+# Read back clean dataset
+#dodgers <- read.csv("Data/Clean_Dodgers.csv")
+#head(dodgers)
+```
+
+# EDA
+
+
+```{r explore}
+summary(dodgers)
+```
+## Summary statistics show the maximum attendance is 5600 and minimum is 24312.  The max number of products purchased is 1 which doesn't show too much interest in purchasing any product on any given day or who the oponent is.
+
+# Graphs
+```{r graphs  bar plots1}
+
+plotdata <- dodgers %>%
+  group_by(month) %>%
+  summarize(median_attend = median(attend))
+
+# plot mean salaries
+ggplot(plotdata, 
+       aes(x = month, 
+           y = median_attend)) +
+  geom_bar(stat = "identity")
+
+```
+
+```{r graphs  bar plots2}
+plotdata <- dodgers %>%
+  group_by(month) %>%
+  summarize(mean_attend = mean(attend))
+
+# plot mean salaries
+ggplot(plotdata, 
+       aes(x = month, 
+           y = mean_attend)) +
+  geom_bar(stat = "identity")
+
+```
+
+
+```{r graphs - Scatter plots1}
+# Scatter plot of b
+ggplot(dodgers,aes(x=month,y=attend)) +
+  geom_point() +
+  labs(title = "attendance by month")
+```
+
+
+```{r graphs - Scatter plots2}
+ggplot(dodgers,aes(x=month,y=attend,color=day)) +
+  geom_point() + 
+  labs(title = "Attendance by Month by day of the month")
+```
+
+
+
+
+
+```{r box plot}
+# 
+
+
+ggplot(dodgers,aes(x=month,y=attend)) +
+  geom_boxplot(varwidth = TRUE)
+```
+
+```{r ensity plot}
+ggplot(dodgers,aes(x=attend,fill=month)) +
+  geom_density(col = NA,alpha = 0.35)
+```
+
+# Modeling 
+```{r linear regression}
+# Splitting the dataset into the Training set and Test set
+# install.packages('caTools')
+library(caTools)
+set.seed(123)
+split = sample.split(dodgers$attend, SplitRatio = 2/3)
+training_set = subset(dodgers, split == TRUE)
+test_set = subset(dodgers, split == FALSE)
+
+# Feature Scaling
+# training_set = scale(training_set)
+# test_set = scale(test_set)
+
+# Fitting Simple Linear Regression to the Training set
+regressor = lm(formula = day ~ attend,
+               data = training_set)
+
+# Predicting the Test set results
+y_pred = predict(regressor, newdata = test_set)
+
+
+```
+```{r graph1}
+# Visualising the Training set results
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = training_set$day, y = training_set$attend),
+             colour = 'red') +
+  geom_line(aes(x = training_set$day, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') +
+  ggtitle('day of the month vs number of attendance') +
+  xlab('day') +
+  ylab('number of attendance')
+```
+
+```{r graph2}
+# Visualising the Test set results
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x = test_set$day, y = test_set$attend),
+             colour = 'red') +
+  geom_line(aes(x = training_set$day, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') +
+ ggtitle('day of the month vs number of attendance') +
+  xlab('day') +
+  ylab('number of attendance')
+
+```
+
+
+

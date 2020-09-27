@@ -1,0 +1,92 @@
+---
+title: "CourseProject_DataPreparation"
+author: "edris safari"
+date: "9/21/2020"
+output: 
+  html_document: default
+  word_document: default
+always_allow_html: true  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(dplyr)
+library(tidyr)
+library(dplyr)
+library(scatterplot3d)
+```
+
+
+# Load the dataset
+
+```{r Load dataset}
+getwd()
+setwd(".\\")
+getwd()
+
+DirectMarketing <- read.csv("Data/DirectMarketing.csv")
+
+str(DirectMarketing) 
+head(DirectMarketing)
+nrow(DirectMarketing)
+
+```
+
+
+```{r create dummy variables 1}
+
+
+#install.packages('fastDummies')
+library(fastDummies)
+
+DirectMarketing1 <- dummy_cols(DirectMarketing,select_columns =c('Age','Gender','OwnHome','Married','Location','History') ,remove_selected_columns = TRUE)
+
+head(DirectMarketing1)
+
+
+```
+
+
+```{r create dummy variables 2}
+
+
+#install.packages('fastDummies')
+library(fastDummies)
+library(sjmisc)
+DirectMarketing2 <- dummy_cols(DirectMarketing,remove_first_dummy= TRUE,remove_selected_columns = TRUE)
+
+head(DirectMarketing2)
+
+
+```
+
+```{r jj}
+# MOve amount spent to the last column-makes it easier to create independent and independent  variable sets
+DirectMarketing2 <- move_columns(DirectMarketing2,AmountSpent, .after = History_NA)
+head(DirectMarketing2)
+
+```
+```{r Create high/low category for amount spent}
+DirectMarketing3 <- mutate(DirectMarketing2, Amt_Spnt_Class = ifelse(AmountSpent %in% 0:999,'Low',ifelse(AmountSpent %in% 1000:2499,'MidLow',ifelse(AmountSpent %in% 2500:3499,'Med', ifelse(AmountSpent %in% 3500:4499,'MidHigh',ifelse(AmountSpent %in% 4500:10000,'High','UltraHigh'))))))
+head(DirectMarketing3)
+```
+
+
+```{r dummy var for amt_spnt_Class}
+
+DirectMarketing4 <- dummy_cols(DirectMarketing3,select_columns =c('Amt_Spnt_Class'),remove_first_dummy= TRUE ,remove_selected_columns = TRUE)
+
+head(DirectMarketing4)
+
+```
+
+```{r write to clean file}
+write.csv(DirectMarketing4, file = "data/DirectMarketing_Cln.csv", row.names=FALSE)
+
+```
