@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/Week6/Assignment 6 - GSS_2016_Survey.rmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/.ipynb_checkpoints/ClustringAlgorithms-AgglomerativeHiearchical-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/.ipynb_checkpoints/ClustringAlgorithms-Kmeans-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/ClustringAlgorithms-AgglomerativeHiearchical.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/ClustringAlgorithms-Kmeans.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/data_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,7 @@
   </component>
   <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02">
     <option name="files">
+      <option value="Cryptocurrency\cryptoCompany.ipynb" />
       <option value="Week3\DSC630_EdrisSafari_Assignment_3.3.ipynb" />
     </option>
   </component>
@@ -43,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC540" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FinalProject" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -57,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600099682371</updated>
       <workItem from="1600099689890" duration="3872000" />
-      <workItem from="1600992248649" duration="5405000" />
+      <workItem from="1600992248649" duration="10646000" />
     </task>
     <servers />
   </component>
@@ -65,6 +60,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1234" y="235" key="#Notifications" timestamp="1601401238605">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1234" y="235" key="#Notifications/0.0.2560.1080@0.0.2560.1080" timestamp="1601401238605" />
     <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1601066829772">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -85,9 +84,9 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="882" height="170" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1600993854407" />
-    <state x="460" y="252" key="SettingsEditor" timestamp="1600434346659">
+    <state x="460" y="252" key="SettingsEditor" timestamp="1601404744889">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1600434346659" />
+    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1601404744889" />
   </component>
 </project>

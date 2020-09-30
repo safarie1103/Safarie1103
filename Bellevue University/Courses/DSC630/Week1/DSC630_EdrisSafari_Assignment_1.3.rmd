@@ -74,6 +74,7 @@ plot(Jan.x~Year,data=food_and_energy_CPI)
 plot(Jan.y~Year,data=food_and_energy_CPI)
 
 ```
+
 ```{r correlation1,echo=FALSE,message=FALSE,warning=FALSE}
 GGally::ggpairs(all_items_cpi[c("Jan","Feb")],use="complete.obs")
 ```
