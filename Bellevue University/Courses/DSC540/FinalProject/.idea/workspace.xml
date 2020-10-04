@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC550" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC550/Week9and10" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -70,39 +70,20 @@
       <workItem from="1586458090384" duration="598000" />
       <workItem from="1587219979686" duration="5398000" />
       <workItem from="1587414603505" duration="107000" />
+      <workItem from="1601779319738" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1505" y="347" key="FileChooserDialogImpl" timestamp="1587414697501">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="694" y="254" key="FileChooserDialogImpl" timestamp="1601779360208">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="1505" y="347" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1587414697501" />
-    <state width="657" height="262" key="GridCell.Tab.0.bottom" timestamp="1586104653082">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="657" height="262" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1586104653082" />
-    <state width="657" height="262" key="GridCell.Tab.0.center" timestamp="1586104653082">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="657" height="262" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1586104653082" />
-    <state width="657" height="262" key="GridCell.Tab.0.left" timestamp="1586104653082">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="657" height="262" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1586104653082" />
-    <state width="657" height="262" key="GridCell.Tab.0.right" timestamp="1586104653082">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="657" height="262" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1586104653082" />
-    <state x="1327" y="351" key="SettingsEditor" timestamp="1586380290627">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="1327" y="351" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1586380290627" />
+    <state x="694" y="254" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779360208" />
   </component>
 </project>
