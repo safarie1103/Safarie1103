@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/CoursseProject_MmeansClustering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CoursseProject_MmeansClustering.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" afterDir="false" />
@@ -37,7 +36,6 @@
   <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02">
     <option name="files">
       <option value="Cryptocurrency\cryptoCompany.ipynb" />
-      <option value="FinalProject\CoursseProject_KmeansClustering.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1hVcQIB8ysnCJd9LESC2ni6B8XB" />
@@ -69,7 +67,7 @@
       <workItem from="1601779639270" duration="1954000" />
       <workItem from="1601823888528" duration="78000" />
       <workItem from="1601825238736" duration="2327000" />
-      <workItem from="1602080303139" duration="3574000" />
+      <workItem from="1602080303139" duration="4252000" />
     </task>
     <servers />
   </component>
