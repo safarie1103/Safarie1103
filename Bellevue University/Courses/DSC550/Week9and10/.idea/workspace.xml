@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Angular/.idea/Angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Angular/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week9and10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xg_boost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/xg_boost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC630/FinalProject/CourseProject_DataPreparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/CourseProject_DataPreparation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC630/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Week+1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Week+1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Week+4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python/Week+4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Introduction to Data Scienece with Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +75,8 @@
       <workItem from="1601779434332" duration="102000" />
       <workItem from="1601779773581" duration="740000" />
       <workItem from="1601823884782" duration="100000" />
+      <workItem from="1601824937731" duration="11140000" />
+      <workItem from="1602080319291" duration="1806000" />
     </task>
     <servers />
   </component>
@@ -76,16 +84,32 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="227" key="FileChooserDialogImpl" timestamp="1601779538556">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="1238" y="284" key="FileChooserDialogImpl" timestamp="1602019537338">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="743" y="227" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779538556" />
-    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1599671525228" />
-    <state x="555" y="150" key="SettingsEditor" timestamp="1601779914331">
+    <state x="1238" y="284" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602019537338" />
+    <state width="777" height="168" key="GridCell.Tab.0.bottom" timestamp="1602084549536">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="777" height="168" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1602084549536" />
+    <state width="777" height="168" key="GridCell.Tab.0.center" timestamp="1602084549536">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="777" height="168" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1602084549536" />
+    <state width="777" height="168" key="GridCell.Tab.0.left" timestamp="1602084549535">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="777" height="168" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1602084549535" />
+    <state width="777" height="168" key="GridCell.Tab.0.right" timestamp="1602084549536">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="777" height="168" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1602084549536" />
+    <state x="538" y="149" key="SettingsEditor" timestamp="1601945911423">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="555" y="150" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601779914331" />
-    <state x="1368" y="260" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599671497165" />
+    <state x="538" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601945911423" />
+    <state x="1368" y="260" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1601926457304" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

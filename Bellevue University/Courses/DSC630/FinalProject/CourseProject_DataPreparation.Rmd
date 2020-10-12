@@ -200,3 +200,60 @@ DirectMarketing
 write.csv(DirectMarketing, file = "data/DirectMarketing_Cln_Classification.csv", row.names=FALSE)
 
 ```
+
+## Prepare data for clustering
+
+```{r Prepare data for Classification}
+DirectMarketing <- read.csv("Data/DirectMarketing.csv")
+
+drops <- c("History")
+DirectMarketing <- DirectMarketing[!(names(DirectMarketing) %in% drops)]
+DirectMarketing
+```
+
+
+
+
+```{r nominal encode categoricals}
+
+DirectMarketing$Gender <- ifelse(DirectMarketing$Gender == 'Female',0,1)
+DirectMarketing$Age <- ifelse(DirectMarketing$Age == 'Young',1,ifelse(DirectMarketing$Age == 'Middle',2,3))
+DirectMarketing$OwnHome <- ifelse(DirectMarketing$OwnHome == 'Own',0,1)
+DirectMarketing$Married <- ifelse(DirectMarketing$Married == 'Single',0,1)
+DirectMarketing$Location <- ifelse(DirectMarketing$Location == 'Close',0,1)
+
+DirectMarketing
+
+```
+
+
+
+```{r write to clean file}
+write.csv(DirectMarketing, file = "data/DirectMarketing_Cln_Cluster.csv", row.names=FALSE)
+
+```
+
+
+```{r Create high/low category for amount spent}
+quantiles <- quantile(DirectMarketing$AmountSpent)
+MinQ = quantiles[[1]]
+FirstQ = quantiles[[2]]
+MedQ = quantiles[[3]]
+ThirdQ = quantiles[[4]]
+MaxQ = quantiles[[5]]
+
+sprintf('MinQ: %s , FirstQ %s, MedQ %s, ThirdQ %s, MaxQ %s' , MinQ,FirstQ,MedQ,ThirdQ,MaxQ)
+```
+
+
+
+```{r }
+
+DirectMarketing <- mutate(DirectMarketing, Amt_Spnt_Class = ifelse(AmountSpent >= MinQ & AmountSpent <= MedQ,0,
+                                                                    ifelse(AmountSpent > MinQ & AmountSpent <= ThirdQ,1,
+                                                                    ifelse(AmountSpent > ThirdQ & AmountSpent <= MaxQ,2,'NA'))))
+
+# Drop AmountSpent
+drops <- c("AmountSpent")
+
+DirectMarketing

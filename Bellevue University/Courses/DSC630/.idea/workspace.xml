@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Angular/.idea/Angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Angular/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/Week9and10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/CoursseProject_MmeansClustering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CoursseProject_MmeansClustering.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +37,7 @@
   <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02">
     <option name="files">
       <option value="Cryptocurrency\cryptoCompany.ipynb" />
+      <option value="FinalProject\CoursseProject_KmeansClustering.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1hVcQIB8ysnCJd9LESC2ni6B8XB" />
@@ -42,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FinalProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -60,6 +68,8 @@
       <workItem from="1601670717135" duration="6544000" />
       <workItem from="1601779639270" duration="1954000" />
       <workItem from="1601823888528" duration="78000" />
+      <workItem from="1601825238736" duration="2327000" />
+      <workItem from="1602080303139" duration="3574000" />
     </task>
     <servers />
   </component>
@@ -75,26 +85,26 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1601066829772" />
-    <state width="737" height="124" key="GridCell.Tab.0.bottom" timestamp="1601814722617">
+    <state width="737" height="134" key="GridCell.Tab.0.bottom" timestamp="1602087895578">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="737" height="124" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1601814722617" />
-    <state width="737" height="124" key="GridCell.Tab.0.center" timestamp="1601814722616">
+    <state width="737" height="134" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1602087895578" />
+    <state width="737" height="134" key="GridCell.Tab.0.center" timestamp="1602087895577">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="737" height="124" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1601814722616" />
-    <state width="737" height="124" key="GridCell.Tab.0.left" timestamp="1601814722616">
+    <state width="737" height="134" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1602087895577" />
+    <state width="737" height="134" key="GridCell.Tab.0.left" timestamp="1602087895577">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="737" height="124" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1601814722616" />
-    <state width="737" height="124" key="GridCell.Tab.0.right" timestamp="1601814722617">
+    <state width="737" height="134" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1602087895577" />
+    <state width="737" height="134" key="GridCell.Tab.0.right" timestamp="1602087895577">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="737" height="124" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1601814722617" />
-    <state x="276" y="149" key="SettingsEditor" timestamp="1601777167992">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="737" height="134" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1602087895577" />
+    <state x="460" y="252" key="SettingsEditor" timestamp="1601833686145">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="276" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601777167992" />
-    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1601763397409" />
+    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1601833686145" />
   </component>
 </project>
