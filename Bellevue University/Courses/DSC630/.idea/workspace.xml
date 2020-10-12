@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Angular/.idea/Angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Angular/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/Week9and10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/xg_boost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/Introduction to Data Scienece with Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Assignment 4.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Introduction to Data Scienece with Python/Week+4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +53,7 @@
       <workItem from="1601779639270" duration="1954000" />
       <workItem from="1601823888528" duration="78000" />
       <workItem from="1601825238736" duration="2327000" />
-      <workItem from="1602080303139" duration="4252000" />
+      <workItem from="1602080303139" duration="4814000" />
     </task>
     <servers />
   </component>
