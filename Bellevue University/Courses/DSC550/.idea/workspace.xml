@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DSC540/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/FinalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week3/DSC630_EdrisSafari_Assignment_3.3.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week9and10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC630" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -120,6 +116,8 @@
       <workItem from="1601067084141" duration="634000" />
       <workItem from="1601670696966" duration="3465000" />
       <workItem from="1601779638504" duration="112000" />
+      <workItem from="1602521982252" duration="840000" />
+      <workItem from="1602706191307" duration="614000" />
     </task>
     <servers />
   </component>
@@ -127,10 +125,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601779765334">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1602707221665">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779765334" />
+    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602707221665" />
     <state width="743" height="250" key="GridCell.Tab.0.bottom" timestamp="1601744059835">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
