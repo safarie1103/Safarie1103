@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/ML_withPython_Chapter20.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/ML_withPython_Chapter20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/ML_withPython_Chapter20.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +59,7 @@
       <workItem from="1601825238736" duration="2327000" />
       <workItem from="1602080303139" duration="4814000" />
       <workItem from="1602517921848" duration="3567000" />
+      <workItem from="1602707236258" duration="2314000" />
     </task>
     <servers />
   </component>
@@ -67,26 +71,26 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1234" y="235" key="#Notifications/0.0.2560.1080@0.0.2560.1080" timestamp="1601401238605" />
-    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1602528124489">
+    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1602708763520">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602528124489" />
-    <state width="927" height="180" key="GridCell.Tab.0.bottom" timestamp="1602707308328">
+    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602708763520" />
+    <state width="927" height="180" key="GridCell.Tab.0.bottom" timestamp="1602776450600">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="927" height="180" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1602707308328" />
-    <state width="927" height="180" key="GridCell.Tab.0.center" timestamp="1602707308327">
+    <state width="927" height="180" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1602776450600" />
+    <state width="927" height="180" key="GridCell.Tab.0.center" timestamp="1602776450599">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="927" height="180" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1602707308327" />
-    <state width="927" height="180" key="GridCell.Tab.0.left" timestamp="1602707308326">
+    <state width="927" height="180" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1602776450599" />
+    <state width="927" height="180" key="GridCell.Tab.0.left" timestamp="1602776450595">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="927" height="180" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1602707308326" />
-    <state width="927" height="180" key="GridCell.Tab.0.right" timestamp="1602707308327">
+    <state width="927" height="180" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1602776450595" />
+    <state width="927" height="180" key="GridCell.Tab.0.right" timestamp="1602776450599">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="927" height="180" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1602707308327" />
+    <state width="927" height="180" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1602776450599" />
     <state x="460" y="252" key="SettingsEditor" timestamp="1601833686145">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
