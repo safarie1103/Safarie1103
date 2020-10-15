@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1cd6982-931b-4aa8-be81-8b7c2546d9c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DSC540/Week1and2/.ipynb_checkpoints/DSC540_Activity02-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC540/Week1and2/.ipynb_checkpoints/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/ML_withPython_Chapter20-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Prophet/Pro.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Prophet/Prophet.Rproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/Week1and2/DSC540_Activity02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/Week1and2/DSC540_Activity02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_Activity01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/Week3and4/DataWranglingWithPython_Chapter4_Exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/Week3and4/DataWranglingWithPython_Chapter4_Exercises.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML_withPython_Chapter20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML_withPython_Chapter20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week1/ML_withPython_Chapter03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week1/ML_withPython_Chapter03.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week1/ML_withPython_Chapter04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week1/ML_withPython_Chapter04.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/ML_withPython_Chapter07.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/ML_withPython_Chapter07.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week5/ML_withPython_Chapter10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week5/ML_withPython_Chapter10.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC630/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/Week1/DSC630_EdrisSafari_Assignment_1.3.rmd" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1a0EzsctYCTInHV9ICMORLRKDAm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC540" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC550\Week4" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1cd6982-931b-4aa8-be81-8b7c2546d9c0" name="Default Changelist" comment="" />
+      <created>1585864376791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585864376791</updated>
+      <workItem from="1585864381367" duration="7803000" />
+      <workItem from="1585953713465" duration="1926000" />
+      <workItem from="1586187552725" duration="2264000" />
+      <workItem from="1586276004175" duration="6084000" />
+      <workItem from="1586364624560" duration="1955000" />
+      <workItem from="1586458094836" duration="2644000" />
+      <workItem from="1598365329786" duration="492000" />
+      <workItem from="1598365855400" duration="120000" />
+      <workItem from="1598366007986" duration="6558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1415" y="233" key="FileChooserDialogImpl" timestamp="1599168868858">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1415" y="233" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1599168868858" />
+    <state x="1136" y="120" key="SettingsEditor" timestamp="1599168269896">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1136" y="120" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599168269896" />
+  </component>
+</project>

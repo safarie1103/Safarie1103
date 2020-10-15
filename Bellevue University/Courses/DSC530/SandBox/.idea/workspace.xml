@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="192a6063-9237-4a9b-b722-a563e76a8f36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FinalProject/.idea/FinalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalProject/Read_STATA_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/Week5/Assignment 5 - StudentSurvey.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/Week5/Assignment 5 - StudentSurvey.rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/Week5/Assignment-5---StudentSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/Week5/Assignment-5---StudentSurvey.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1VAlAMWCBpQJZGaeP8BuQYJDp34" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Kaggle/IntroductionToMachineLearning" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.subplots">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="SandBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pmf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SandBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pmf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SandBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subplots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SandBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subplots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.subplots" />
+        <item itemvalue="Python.pyplot" />
+        <item itemvalue="Python.pmf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="192a6063-9237-4a9b-b722-a563e76a8f36" name="Default Changelist" comment="" />
+      <created>1576703635109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576703635109</updated>
+      <workItem from="1576703653724" duration="19742000" />
+      <workItem from="1577395733802" duration="753000" />
+      <workItem from="1577402150940" duration="12470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="257" key="FileChooserDialogImpl" timestamp="1577822636358">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="723" y="257" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1577822636358" />
+    <state width="845" height="258" key="GridCell.Tab.0.bottom" timestamp="1578945621359">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="845" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578253402214" />
+    <state width="845" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1578945621359" />
+    <state width="845" height="258" key="GridCell.Tab.0.center" timestamp="1578945621358">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="845" height="258" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578253402214" />
+    <state width="845" height="258" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1578945621358" />
+    <state width="845" height="258" key="GridCell.Tab.0.left" timestamp="1578945621358">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="845" height="258" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578253402214" />
+    <state width="845" height="258" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1578945621358" />
+    <state width="845" height="258" key="GridCell.Tab.0.right" timestamp="1578945621359">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="845" height="258" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578253402214" />
+    <state width="845" height="258" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1578945621359" />
+    <state width="1690" height="319" key="GridCell.Tab.1.bottom" timestamp="1576965594726">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1690" height="319" key="GridCell.Tab.1.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1576965594726" />
+    <state width="1690" height="319" key="GridCell.Tab.1.center" timestamp="1576965594725">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1690" height="319" key="GridCell.Tab.1.center/0.0.2560.1080@0.0.2560.1080" timestamp="1576965594725" />
+    <state width="1690" height="319" key="GridCell.Tab.1.left" timestamp="1576965594725">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1690" height="319" key="GridCell.Tab.1.left/0.0.2560.1080@0.0.2560.1080" timestamp="1576965594725" />
+    <state width="1690" height="319" key="GridCell.Tab.1.right" timestamp="1576965594725">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1690" height="319" key="GridCell.Tab.1.right/0.0.2560.1080@0.0.2560.1080" timestamp="1576965594725" />
+    <state x="1279" y="221" key="SettingsEditor" timestamp="1578931162607">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1279" y="221" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1578931162607" />
+    <state x="639" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1577402326640">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="639" y="339" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577402326640" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SandBox$pmf.coverage" NAME="pmf Coverage Results" MODIFIED="1577395831148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SandBox$pyplot.coverage" NAME="pyplot Coverage Results" MODIFIED="1578253273148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3964150d-e122-499b-aaf3-72d593410ac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/gmaps_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/area_total_finished-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/area_total_finished-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/correlation1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/correlation1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on lat-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on lat-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on longitude-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/density plot on longitude-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/num_room-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA_files/figure-html/num_room-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/installed-files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps-4.4.0-py3.7.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/directions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/distance_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/elevation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/geocoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/geolocation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/maps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/places.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/roads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/venv/Lib/site-packages/googlemaps/timezone.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1TAIPvNN4KCeosPGmZH2jhd7exH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DSC550" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Python.DCS510_Safari_ObjectOrientedCashRegister">
+    <configuration name="DCS510_Safari_ObjectOrientedCashRegister" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Week11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DCS510_Safari_ObjectOrientedCashRegister.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DCS510_Safari_OpbjectOrientedCashRegister" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Week11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DCS510_Safari_OpbjectOrientedCashRegister.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DCS510_Safari_ObjectOrientedCashRegister" />
+        <item itemvalue="Python.DCS510_Safari_OpbjectOrientedCashRegister" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3964150d-e122-499b-aaf3-72d593410ac7" name="Default Changelist" comment="" />
+      <created>1572896452947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572896452947</updated>
+      <workItem from="1572896454071" duration="3825000" />
+      <workItem from="1573080752139" duration="3182000" />
+      <workItem from="1573393449435" duration="10669000" />
+      <workItem from="1573410611563" duration="48000" />
+      <workItem from="1573410713462" duration="5060000" />
+      <workItem from="1573567191512" duration="2086000" />
+      <workItem from="1573624379138" duration="4066000" />
+      <workItem from="1573850279460" duration="599000" />
+      <workItem from="1590613789076" duration="747000" />
+      <workItem from="1590615229001" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="791" y="337" key="FileChooserDialogImpl" timestamp="1590617341924">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="791" y="337" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590617341924" />
+    <state width="1400" height="199" key="GridCell.Tab.0.bottom" timestamp="1590615207243">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1400" height="199" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1590615207243" />
+    <state width="1400" height="199" key="GridCell.Tab.0.center" timestamp="1590615207243">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1400" height="199" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1590615207243" />
+    <state width="1400" height="199" key="GridCell.Tab.0.left" timestamp="1590615207242">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1400" height="199" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1590615207242" />
+    <state width="1400" height="199" key="GridCell.Tab.0.right" timestamp="1590615207243">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1400" height="199" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1590615207243" />
+    <state x="781" y="185" key="SettingsEditor" timestamp="1590613948971">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="781" y="185" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1590613948971" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DCS510_Safari_ObjectOrientedCashRegister.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DCS510_Safari_ObjectOrientedCashRegister.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Week11$DCS510_Safari_ObjectOrientedCashRegister.coverage" NAME="DCS510_Safari_ObjectOrientedCashRegister Coverage Results" MODIFIED="1590613886582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Week11$DCS510_Safari_OpbjectOrientedCashRegister.coverage" NAME="DCS510_Safari_OpbjectOrientedCashRegister Coverage Results" MODIFIED="1573085967583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

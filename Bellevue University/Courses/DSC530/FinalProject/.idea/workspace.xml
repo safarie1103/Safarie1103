@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe386457-eed3-4d38-97bb-0d37e0f6983a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/MachineLearning AtoZ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 2 - Regression/.idea/Part 2 - Regression.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/DataCamp/Correlation_and_Regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/DataCamp/Correlation_and_Regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Basic.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Basic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Nice.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Nice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter7/Chapter 7 DSUR Regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter7/Chapter 7 DSUR Regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/categorical_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 1 - Data Preprocessing/categorical_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 3 - Classification/Section 14 - Logistic Regression/logistic_regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 3 - Classification/Section 14 - Logistic Regression/logistic_regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/knn.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/knn.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MachineLearning AtoZ/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.R" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1WLZRuJYZ8MSNVE1UqM8o1RmTnB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ThinkStats2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Read_STATA_File" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Read_STATA_File.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Read_STATA_File" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe386457-eed3-4d38-97bb-0d37e0f6983a" name="Default Changelist" comment="" />
+      <created>1578930830912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578930830912</updated>
+      <workItem from="1578930839483" duration="4206000" />
+      <workItem from="1579024560883" duration="1795000" />
+      <workItem from="1579204476811" duration="599000" />
+      <workItem from="1580912522822" duration="1110000" />
+      <workItem from="1587184373201" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1193" y="121" key="#Read_STATA_File" timestamp="1578931083823">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1193" y="121" key="#Read_STATA_File/0.0.2560.1080@0.0.2560.1080" timestamp="1578931083823" />
+    <state x="951" y="261" key="FileChooserDialogImpl" timestamp="1587184392409">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="951" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587184392409" />
+    <state x="1268" y="261" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1581266072275" />
+    <state width="2009" height="221" key="GridCell.Tab.0.bottom" timestamp="1578940074815">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2009" height="221" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1578940074815" />
+    <state width="2009" height="221" key="GridCell.Tab.0.center" timestamp="1578940074815">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2009" height="221" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1578940074815" />
+    <state width="2009" height="221" key="GridCell.Tab.0.left" timestamp="1578940074815">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2009" height="221" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1578940074814" />
+    <state width="2009" height="221" key="GridCell.Tab.0.right" timestamp="1578940074815">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2009" height="221" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1578940074815" />
+    <state x="974" y="149" key="SettingsEditor" timestamp="1578938833319">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="974" y="149" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1578938833319" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$Read_STATA_File.coverage" NAME="Read_STATA_File Coverage Results" MODIFIED="1578940074802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

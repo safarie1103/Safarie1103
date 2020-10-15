@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aa6fc02-b463-42aa-9553-43850d50b296" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/MachineLearning AtoZ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 2 - Regression/.idea/Part 2 - Regression.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DataCamp/Correlation_and_Regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DataCamp/Correlation_and_Regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Basic.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Basic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Nice.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter6/06 Advert Scatter Nice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter7/Chapter 7 DSUR Regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC520/DiscoveringStatistics_CompanionWebSite/ScriptFiles/Chapter7/Chapter 7 DSUR Regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Melbourne_HousePricing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Melbourne_HousePricing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 1 - Data Preprocessing/categorical_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 1 - Data Preprocessing/categorical_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 3 - Classification/Section 14 - Logistic Regression/logistic_regression.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 3 - Classification/Section 14 - Logistic Regression/logistic_regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/knn.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/knn.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../MachineLearning AtoZ/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.R" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1TLJMk2Gpe0WyEpt9TCGXBGvvLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bellevue University/Courses/DSC510/Safari_Edris_DSC510/FinalProject" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aa6fc02-b463-42aa-9553-43850d50b296" name="Default Changelist" comment="" />
+      <created>1573233396495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573233396495</updated>
+      <workItem from="1573233404445" duration="2726000" />
+      <workItem from="1577822641501" duration="621000" />
+      <workItem from="1581868579396" duration="1249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="728" y="325" key="FileChooserDialogImpl" timestamp="1581951211688">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="325" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581951211688" />
+  </component>
+</project>

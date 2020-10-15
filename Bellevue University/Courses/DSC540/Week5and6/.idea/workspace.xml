@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c54ec766-4046-4e46-ab26-a381f97899d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalProject/DSC540_EdrisSafari_FinalProject_Milestone2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/Data/properties_2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/Data/properties_2017.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JupyterTrust" id="caeb0de2-bfa3-4c08-ac88-1f9e80b08f02" />
+  <component name="ProjectId" id="1ajkFgbq8ZLAsyMNQDYNBL8OXHB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC550" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c54ec766-4046-4e46-ab26-a381f97899d0" name="Default Changelist" comment="" />
+      <created>1587256288978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587256288978</updated>
+      <workItem from="1587256330935" duration="9244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="917" y="274" key="FileChooserDialogImpl" timestamp="1587329215869">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="688" y="274" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587311936658" />
+    <state x="917" y="274" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1587329215869" />
+    <state x="598" y="142" key="SettingsEditor" timestamp="1587312884150">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="598" y="142" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587312884150" />
+    <state x="797" y="142" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1587261530561" />
+  </component>
+</project>
