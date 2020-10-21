@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_withPython_Chapter20.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/ML_withPython_Chapter20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/ML_withPython_Chapter20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC630" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week9and10" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -124,6 +123,7 @@
       <workItem from="1602708782446" duration="2501000" />
       <workItem from="1602775413553" duration="610000" />
       <workItem from="1602776290375" duration="16000" />
+      <workItem from="1602867739582" duration="1319000" />
     </task>
     <servers />
   </component>
@@ -131,11 +131,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1602776302978">
+    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1602953626786">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1602953626786" />
+    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1603129607702">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779765334" />
-    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602776302978" />
+    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1603129607702" />
     <state width="930" height="328" key="GridCell.Tab.0.bottom" timestamp="1602709253686">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
