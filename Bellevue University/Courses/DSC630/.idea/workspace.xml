@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC630.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KDDcup/KDDCup1998.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/KDDcup/KDDCup1998.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <workItem from="1602707236258" duration="2314000" />
       <workItem from="1602776313510" duration="5272000" />
       <workItem from="1603133990260" duration="1366000" />
-      <workItem from="1603295672856" duration="932000" />
+      <workItem from="1603295672856" duration="1472000" />
     </task>
     <servers />
   </component>
