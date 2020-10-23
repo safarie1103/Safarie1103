@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../New Text Document.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Machine+Learning+A-Z" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../dsc630Project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC630\Week3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -88,7 +95,7 @@
       <workItem from="1602776313510" duration="5272000" />
       <workItem from="1603133990260" duration="1366000" />
       <workItem from="1603295672856" duration="1510000" />
-      <workItem from="1603310994216" duration="2060000" />
+      <workItem from="1603310994216" duration="3390000" />
     </task>
     <servers />
   </component>
@@ -103,10 +110,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1234" y="235" key="#Notifications/0.0.2560.1080@0.0.2560.1080" timestamp="1601401238605" />
-    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1603466960355">
+    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1603490440221">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1603466960355" />
+    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1603490440221" />
     <state width="932" height="178" key="GridCell.Tab.0.bottom" timestamp="1603295986076">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
