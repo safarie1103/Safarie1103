@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../New Text Document.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -25,13 +27,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1hVcQIB8ysnCJd9LESC2ni6B8XB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Machine+Learning+A-Z" />
@@ -83,12 +88,15 @@
       <workItem from="1602776313510" duration="5272000" />
       <workItem from="1603133990260" duration="1366000" />
       <workItem from="1603295672856" duration="1510000" />
-      <workItem from="1603310994216" duration="1289000" />
+      <workItem from="1603310994216" duration="2060000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1234" y="235" key="#Notifications" timestamp="1601401238605">
@@ -120,6 +128,10 @@
     </state>
     <state x="276" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601777167992" />
     <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1603295921453" />
+    <state x="796" y="302" key="Vcs.Push.Dialog.v2" timestamp="1603471364340">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="796" y="302" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1603471364340" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

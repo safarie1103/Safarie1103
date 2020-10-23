@@ -5,7 +5,7 @@
 *.exe
 *.zip
 *.csv
-env/
+venv/
 data/
 Bellevue University/Courses/DSC550/Week2/controversial-comments.jsonl
 Bellevue University/Courses/DSC550/Week2/controversial-comments_small.jsonl

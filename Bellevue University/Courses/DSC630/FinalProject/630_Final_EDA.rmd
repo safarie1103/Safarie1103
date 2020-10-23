@@ -1,0 +1,80 @@
+---
+title: "Final EDA"
+author: "Group 3"
+date: "9/18/2020"
+output: word_document
+---
+```{r, echo = FALSE}
+library(ggplot2)
+```
+
+```{r, echo = FALSE}
+# read file
+df <- read.table("DirectMarketing.csv", header = TRUE, sep = ",")
+head(df)
+```
+
+
+
+
+```{r, echo = FALSE}
+summary(df)
+str(df)
+```
+Even sample of Gender, OwnHome, and Married. Good balance of History. 
+
+## Histograms
+```{r, echo = FALSE}
+salary <- df$Salary
+hist(salary)
+
+children <- df$Children
+hist(children)
+
+catalog <- df$Catalogs
+hist(catalog)
+
+spent <- df$AmountSpent
+hist(spent)
+```
+
+
+## Boxplots
+```{r, echo = FALSE}
+ggplot(df, (aes(y=AmountSpent, x=History))) + geom_boxplot() + labs(x = "History", y = "Amount Spent", title = "Box plot of Amount Spent by History")
+
+ggplot(df, (aes(y=AmountSpent, x=Married))) + geom_boxplot() + labs(x = "Marital Status", y = "Amount Spent", title = "Box plot of Amount Spent by Marital Status")
+
+ggplot(df, (aes(y=AmountSpent, x=OwnHome))) + geom_boxplot() + labs(x = "Home Type", y = "Amount Spent", title = "Box plot of Amount Spent by Home Type")
+
+ggplot(df, (aes(y=AmountSpent, x=Gender))) + geom_boxplot() + labs(x = "Gender", y = "Amount Spent", title = "Box plot of Amount Spent by Gender")
+
+ggplot(df, (aes(y=AmountSpent, x=Age))) + geom_boxplot() + labs(x = "Age", y = "Amount Spent", title = "Box plot of Amount Spent by Age")
+
+ggplot(df, (aes(y=AmountSpent, x=Location))) + geom_boxplot() + labs(x = "Location", y = "Amount Spent", title = "Box plot of Amount Spent by Location")
+```
+
+## Scatter plots
+```{r, echo = FALSE}
+ggplot(df, aes(x=Catalogs, y = AmountSpent)) + geom_point() + geom_smooth(method = "lm") + labs(title = "Amount Spent vs. Catalogs", x = "Catalogs", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent)) + geom_point() + geom_smooth(method = "lm") + labs(title = "Amount Spent vs. Salary", x = "Salary", y = "Amount Spent")
+
+ggplot(df, aes(x=Children, y = AmountSpent)) + geom_point() + geom_smooth(method = "lm") + labs(title = "Amount Spent vs. Number of Children", x = "Number of Children", y = "Amount Spent")
+
+ggplot(df, aes(x=Catalogs, y = AmountSpent, color = History)) + geom_point() + labs(title = "Amount Spent vs. Catalogs", x = "Catalogs", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent, color = History)) + geom_point() + labs(title = "Amount Spent vs. History", x = "Salary", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent, color = Married)) + geom_point() + labs(title = "Amount Spent vs. Salary", x = "Salary", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent, color = OwnHome)) + geom_point() + labs(title = "Amount Spent vs. Salary", x = "Salary", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent, color = Gender)) + geom_point() + labs(title = "Amount Spent vs. Salary", x = "Salary", y = "Amount Spent")
+
+ggplot(df, aes(x=Salary, y = AmountSpent, color = Age)) + geom_point() + labs(title = "Amount Spent vs. Salary", x = "Salary", y = "Amount Spent")
+```
+
+# Summary
+Married, own a home, male, middle or older aged, have less children might spend more.
+Salary and Amount spent correlate. 

@@ -1,0 +1,112 @@
+---
+title: "DSC630 Project Group 3 Marketing Data"
+date: "2020"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(reticulate)
+path_to_python <- "C:/ProgramData/Anaconda3"
+use_python(path_to_python)
+
+```
+
+
+
+#### Using R
+
+
+
+```{r}
+
+# Install the ggplot2 package if not already installed
+#install.packages("ggplot2")
+#install.packages("pastecs")
+#install.packages(c("rmarkdown","shiny","knit"))
+#install.packages(c("Rcpp", "readr"))
+#install.packages("Hmisc", repos = "http://cran.us.r-project.org")
+#install.packages("ggm",repos = "http://cran.us.r-project.org")
+#install.packages("polycor", repos = "http://cran.us.r-project.org")
+#install.packages("readxl", repos = "http://cran.us.r-project.org")
+#install.packages("QuantPsyc", repos = "http://cran.us.r-project.org")
+#install.packages("car", repos = "http://cran.us.r-project.org")
+#install.packages("reticulate", repos = "http://cran.us.r-project.org")
+install.packages("fastDummies", repos = "http://cran.us.r-project.org")
+# Load the packages
+library(ggplot2)
+library(pastecs)
+library(readxl)
+library(boot)
+library(ggm)
+library(Hmisc)
+library(polycor)
+library(data.table)
+library(QuantPsyc)
+library(car)
+library(car)
+library(purrr)
+library(foreign)
+library(mlogit)
+library(dplyr)
+library(caret)
+library(regclass)
+library(fastDummies)
+
+
+#Set working directory
+setwd("C:/Users/kryp_/Documents/conrad/MSDSC/DSC630/project")
+
+# load team library file
+source_python("group3lib.py")
+
+marketing_df <- read_file()
+
+str(marketing_df )
+
+# based on variable values
+no_purchases <- marketing_df[ which(marketing_df$AmountSpent <= 0), ]
+str(no_purchases)
+
+
+DirectMarketing <- marketing_df
+
+DirectMarketing1 <- dummy_cols(DirectMarketing,select_columns =c('Age','Gender','OwnHome','Married','Location','History') ,remove_selected_columns = TRUE)
+
+ 
+
+head(DirectMarketing1)
+
+
+```
+
+
+### Using Python
+
+```{python}
+
+# loading libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+# Set the random seed
+np.random.seed(3)   
+
+
+print(r.marketing_df.head())
+
+
+```
+
+
+## References
+https://rstudio.github.io/reticulate/#:~:text=1)%20Python%20in%20R%20Markdown,it's%20functions%20directly%20from%20R.
+https://bookdown.org/yihui/rmarkdown-cookbook/eng-python.html
+https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
+https://rpubs.com/onduuuu/python_in_r
+
