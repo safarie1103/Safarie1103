@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/AWS Certified Solutions Architect Slides v3.4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/api-gateway/lambda-code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/cli/ec2-metadata.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/cloudformation/0-just-ec2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/cloudformation/1-ec2-with-sg-eip.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/ebs/commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/ec2-fundamentals/ec2-basics.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/ec2-fundamentals/ec2-user-data.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/efs/efs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/kms/ExampleSecretFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/kms/kms-demo-cli.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/route53/user-data.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3-advanced/athena-s3-access-logs.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3-advanced/mfa-delete.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3-advanced/pre-signed-url.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/CORS_CONFIG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/beach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/coffee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/extra-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/index-with-fetch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/s3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/sqs/sqs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/ssm/cli.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AWS Certified Solutions  Architect/code/ssm/handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindingEnsembleWeights/.ipynb_checkpoints/FindingEnsembleWeights-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindingEnsembleWeights/FindingEnsembleWeights.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindingEnsembleWeights/finding_ensamble_weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/BinomialDistribution.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/RwithSuperLearner.Rmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_DataPreparation.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/.ipynb_checkpoints/DSC630_EdrisSafari_Assignment_9.4-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/.ipynb_checkpoints/DSC630_EdrisSafari_Assignment_9.4-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindingEnsembleWeights/FindingEnsembleWeights.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FindingEnsembleWeights/FindingEnsembleWeights.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9/DSC630_EdrisSafari_Assignment_9.4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/DSC630_EdrisSafari_Assignment_9.4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +98,7 @@
       <workItem from="1602776313510" duration="5272000" />
       <workItem from="1603133990260" duration="1366000" />
       <workItem from="1603295672856" duration="1510000" />
-      <workItem from="1603310994216" duration="8270000" />
+      <workItem from="1603310994216" duration="8795000" />
     </task>
     <servers />
   </component>
