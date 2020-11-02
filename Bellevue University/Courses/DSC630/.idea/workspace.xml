@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week9/BinomialDistribution.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week9/RwithSuperLearner.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSC630_EdrisSafari_Assignment_9.4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Sandbox.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FindingEnsembleWeights/FindingEnsembleWeights.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FindingEnsembleWeights/FindingEnsembleWeights.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9/.ipynb_checkpoints/DSC630_EdrisSafari_Assignment_9.4-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/.ipynb_checkpoints/DSC630_EdrisSafari_Assignment_9.4-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9/DSC630_EdrisSafari_Assignment_9.4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/DSC630_EdrisSafari_Assignment_9.4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +44,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../dsc630Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week9" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC630\Week9" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\safar\Documents\GitHub\Safarie1103\Bellevue University\Courses\DSC630\Week3" />
     </key>
@@ -98,7 +101,7 @@
       <workItem from="1602776313510" duration="5272000" />
       <workItem from="1603133990260" duration="1366000" />
       <workItem from="1603295672856" duration="1510000" />
-      <workItem from="1603310994216" duration="8795000" />
+      <workItem from="1603310994216" duration="10420000" />
     </task>
     <servers />
   </component>
