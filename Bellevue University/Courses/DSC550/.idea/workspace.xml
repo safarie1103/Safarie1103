@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC540/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/Clustering_and_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/Clustering_and_KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_KmeansClustering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_KmeansClustering.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/tree.dot" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/tree.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week5/credit-card-fraud-detection-predictive-models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week5/credit-card-fraud-detection-predictive-models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.Rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week9and10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC630" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -124,6 +135,7 @@
       <workItem from="1602775413553" duration="610000" />
       <workItem from="1602776290375" duration="16000" />
       <workItem from="1602867739582" duration="1319000" />
+      <workItem from="1604342835911" duration="2186000" />
     </task>
     <servers />
   </component>
@@ -135,32 +147,32 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1602953626786" />
-    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1603129607702">
+    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1604343433165">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779765334" />
-    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1603129607702" />
-    <state width="930" height="328" key="GridCell.Tab.0.bottom" timestamp="1602709253686">
+    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1604343433165" />
+    <state width="692" height="231" key="GridCell.Tab.0.bottom" timestamp="1604343007373">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="930" height="328" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1602709253686" />
-    <state width="930" height="328" key="GridCell.Tab.0.center" timestamp="1602709253686">
+    <state width="692" height="231" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1604343007373" />
+    <state width="692" height="231" key="GridCell.Tab.0.center" timestamp="1604343007372">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="930" height="328" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1602709253686" />
-    <state width="930" height="328" key="GridCell.Tab.0.left" timestamp="1602709253685">
+    <state width="692" height="231" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1604343007372" />
+    <state width="692" height="231" key="GridCell.Tab.0.left" timestamp="1604343007371">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="930" height="328" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1602709253685" />
-    <state width="930" height="328" key="GridCell.Tab.0.right" timestamp="1602709253686">
+    <state width="692" height="231" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1604343007371" />
+    <state width="692" height="231" key="GridCell.Tab.0.right" timestamp="1604343007373">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="930" height="328" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1602709253686" />
-    <state x="309" y="74" key="SettingsEditor" timestamp="1601779727156">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="692" height="231" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1604343007373" />
+    <state x="1091" y="241" key="SettingsEditor" timestamp="1604516538778">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="309" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601779727156" />
-    <state x="1091" y="241" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599671728604" />
+    <state x="1091" y="241" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1604516538778" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
