@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/DSC550_EdrisSafari_Assignment_2.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/Clustering_and_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/Clustering_and_KNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_KmeansClustering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_KmeansClustering.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/tree.dot" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/tree.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/FinalProject/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/FinalProject/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/Week5/credit-card-fraud-detection-predictive-models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week5/credit-card-fraud-detection-predictive-models.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/Week9/RwithSuperLearner.Rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
