@@ -1,0 +1,118 @@
+---
+title: "Project_Linear_Regression"
+author: "Group 3"
+date: ""
+output: word_document
+---
+
+# Packages
+```{r, message = FALSE, warning=FALSE}
+library(ggplot2)
+library(caret)
+library(caTools)
+library(lattice)
+```
+
+
+The best model predictors: 
+Salary, Children, Location_Close
+
+```{r}
+# read file
+marketing <- read.table('DM_LR.csv', header = TRUE, sep = ",")
+head(marketing)
+```
+
+```{r}
+# set seed for reproduction
+set.seed(123)
+
+split <- sample.split(marketing, SplitRatio = 0.8)
+train <- subset(marketing, split == TRUE)
+test <- subset(marketing, split == FALSE)
+```
+
+```{r}
+train_model1 = lm(formula = AmountSpent ~ Salary, data = train)
+summary(train_model1)
+confint(train_model1)
+```
+```{r}
+train_model2 = lm(formula = AmountSpent ~ Salary + Gender_Male + OwnHome_Own + Married_Married + Location_Close + Age_Middle + Children + Age_Old, data = train)
+summary(train_model2)
+confint(train_model2)
+```
+
+```{r}
+train_model3 = lm(formula = AmountSpent ~ Salary + Location_Close + Children + OwnHome_Own, data = train)
+summary(train_model3)
+confint(train_model3)
+```
+
+```{r}
+train_model4 = lm(formula = AmountSpent ~ Salary + Location_Close + Children, data = train)
+summary(train_model4)
+confint(train_model4)
+```
+
+
+
+
+```{r}
+train_model5 = lm(formula = AmountSpent ~ Salary + Location_Close + Children + OwnHome_Own + Age_Old, data = train)
+summary(train_model5)
+confint(train_model5)
+```
+
+
+```{r}
+AIC(train_model4, train_model3)
+```
+AIC for model 4 is better than model 3
+
+
+```{r}
+AIC(train_model4, train_model5)
+```
+AIC for model 4 is better than model 5
+
+
+```{r}
+AIC(train_model1, train_model4)
+```
+AIC for model 4 is better than model 1
+
+# Test Set Performance
+
+```{r}
+# predict on both train and test sets
+pred_train <- predict(train_model4, train)
+pred_test <- predict(train_model4, test)
+
+# RMSE for test data
+error <- (pred_train - train$AmountSpent)
+RMSE_Model <- sqrt(mean(error^2))
+
+# RMSE for train data
+error1 <- (pred_test - test$AmountSpent)
+RMSE_NewData <- sqrt(mean(error1^2))
+
+# compare the two
+Method <- c("Train/Test Split")
+ModelRMSE <- c(RMSE_Model)
+RMSENewData <- c(RMSE_NewData)
+
+table1 <- data.frame(Method, ModelRMSE, RMSENewData)
+table1
+
+```
+
+# Predict
+```{r}
+p <- predict(train_model4, test)
+p
+```
+
+Resource: http://rstudio-pubs-static.s3.amazonaws.com/443937_b6d1e8c589c248bdaa2ccbcc44ae3a1d.html
+https://rpubs.com/josevilardy/crossvalidation
+

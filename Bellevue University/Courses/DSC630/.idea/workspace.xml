@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5beafcc6-8034-4fc2-9fb4-f4792e797e61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC550/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/dsc630Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_DecisionTree-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_KNN-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/630_Final_EDA.rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/Clustering_and_KNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_DataPreparation.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_KmeansClustering.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_Modeling_LogisticRegression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/CourseProject_Modeling_RandomForest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/DSC630_Project_Group3_Main.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/DirectMarketing_LinearRegression.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/dsc630Project.Rproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/group3lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/milestones/DSC630_EdrisSafari_FinalProject_Milestone2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/milestones/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/tree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/dsc630Project/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/.ipynb_checkpoints/text-mining-the-clinton-and-trump-election-tweets-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/text-mining-the-clinton-and-trump-election-tweets.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +75,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC550/Week9and10" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,7 +133,8 @@
       <workItem from="1603133990260" duration="1366000" />
       <workItem from="1603295672856" duration="1510000" />
       <workItem from="1603310994216" duration="10420000" />
-      <workItem from="1604343437564" duration="3942000" />
+      <workItem from="1604343437564" duration="3945000" />
+      <workItem from="1605276343077" duration="4137000" />
     </task>
     <servers />
   </component>
@@ -116,31 +153,31 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1234" y="235" key="#Notifications/0.0.2560.1080@0.0.2560.1080" timestamp="1601401238605" />
-    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1603490440221">
+    <state x="596" y="191" key="FileChooserDialogImpl" timestamp="1605373984036">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1603490440221" />
-    <state width="498" height="178" key="GridCell.Tab.0.bottom" timestamp="1604669920046">
+    <state x="596" y="191" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1605373984036" />
+    <state width="630" height="178" key="GridCell.Tab.0.bottom" timestamp="1605368288252">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="498" height="178" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1604669920046" />
-    <state width="498" height="178" key="GridCell.Tab.0.center" timestamp="1604669920045">
+    <state width="630" height="178" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1605368288252" />
+    <state width="630" height="178" key="GridCell.Tab.0.center" timestamp="1605368288251">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="498" height="178" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1604669920045" />
-    <state width="498" height="178" key="GridCell.Tab.0.left" timestamp="1604669920045">
+    <state width="630" height="178" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1605368288251" />
+    <state width="630" height="178" key="GridCell.Tab.0.left" timestamp="1605368288250">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="498" height="178" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1604669920045" />
-    <state width="498" height="178" key="GridCell.Tab.0.right" timestamp="1604669920046">
+    <state width="630" height="178" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1605368288250" />
+    <state width="630" height="178" key="GridCell.Tab.0.right" timestamp="1605368288251">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="498" height="178" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1604669920046" />
-    <state x="460" y="252" key="SettingsEditor" timestamp="1605033623306">
+    <state width="630" height="178" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1605368288251" />
+    <state x="460" y="252" key="SettingsEditor" timestamp="1605374249467">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="276" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601777167992" />
-    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1605033623306" />
+    <state x="460" y="252" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1605374249467" />
     <state x="796" y="302" key="Vcs.Push.Dialog.v2" timestamp="1603471364340">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

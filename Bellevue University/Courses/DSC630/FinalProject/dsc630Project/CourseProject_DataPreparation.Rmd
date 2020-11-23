@@ -1,0 +1,264 @@
+---
+title: "CourseProject_DataPreparation"
+author: "edris safari"
+date: "9/21/2020"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r ,echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(stats)
+library(GGally)
+library(dplyr)
+library(tidyr)
+library(dplyr)
+library(scatterplot3d)
+library(psych)
+```
+
+
+# Load the dataset
+
+```{r Load dataset}
+getwd()
+setwd(".\\")
+getwd()
+
+DirectMarketing <- read.csv("Data/DirectMarketing.csv")
+
+str(DirectMarketing) 
+head(DirectMarketing)
+nrow(DirectMarketing)
+
+```
+```{r get percentage of missing values in each feature ,echo=FALSE,message=FALSE,warning=FALSE}
+# Cleanup features with too many missing values
+missing_values <- DirectMarketing %>% summarize_each(funs(sum(is.na(.))/n()))
+missing_values <- gather(missing_values, key="feature", value="missing_pct")
+# select features with less than 75% missing values
+good_features <- filter(missing_values, missing_pct<0.75)
+print(good_features)
+```
+
+## Features with percentage of missing values
+
+```{r Plot features with missing percentage,echo=FALSE,message=FALSE,warning=FALSE}
+# Plot the missing value histogram
+missing_values %>% 
+  ggplot(aes(x=reorder(feature,-missing_pct),y=missing_pct)) +
+  geom_bar(stat="identity",fill="red")+
+  coord_flip()+theme_bw()
+```
+```{r PCA}
+drops <- c("History")
+DirectMarketing <- DirectMarketing[!(names(DirectMarketing) %in% drops)]
+
+str(DirectMarketing)
+```
+
+
+
+
+```{r create dummy variables}
+
+
+#install.packages('fastDummies')
+library(fastDummies)
+library(sjmisc)
+DirectMarketing <- dummy_cols(DirectMarketing,remove_first_dummy= TRUE,remove_selected_columns = TRUE)
+
+head(DirectMarketing)
+
+
+```
+```{r rename columns names}
+
+DirectMarketing <- DirectMarketing %>% rename(
+  Old = Age_Old,
+  Young = Age_Young,
+  Gender = Gender_Male,
+  OwnHome = OwnHome_Rent,
+  Married = Married_Single,
+  Distance = Location_Far)
+
+head(DirectMarketing)
+```
+
+
+
+
+```{r move independent variable}
+# MOve amount spent to the last column-makes it easier to create independent and independent  variable sets
+DirectMarketing <- move_columns(DirectMarketing,AmountSpent, .after = last_col())
+head(DirectMarketing)
+
+```
+```{r scatter plot AmountSpent vs Salary}
+
+DirectMarketing %>% 
+  ggplot(aes(x=AmountSpent,y=Salary, color=factor(Gender))) + ggtitle("AmountSpent vs Salary") + geom_point()
+             
+```
+
+
+
+```{r plot3,echo=FALSE,message=FALSE,warning=FALSE}
+# DirectMarketing of logerror with binning
+DirectMarketing %>% 
+  ggplot(aes(x=AmountSpent)) +  ggtitle("AmountSpent binned") +
+  geom_histogram(bins=50, fill="blue")+
+  theme_bw()+theme(axis.title = element_text(size=16),axis.text = element_text(size=14))+
+  ylab("Count")+coord_cartesian(x=c(0,10000))  
+```
+
+```{r correlation1,echo=FALSE,message=FALSE,warning=FALSE}
+GGally::ggpairs(DirectMarketing[,-ncol(DirectMarketing)],use="complete.obs")
+```
+
+```{r write to clean file for linear regression }
+write.csv(DirectMarketing, file = "data/DirectMarketing_Cln_LR.csv", row.names=FALSE)
+
+```
+
+
+## Prepare data for Classification
+
+```{r Prepare data for Classification}
+DirectMarketing <- read.csv("Data/DirectMarketing.csv")
+
+drops <- c("History")
+DirectMarketing <- DirectMarketing[!(names(DirectMarketing) %in% drops)]
+
+
+DirectMarketing <- dummy_cols(DirectMarketing,remove_first_dummy= FALSE,remove_selected_columns = TRUE)
+
+
+
+head(DirectMarketing)
+
+```
+```{r rename columns names}
+
+DirectMarketing <- DirectMarketing %>% rename(
+  Old = Age_Old,
+  Middle = Age_Middle,
+  Young = Age_Young,
+  Male = Gender_Male,
+  Female = Gender_Female,
+  Own = OwnHome_Own,
+  Rent = OwnHome_Rent,
+  Married = Married_Married,
+  Single = Married_Single,
+  Far = Location_Far,
+  Close = Location_Close)
+
+head(DirectMarketing)
+```
+
+
+
+
+```{r move independent variable}
+# MOve amount spent to the last column-makes it easier to create independent and independent  variable sets
+DirectMarketing <- move_columns(DirectMarketing,AmountSpent, .after = last_col())
+head(DirectMarketing)
+
+```
+```{r Create high/low category for amount spent}
+quantiles <- quantile(DirectMarketing$AmountSpent)
+MinQ = quantiles[[1]]
+FirstQ = quantiles[[2]]
+MedQ = quantiles[[3]]
+ThirdQ = quantiles[[4]]
+MaxQ = quantiles[[5]]
+
+sprintf('MinQ: %s , FirstQ %s, MedQ %s, ThirdQ %s, MaxQ %s' , MinQ,FirstQ,MedQ,ThirdQ,MaxQ)
+```
+
+```{r }
+
+DirectMarketing <- mutate(DirectMarketing, Amt_Spnt_Class = ifelse(AmountSpent >= MinQ & AmountSpent <= MedQ,'Low',
+                                                                    ifelse(AmountSpent > MedQ & AmountSpent <= ThirdQ,'Med',
+                                                                    ifelse(AmountSpent > ThirdQ & AmountSpent <= MaxQ,'High','NA'))))
+
+# Drop AmountSpent
+drops <- c("AmountSpent")
+DirectMarketing <- DirectMarketing[!(names(DirectMarketing) %in% drops)]
+DirectMarketing
+```
+
+
+
+```{r write to clean file}
+write.csv(DirectMarketing, file = "data/DirectMarketing_Cln_Classification.csv", row.names=FALSE)
+
+```
+
+
+## Prepare data for clustering
+
+```{r Prepare data for Classification}
+DirectMarketing <- read.csv("Data/DirectMarketing.csv")
+
+drops <- c("History")
+DirectMarketing <- DirectMarketing[!(names(DirectMarketing) %in% drops)]
+DirectMarketing
+```
+
+
+
+
+```{r nominal encode categoricals}
+
+DirectMarketing$Gender <- ifelse(DirectMarketing$Gender == 'Female',0,1)
+DirectMarketing$Age <- ifelse(DirectMarketing$Age == 'Young',1,ifelse(DirectMarketing$Age == 'Middle',2,3))
+DirectMarketing$OwnHome <- ifelse(DirectMarketing$OwnHome == 'Own',0,1)
+DirectMarketing$Married <- ifelse(DirectMarketing$Married == 'Single',0,1)
+DirectMarketing$Location <- ifelse(DirectMarketing$Location == 'Close',0,1)
+
+DirectMarketing
+
+```
+
+
+
+
+
+```{r Create high/low category for amount spent}
+quantiles <- quantile(DirectMarketing$AmountSpent)
+MinQ = quantiles[[1]]
+FirstQ = quantiles[[2]]
+MedQ = quantiles[[3]]
+ThirdQ = quantiles[[4]]
+MaxQ = quantiles[[5]]
+
+sprintf('MinQ: %s , FirstQ %s, MedQ %s, ThirdQ %s, MaxQ %s' , MinQ,FirstQ,MedQ,ThirdQ,MaxQ)
+```
+
+
+
+```{r }
+
+DirectMarketing <- mutate(DirectMarketing, Amt_Spnt_Class = ifelse(AmountSpent >= MinQ & AmountSpent <= MedQ,0,
+                                                                    ifelse(AmountSpent > MedQ & AmountSpent <= ThirdQ,1,
+                                                                    ifelse(AmountSpent > ThirdQ & AmountSpent <= MaxQ,2,'NA'))))
+
+# Drop AmountSpent
+drops <- c("AmountSpent")
+
+DirectMarketing
+```
+
+
+```{r write to clean file}
+write.csv(DirectMarketing, file = "data/DirectMarketing_Cln_Cluster.csv", row.names=FALSE)
+
+```
