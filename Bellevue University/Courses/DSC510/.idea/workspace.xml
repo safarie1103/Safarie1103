@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40fc1047-436c-42bf-ad2c-72f398db8e67" name="Default Changelist" comment="" />
+    <list default="true" id="40fc1047-436c-42bf-ad2c-72f398db8e67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC540" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Safari_Edris_DSC510/FinalProject" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -35,28 +40,30 @@
       <workItem from="1576100006257" duration="661000" />
       <workItem from="1588781793196" duration="2134000" />
       <workItem from="1590513689823" duration="337000" />
+      <workItem from="1606780912876" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="755" y="204" key="FileChooserDialogImpl" timestamp="1590514032974">
+    <state x="578" y="190" key="FileChooserDialogImpl" timestamp="1606781221866">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="755" y="204" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1590514032974" />
+    <state x="578" y="190" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1606781221866" />
   </component>
 </project>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC550" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -118,6 +119,9 @@
       <workItem from="1602080310427" duration="1409000" />
       <workItem from="1602867617508" duration="1533000" />
       <workItem from="1603133991644" duration="1196000" />
+      <workItem from="1606781384749" duration="321000" />
+      <workItem from="1608162604570" duration="17000" />
+      <workItem from="1608162709841" duration="8000" />
     </task>
     <servers />
   </component>

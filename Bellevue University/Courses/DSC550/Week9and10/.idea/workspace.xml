@@ -2,42 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/dsc630Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_DecisionTree-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_KNN-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/630_Final_EDA.rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/Clustering_and_KNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_DataPreparation.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_KmeansClustering.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_LogisticRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_RandomForest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/DSC630_Project_Group3_Main.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/DirectMarketing_LinearRegression.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/dsc630Project.Rproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/group3lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/milestones/DSC630_EdrisSafari_FinalProject_Milestone2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/milestones/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/tree.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/FinalProject/dsc630Project/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/Week11/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/Week11/.ipynb_checkpoints/text-mining-the-clinton-and-trump-election-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/Week11/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC630/Week11/text-mining-the-clinton-and-trump-election-tweets.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/genthrift.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/batchlayer/BatchWorkflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/DataUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/EquivEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/ExternalDataSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/GenderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/OrigSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PageID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PageProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PagePropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PageViewEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PageViewSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/Pedigree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PersonID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PersonProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/PersonPropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/schema/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/speedlayer/CassandraState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/speedlayer/TridentSpeedLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/speedlayer/UniquesOverTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/tap/DataPailStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/tap/DataPailTap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/tap/SplitDataPailStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/tap/SplitDataPailTap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/tap/ThriftPailStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/java/manning/test/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/big-data-code-master/src/schema.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/deep-learning-with-python-notebooks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/snappy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC510/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -68,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ThinkStats2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -106,6 +108,9 @@
       <workItem from="1603295644107" duration="803000" />
       <workItem from="1603310995413" duration="28000" />
       <workItem from="1605373992013" duration="2772000" />
+      <workItem from="1608162604907" duration="19000" />
+      <workItem from="1608162708766" duration="16000" />
+      <workItem from="1609084144363" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -138,10 +143,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="591" height="168" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1605374405277" />
-    <state x="260" y="183" key="SettingsEditor" timestamp="1605374982832">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="538" y="149" key="SettingsEditor" timestamp="1609084616172">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="538" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601945911423" />
+    <state x="538" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1609084616172" />
     <state x="260" y="183" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1605374982832" />
   </component>
   <component name="XDebuggerManager">

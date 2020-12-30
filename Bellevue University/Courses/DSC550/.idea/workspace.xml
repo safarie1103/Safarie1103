@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/dsc630Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_DecisionTree-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_KNN-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/.ipynb_checkpoints/CourseProject_Modeling_LinearRegression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/630_Final_EDA.rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/Clustering_and_KNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_DataPreparation.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_KmeansClustering.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_DecisionTree.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_KNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_LinearRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_LogisticRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/CourseProject_Modeling_RandomForest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/DSC630_Project_Group3_Main.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/DirectMarketing_LinearRegression.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/dsc630Project.Rproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/group3lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/milestones/DSC630_EdrisSafari_FinalProject_Milestone2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/milestones/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/tree.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/FinalProject/dsc630Project/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/Week11/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/Week11/.ipynb_checkpoints/text-mining-the-clinton-and-trump-election-tweets-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/Week11/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC630/Week11/text-mining-the-clinton-and-trump-election-tweets.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -78,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC540" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -159,7 +126,8 @@
       <workItem from="1602776290375" duration="16000" />
       <workItem from="1602867739582" duration="1319000" />
       <workItem from="1604342835911" duration="3515000" />
-      <workItem from="1605365438655" duration="1912000" />
+      <workItem from="1605365438655" duration="1928000" />
+      <workItem from="1606781354945" duration="23000" />
     </task>
     <servers />
   </component>
@@ -171,11 +139,11 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1602953626786" />
-    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1605190961673">
+    <state x="915" y="234" key="FileChooserDialogImpl" timestamp="1606781375326">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779765334" />
-    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1605190961673" />
+    <state x="915" y="234" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1606781375326" />
     <state width="768" height="231" key="GridCell.Tab.0.bottom" timestamp="1605366568542">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

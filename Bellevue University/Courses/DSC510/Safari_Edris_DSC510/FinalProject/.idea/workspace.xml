@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c01e00bf-9758-4a51-8b2b-7686d1512c0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DSC510_Safari_weatherReported.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/.ipynb_checkpoints/WebScraping-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/.ipynb_checkpoints/WebScraping-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/Webscraping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/Zillow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/Zillow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DSC540/FinalProject/response.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/FinalProject/response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC540/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,23 +131,25 @@
       <workItem from="1585320503393" duration="1239000" />
       <workItem from="1586210920042" duration="397000" />
       <workItem from="1588379071320" duration="1505000" />
+      <workItem from="1606781226573" duration="407000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -224,7 +226,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FinalProject$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1573581319305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject$DSC510_Safari_WeatherReporter.coverage" NAME="DSC510_Safari_WeatherReporter Coverage Results" MODIFIED="1585319589000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FinalProject$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1573581319305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
