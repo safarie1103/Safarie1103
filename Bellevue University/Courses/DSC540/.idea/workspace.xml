@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +32,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC550" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -122,6 +123,7 @@
       <workItem from="1606781384749" duration="321000" />
       <workItem from="1608162604570" duration="17000" />
       <workItem from="1608162709841" duration="8000" />
+      <workItem from="1624390596573" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -129,20 +131,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1602953540033">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1625001556076">
+      <screen x="0" y="0" width="2560" height="1019" />
     </state>
-    <state x="1028" y="358" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1602953540033" />
-    <state x="861" y="318" key="FileChooserDialogImpl" timestamp="1602867734817">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="517" y="254" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779312239" />
-    <state x="861" y="318" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1602867734817" />
-    <state x="555" y="150" key="SettingsEditor" timestamp="1601779280584">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="555" y="150" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601779280584" />
-    <state x="981" y="219" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1599234774874" />
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.2560.1019@0.0.2560.1019" timestamp="1625001556076" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
