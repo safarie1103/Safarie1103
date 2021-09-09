@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b43f2232-5f3f-4699-9cbc-e3be18cab152" name="Default Changelist" comment="" />
+    <list default="true" id="b43f2232-5f3f-4699-9cbc-e3be18cab152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/DSC640.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/FinalProject/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/FinalProject/Webscraping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC540/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC540/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +37,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC540" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC650" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.WeatherReport">
     <configuration name="Button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -116,33 +139,22 @@
       <workItem from="1592333778615" duration="639000" />
       <workItem from="1596571238370" duration="629000" />
       <workItem from="1596817693604" duration="103000" />
+      <workItem from="1630685541097" duration="2110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1413" y="472" width="650" height="490" key="FileChooserDialogImpl" timestamp="1596817795221">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="799" y="280" key="FileChooserDialogImpl" timestamp="1631186203371">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1413" y="472" width="650" height="490" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1596817795221" />
-    <state width="2517" height="287" key="GridCell.Tab.0.bottom" timestamp="1591624195871">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="799" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631186203371" />
+    <state x="530" y="259" key="SettingsEditor" timestamp="1631130485619">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1591624195871" />
-    <state width="2517" height="287" key="GridCell.Tab.0.center" timestamp="1591624195871">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1591624195871" />
-    <state width="2517" height="287" key="GridCell.Tab.0.left" timestamp="1591624195871">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1591624195871" />
-    <state width="2517" height="287" key="GridCell.Tab.0.right" timestamp="1591624195871">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1591624195871" />
+    <state x="530" y="259" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631130485619" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Safari_Edris_DSC510$WeatherReport.coverage" NAME="WeatherReport Coverage Results" MODIFIED="1591623401654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SandBox/RestFullAPI" />

@@ -1,0 +1,22 @@
+---
+title: "Assignment_1.1_C"
+author: "edris safari"
+date: "9/9/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r packages, include=FALSE}
+library(readxl)
+```
+## Exercise 1.1_C Charts
+
+```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
+hotdog <- read_excel("Data/hotdog-contest-winners.xlsm")
+head(hotdog)
+
+```

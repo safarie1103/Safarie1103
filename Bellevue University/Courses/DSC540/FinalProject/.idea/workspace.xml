@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aa76dae-af99-4ecf-9616-23f31a185f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone2-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSC540_EdrisSafari_FinalProject_Milestone2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSC540_EdrisSafari_FinalProject_Milestone2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSC540_EdrisSafari_FinalProject_Milestone2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC550/Week7/ML_withPython_Chapter15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC550/Week7/ML_withPython_Chapter16.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DSC550/Week7/ML_withPython_Chapter17.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/DSC640.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/properties_2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/properties_2017.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC550/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Webscraping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC550/Week9and10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +81,7 @@
       <workItem from="1587219979686" duration="5398000" />
       <workItem from="1587414603505" duration="107000" />
       <workItem from="1601779319738" duration="42000" />
+      <workItem from="1630433779648" duration="4199000" />
     </task>
     <servers />
   </component>
@@ -81,9 +92,31 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="694" y="254" key="FileChooserDialogImpl" timestamp="1601779360208">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="879" y="435" key="FileChooserDialogImpl" timestamp="1631191580558">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="694" y="254" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601779360208" />
+    <state x="879" y="435" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1630685537172" />
+    <state x="879" y="435" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631191580558" />
+    <state x="2799" y="435" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630436413280" />
+    <state width="657" height="262" key="GridCell.Tab.0.bottom" timestamp="1630435427948">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="657" height="262" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630435427948" />
+    <state width="657" height="262" key="GridCell.Tab.0.center" timestamp="1630435427947">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="657" height="262" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630435427947" />
+    <state width="657" height="262" key="GridCell.Tab.0.left" timestamp="1630435427947">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="657" height="262" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630435427947" />
+    <state width="657" height="262" key="GridCell.Tab.0.right" timestamp="1630435427948">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="657" height="262" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630435427948" />
+    <state x="2440" y="205" key="SettingsEditor" timestamp="1630436416588">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2440" y="205" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1630436416588" />
   </component>
 </project>
