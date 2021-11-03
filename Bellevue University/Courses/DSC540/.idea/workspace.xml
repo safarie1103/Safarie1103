@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/DSC640.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Webscraping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/.idea/DSC640.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/.idea/DSC640.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.1_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.1_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_C.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.1_C.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/Exercise_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/Exercise_1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +133,7 @@
       <workItem from="1608162709841" duration="8000" />
       <workItem from="1624390596573" duration="1244000" />
       <workItem from="1631130576212" duration="2153000" />
+      <workItem from="1631214623322" duration="3322000" />
     </task>
     <servers />
   </component>
@@ -152,6 +145,10 @@
       <screen x="0" y="0" width="2560" height="1019" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.2560.1019@0.0.2560.1019" timestamp="1625001556076" />
+    <state x="461" y="147" key="SettingsEditor" timestamp="1631217453151">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="147" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631217453151" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

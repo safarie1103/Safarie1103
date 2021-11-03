@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5781b775-fefe-487e-a79b-752e693b07bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/DSC640.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/DSC650.Rproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/Week1&amp;2/Assignment_1.2.a.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC510/Safari_Edris_DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC510/Safari_Edris_DSC510/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/Webscraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/FinalProject/Webscraping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/Week11and12/DSC540_EdrisSafari_Week11_12_Exercise_11.1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/.idea/DSC650.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/.idea/DSC650.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC650/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC540/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/DSC640.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/DSC640.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.1_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.1_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.2_C.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.1_C.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +62,7 @@
       <updated>1585599152702</updated>
       <workItem from="1585599162869" duration="1682000" />
       <workItem from="1585837731993" duration="684000" />
-      <workItem from="1631191593753" duration="4502000" />
+      <workItem from="1631191593753" duration="7641000" />
     </task>
     <servers />
   </component>
@@ -101,9 +89,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="621" height="184" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631191753425" />
-    <state x="292" y="187" key="SettingsEditor" timestamp="1631191727347">
+    <state x="292" y="187" key="SettingsEditor" timestamp="1631214914643">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="292" y="187" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631191727347" />
+    <state x="292" y="187" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1631214914643" />
   </component>
 </project>
