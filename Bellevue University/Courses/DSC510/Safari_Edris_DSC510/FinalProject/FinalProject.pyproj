@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{107504cd-7a4f-4a79-a066-d65128ede173}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>DSC510_Safari_WeatherReporter.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|venv|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="archive\DSC510_Safari_WeatherReporter_Console.py" />
+    <Compile Include="DSC510_Safari_WeatherReporter.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\DSC510_Safari_WeatherReporter\warn-DSC510_Safari_WeatherReporter.txt" />
+    <Content Include="build\DSC510_Safari_WeatherReporter\xref-DSC510_Safari_WeatherReporter.html" />
+    <Content Include="Doc\WeatherReporter_AnotherCity.png" />
+    <Content Include="Doc\WeatherReporter_AnotherZip.png" />
+    <Content Include="Doc\WeatherReporter_city.png" />
+    <Content Include="Doc\WeatherReporter_city_and_Country.png" />
+    <Content Include="Doc\WeatherReporter_CodeSnippet1.png" />
+    <Content Include="Doc\WeatherReporter_CodeSnippet2.png" />
+    <Content Include="Doc\WeatherReporter_ForeigCity.png" />
+    <Content Include="Doc\WeatherReporter_ForeigZipCode.png" />
+    <Content Include="Doc\WeatherReporter_InvalidKey.png" />
+    <Content Include="Doc\WeatherReporter_InvalidZipCode.png" />
+    <Content Include="Doc\WeatherReporter_invalid_city.png" />
+    <Content Include="Doc\WeatherReporter_main_screen.png" />
+    <Content Include="Doc\WeatherReporter_NetworkDisconnected.png" />
+    <Content Include="Doc\WeatherReporter_NightIcon.png" />
+    <Content Include="Doc\WeatherReporter_OpenWeatherAPI.png" />
+    <Content Include="Doc\WeatherReporter_WeatherReportJSON.png" />
+    <Content Include="Doc\WeatherReporter_WrongURL.png" />
+    <Content Include="Doc\WeatherReporter_zipcode.png" />
+    <Content Include="img\01d.png" />
+    <Content Include="img\01n.png" />
+    <Content Include="img\02d.png" />
+    <Content Include="img\02n.png" />
+    <Content Include="img\03d.png" />
+    <Content Include="img\03n.png" />
+    <Content Include="img\04d.png" />
+    <Content Include="img\04n.png" />
+    <Content Include="img\09d.png" />
+    <Content Include="img\09n.png" />
+    <Content Include="img\10d.png" />
+    <Content Include="img\10n.png" />
+    <Content Include="img\11d.png" />
+    <Content Include="img\11n.png" />
+    <Content Include="img\13n.png" />
+    <Content Include="img\50d.png" />
+    <Content Include="img\50n.png" />
+    <Content Include="img\WeatherReporterLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="archive" />
+    <Folder Include="build\" />
+    <Folder Include="build\DSC510_Safari_WeatherReporter" />
+    <Folder Include="Doc" />
+    <Folder Include="img" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="venv\">
+      <Id>venv</Id>
+      <Description>venv (Python 3.7 (32-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.7</Version>
+      <Architecture>X86</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
