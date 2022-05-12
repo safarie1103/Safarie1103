@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40fc1047-436c-42bf-ad2c-72f398db8e67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DSC510.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC510.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Conda Environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DSC-510-Fall2019/Safari_Edris_DSC510/FinalProject" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +47,8 @@
       <workItem from="1590513689823" duration="337000" />
       <workItem from="1606780912876" duration="309000" />
       <workItem from="1638115110002" duration="2959000" />
+      <workItem from="1647548714343" duration="1142000" />
+      <workItem from="1648824196890" duration="593000" />
     </task>
     <servers />
   </component>
@@ -67,13 +69,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="946" y="204" key="FileChooserDialogImpl" timestamp="1638116801938">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="757" y="259" key="FileChooserDialogImpl" timestamp="1647549267685">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="946" y="204" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1638116801938" />
-    <state x="668" y="92" key="SettingsEditor" timestamp="1638117276560">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="757" y="259" key="FileChooserDialogImpl/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1647549267685" />
+    <state x="478" y="147" key="SettingsEditor" timestamp="1647549184075">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="668" y="92" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1638117276560" />
+    <state x="478" y="147" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1647549184075" />
   </component>
 </project>
