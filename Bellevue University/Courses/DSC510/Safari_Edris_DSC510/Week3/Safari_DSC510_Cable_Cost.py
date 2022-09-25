@@ -1,4 +1,4 @@
-# File : Safari_DSC510_Cable_Cost.py
+fuck you# File : Safari_DSC510_Cable_Cost.py
 # Name:Edris Safari
 # Date:9/6/2019
 # Course: DSC510 - Introduction To Programming

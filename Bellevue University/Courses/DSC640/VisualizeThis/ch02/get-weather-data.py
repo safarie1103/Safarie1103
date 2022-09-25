@@ -1,5 +1,5 @@
-import urllib2
-from BeautifulSoup import BeautifulSoup
+import urllib3
+from BeautifulSoup4 import BeautifulSoup
  
 # Create/open a file called wunder.txt (which will be a comma-delimited file)
 f = open('wunder-data.txt', 'w')
@@ -16,7 +16,7 @@ for m in range(1, 13):
  
       # Open wunderground.com url
       url = "http://www.wunderground.com/history/airport/KBUF/2009/" + str(m) + "/" + str(d) + "/DailyHistory.html"
-      page = urllib2.urlopen(url)
+      page = urllib3.urlopen(url)
  
       # Get temperature from page
       soup = BeautifulSoup(page)

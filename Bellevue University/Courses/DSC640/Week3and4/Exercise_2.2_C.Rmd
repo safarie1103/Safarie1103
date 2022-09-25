@@ -1,0 +1,43 @@
+---
+title: "Assignment 2.2.C"
+author: "edris safari"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages, include=FALSE}
+library(ggplot2)
+library(readxl)
+library(plotly)
+
+```
+## Exercise 2.2.C Charts
+
+Load data
+
+```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
+setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640")
+getwd()
+setwd("Week3and4")
+getwd()
+worldpopulation = read_excel("Data/world-population.xlsm")
+head(worldpopulation)
+```
+
+### Line Chart
+```{r draw line chart ,echo=FALSE,message=FALSE,warning=FALSE}
+ggplot(worldpopulation,aes(Year,Population)) +
+  geom_line()
+```
+
+### Step line  Chart
+```{r draw step line chart ,echo=FALSE,message=FALSE,warning=FALSE}
+ggplot(worldpopulation,aes(Year,Population)) +
+  geom_step()
+```

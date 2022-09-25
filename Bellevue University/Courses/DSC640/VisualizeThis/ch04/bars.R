@@ -1,6 +1,10 @@
+getwd()
+setwd("visualizethis\\ch04\\")
+getwd()
+
 # Load data
 hotdogs <- read.csv("data/hot-dog-contest-winners.csv", sep=",", header=TRUE)
-
+hotdogs
 # Default barchart
 barplot(hotdogs$Dogs.eaten)
 

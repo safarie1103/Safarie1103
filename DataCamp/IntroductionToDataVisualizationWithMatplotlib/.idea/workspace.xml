@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5781b775-fefe-487e-a79b-752e693b07bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/UdemyPythonWithPyCharm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UdemyPythonWithPyCharm/FirstPythonProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC510/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/DSC550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/DSC550.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/Week9and10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/DSC630.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/DSC640.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/DSC640.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bellevue University/Courses/DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatPlotLib/.vs/MatPlotLib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/MatPlotLib/.vs/MatPlotLib/v16/.suo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +56,7 @@
       <workItem from="1585599162869" duration="1682000" />
       <workItem from="1585837731993" duration="684000" />
       <workItem from="1631191593753" duration="7641000" />
-      <workItem from="1652291537510" duration="266000" />
+      <workItem from="1652291537510" duration="983000" />
     </task>
     <servers />
   </component>
@@ -95,21 +67,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="777" height="184" key="GridCell.Tab.0.bottom" timestamp="1652291928648">
+    <state width="777" height="184" key="GridCell.Tab.0.bottom" timestamp="1654020767666">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="777" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1654020767666" />
     <state width="777" height="184" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652291928648" />
-    <state width="777" height="184" key="GridCell.Tab.0.center" timestamp="1652291928648">
+    <state width="777" height="184" key="GridCell.Tab.0.center" timestamp="1654020767665">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="777" height="184" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1654020767665" />
     <state width="777" height="184" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652291928648" />
-    <state width="777" height="184" key="GridCell.Tab.0.left" timestamp="1652291928647">
+    <state width="777" height="184" key="GridCell.Tab.0.left" timestamp="1654020767662">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="777" height="184" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1654020767662" />
     <state width="777" height="184" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652291928647" />
-    <state width="777" height="184" key="GridCell.Tab.0.right" timestamp="1652291928648">
+    <state width="777" height="184" key="GridCell.Tab.0.right" timestamp="1654020767665">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="777" height="184" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1654020767665" />
     <state width="777" height="184" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652291928648" />
     <state x="449" y="190" key="SettingsEditor" timestamp="1652291812635">
       <screen x="0" y="0" width="1920" height="1032" />

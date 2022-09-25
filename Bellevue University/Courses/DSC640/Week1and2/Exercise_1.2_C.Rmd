@@ -1,22 +1,73 @@
 ---
-title: "Assignment_1.1_C"
+title: "Assignment 1.2"
 author: "edris safari"
-date: "9/9/2021"
-output: pdf_document
+date: "9/9/2022"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+always_allow_html: yes
 ---
+Graph 1 bar chart, 1 stacked bar chart, 1 pie chart, and 1 donut
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
 ```{r packages, include=FALSE}
+library(ggplot2)
 library(readxl)
+library(plotly)
+
 ```
 ## Exercise 1.1_C Charts
 
 ```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
-hotdog <- read_excel("Data/hotdog-contest-winners.xlsm")
-head(hotdog)
+setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640")
+getwd()
+setwd("Week1and2")
+getwd()
+obamaApprovalRating = read_xls("Data/Obama-approval-ratings.xls")
+head(obamaApprovalRating)
+```
+## Bar Chart
+```{r Bar chart,echo=FALSE,message=FALSE,warning=FALSE }
+fig <- plot_ly(obamaApprovalRating,x= ~Issue, y = ~Approve, type='bar', name = 'Approve')
+fig <- fig %>% layout(title = 'OBama Approval')
 
+fig
+
+```
+
+
+## Stacked Bar Chart
+
+```{r Stacked Bar Chart ,echo=FALSE,message=FALSE,warning=FALSE}
+fig <- plot_ly(obamaApprovalRating,x= ~Issue, y = ~Approve, type='bar', name = 'Approve')
+fig <- fig %>% add_trace(y = ~Disapprove, name = 'Disapprove')
+fig <- fig %>% layout(yaxis = list(title = 'Count'), barmode = 'stack')
+fig <- fig %>% layout(title = 'OBama Approval on Issue')
+
+fig
+```
+
+
+## Pie Chart
+
+```{r Pie chart ,echo=FALSE,message=FALSE,warning=FALSE}
+
+fig <- plot_ly(obamaApprovalRating, labels = ~Issue, values = ~Approve, type = 'pie')
+fig <- fig %>% layout(title = 'OBama Approval on Issue')
+
+fig
+```
+## Donut Chart
+```{r Donut plot ,echo=FALSE,message=FALSE,warning=FALSE}
+
+fig <- plot_ly(obamaApprovalRating, labels = ~Issue, values = ~Approve)
+fig <- fig %>% add_pie(hole = 0.6)
+fig <- fig %>% layout(title = "Obama approval on Issue",showlegend= T)
+
+fig
 ```

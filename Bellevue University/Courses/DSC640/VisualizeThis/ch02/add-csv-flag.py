@@ -6,4 +6,4 @@ for row in reader:
     else:
         is_freezing = '0'
     
-    print row[0] + "," + row[1] + "," + is_freezing
+    print (row[0] + "," + row[1] + "," + is_freezing);

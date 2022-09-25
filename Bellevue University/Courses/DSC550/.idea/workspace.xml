@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/UdemyPythonWithPyCharm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../UdemyPythonWithPyCharm/FirstPythonProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSC550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC550.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/.ipynb_checkpoints/ML_withPython_Chapter04-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/Week9and10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/DSC630.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/.idea/DSC640.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/.idea/DSC640.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../matplotlib_tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC640" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -162,7 +141,9 @@
       <workItem from="1625001565959" duration="206000" />
       <workItem from="1649690669172" duration="7269000" />
       <workItem from="1651328681264" duration="1197000" />
-      <workItem from="1652282099690" duration="3544000" />
+      <workItem from="1652282099690" duration="3545000" />
+      <workItem from="1657032759576" duration="5472000" />
+      <workItem from="1660855713654" duration="63000" />
     </task>
     <servers />
   </component>
@@ -170,33 +151,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="262" key="FileChooserDialogImpl" timestamp="1652283199712">
+    <state x="726" y="262" key="FileChooserDialogImpl" timestamp="1657037466026">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="726" y="262" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657037466026" />
     <state x="726" y="262" key="FileChooserDialogImpl/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652283199712" />
-    <state width="930" height="280" key="GridCell.Tab.0.bottom" timestamp="1652282494277">
+    <state width="930" height="280" key="GridCell.Tab.0.bottom" timestamp="1657036317979">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="930" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657036317979" />
     <state width="930" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652282494277" />
-    <state width="930" height="280" key="GridCell.Tab.0.center" timestamp="1652282494276">
+    <state width="930" height="280" key="GridCell.Tab.0.center" timestamp="1657036317976">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="930" height="280" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657036317975" />
     <state width="930" height="280" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652282494276" />
-    <state width="930" height="280" key="GridCell.Tab.0.left" timestamp="1652282494275">
+    <state width="930" height="280" key="GridCell.Tab.0.left" timestamp="1657036317971">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="930" height="280" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657036317971" />
     <state width="930" height="280" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652282494275" />
-    <state width="930" height="280" key="GridCell.Tab.0.right" timestamp="1652282494276">
+    <state width="930" height="280" key="GridCell.Tab.0.right" timestamp="1657036317978">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state width="930" height="280" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657036317978" />
     <state width="930" height="280" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652282494276" />
     <state x="705" y="227" key="RollbackChangesDialog" timestamp="1652289341146">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="705" y="227" key="RollbackChangesDialog/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652289341146" />
-    <state x="245" y="239" key="SettingsEditor" timestamp="1652289369789">
+    <state x="245" y="239" key="SettingsEditor" timestamp="1657036849167">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="245" y="239" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1657036849167" />
     <state x="245" y="239" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652289369789" />
   </component>
   <component name="XDebuggerManager">
@@ -216,6 +203,11 @@
           <url>notebook://C:/Users/safar/Documents/GitHub/Safarie1103/Bellevue University/Courses/DSC550/Week8/DSC550 _EdrisSafari_Assignment_8.3.ipynb</url>
           <line>22</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
