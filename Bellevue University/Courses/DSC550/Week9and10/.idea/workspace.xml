@@ -2,35 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bac67-b07a-445c-a0e5-18d31109cc97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/UdemyPythonWithPyCharm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../UdemyPythonWithPyCharm/FirstPythonProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC510/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/DSC550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DSC550.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC640/Week7and8/Excercise_4.2_B.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSC650/Sandbox.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/DSC550_EdrisSafari_Assignment_3.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/advanced/path_tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/.ipynb_checkpoints/customizing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Matplotlib_Tutorials/introductory/customizing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/Analyzing text for whether comments are positive or negative_SampleCode.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Week9and10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week9and10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550 _EdrisSafari_Assignment_11.2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/DSC630.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/DSC630.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC630/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC640/.idea/DSC640.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/.idea/DSC640.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/MatPlotLib/.vs/MatPlotLib/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/FinalProject/DSC640_FinalProject.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/VisualizeThis/ch06/relationships.R" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/VisualizeThis/ch06/relationships.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/VisualizeThis/ch06/transform-birth-rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/VisualizeThis/ch06/transform-birth-rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/Week5and6/Ecercise_3.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/Week5and6/Ecercise_3.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/Week5and6/Exercise_3.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/Week5and6/Exercise_3.2_A.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/Week5and6/Exercise_3.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/Week5and6/Exercise_3.2_C.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSC640/Week5and6/Treemap_Chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSC640/Week5and6/Treemap_Chart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSC630" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,6 +92,8 @@
       <workItem from="1649706121678" duration="2590000" />
       <workItem from="1651328680690" duration="1197000" />
       <workItem from="1652282100738" duration="639000" />
+      <workItem from="1665506594089" duration="1470000" />
+      <workItem from="1665581299533" duration="1159000" />
     </task>
     <servers />
   </component>
@@ -116,30 +101,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="851" y="295" key="FileChooserDialogImpl" timestamp="1649763682028">
+    <state x="593" y="493" key="FileChooserDialogImpl" timestamp="1665507473046">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="851" y="295" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1649763682028" />
-    <state width="756" height="247" key="GridCell.Tab.0.bottom" timestamp="1649706967959">
+    <state x="593" y="493" key="FileChooserDialogImpl/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1665507473046" />
+    <state x="498" y="137" key="SettingsEditor" timestamp="1665506682943">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="756" height="247" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1649706967959" />
-    <state width="756" height="247" key="GridCell.Tab.0.center" timestamp="1649706967958">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="756" height="247" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1649706967958" />
-    <state width="756" height="247" key="GridCell.Tab.0.left" timestamp="1649706967958">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="756" height="247" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1649706967958" />
-    <state width="756" height="247" key="GridCell.Tab.0.right" timestamp="1649706967959">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="756" height="247" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1649706967959" />
-    <state x="475" y="173" key="SettingsEditor" timestamp="1649707091892">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="475" y="173" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1649707091892" />
+    <state x="498" y="137" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1665506682943" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

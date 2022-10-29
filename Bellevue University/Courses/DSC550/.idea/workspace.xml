@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bb5c7-2e12-48ae-8b65-a535e33f6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week1/.ipynb_checkpoints/ML_withPython_Chapter04-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week7and8/Excercise_4.2_B.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC650/Sandbox.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/ML_withPython_Chapter04.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSC640" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,6 +146,8 @@
       <workItem from="1652282099690" duration="3545000" />
       <workItem from="1657032759576" duration="5472000" />
       <workItem from="1660855713654" duration="63000" />
+      <workItem from="1665507478842" duration="719000" />
+      <workItem from="1665581271498" duration="651000" />
     </task>
     <servers />
   </component>

@@ -2,183 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week1and2/.ipynb_checkpoints/DSC540_EdrisSafari_Week_1_2_Exercise-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1and2/.ipynb_checkpoints/DSC540_EdrisSafari_Week_1_2_Exercise_WorldPopulation-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC550/Week1/.ipynb_checkpoints/ML_withPython_Chapter04-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC550/Week9and10/how-toxic-are-hillary-and-trump-tweets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/15 days of Power BI - Complete Microsoft Power BI Bootcamp/R+visuals/R visuals.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/15 days of Power BI - Complete Microsoft Power BI Bootcamp/R+visuals/Store costs.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Introduction to Data visualization with Seaborn/Exercises.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_10.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 02/7900_02_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_07-08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_09-10-11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_17-18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_22.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 03/7900_03_23.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_03-04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_13-14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 04/7900_04_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 05/7900_05_01_embedding_in_gtk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 05/7900_05_02_embedding_in_gtk_navbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 05/7900_05_03_cpu_usage_dynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 05/7900_05_04_glade.glade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 05/7900_05_04_glade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/7900_06_01_embedding_in_qt4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/7900_06_02_embedding_in_qt4_navbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/7900_06_03_cpu_usage_dynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/7900_06_04_qt_designer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/mplwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/qtdesigner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 06/qtdesigner.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/7900_07_01_embedding_in_wx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/7900_07_02_embedding_in_wx_navbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/7900_07_03_cpu_usage_dynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/7900_07_04_wxglade.wxg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/MplFrame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/MplPanel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 07/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/cgi-bin/7900_08_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/cgi-bin/7900_08_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/cgi-bin/7900_08_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mod_python/7900_08_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mod_python/7900_08_05.psp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/mpl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/mpl/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/mpl/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mpldjango/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/development.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/docs/index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/ez_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/paster_plugins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/config/deployment.ini_tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/config/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/config/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/config/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/controllers/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/controllers/mpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/lib/app_globals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/lib/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/lib/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/public/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/public/pylons-logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/tests/functional/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/tests/functional/test_mpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/mplpylons/websetup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 08/mplpylons/test.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_01_udd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_02_wikipedia.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_02_wikipedia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_03_apache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_04_cvs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_05_curvefitting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_06_extrapolation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_07_networkx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_08-09_mpmath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_10-11_basemap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_12_basemap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Chapter 09/7900_09_13_basemap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Matplotlib for python Developers/7900_Code/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/AdventureWorks-Report_Exercise.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/AdventureWorks_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/AdventureWorks_Report_COMPLETE/AdventureWorks_Report_COMPLETE.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/Bonus Project - Maven Market/Maven_Market.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/Power_BI_AI_Visuals/Power_BI_AI_Visuals.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/Power_BI_AI_Visuals/Power_BI_AI_Visuals_COMPLETE.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/Up_&amp;_Running_With_Power_BI_Desktop.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI Desktop/WebScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/Safari_Edris_DSC510.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/Safari_Edris_DSC510.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.vs/FinalProject/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/FinalProject/.vs/FinalProject/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/Week3/Safari_DSC510_Cable_Cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC510/Safari_Edris_DSC510/Week3/Safari_DSC510_Cable_Cost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.Rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/FinalProject/FinalProject_EdrisSafari_RealEstateEDA.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC520/Week4/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC520/Week4/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSC540.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC540.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/APIkeys/APIkeys.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/GlobeMap.GlobeMap1447669447625.2.5.2.0.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/funnelPyramid.funnelDrilldownD423170ED341443BBDECDD3BA5FB49D2.1.1.2.0.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/heatmap.1.1.9.0.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/infographicDesigner.PBI_CV_73744D90_4DC9_4F18_8BA5_EE8FA5C98035.1.9.500.0.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/violinPlot.violinPlot4D46EB9EB3A141D9BA2289793175D971.1.3.0.4.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Gauge-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Pie-Donut-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Trellis-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Bubble-Scatter-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Bullet-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Funnel-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Gantt-Chart-v1.1.9.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Filter-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Tree-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Variance-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Horizon-Chart-v1.6.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Linear-Gauge-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Marimekko-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Multiple-Axes-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Packed-Bubble-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Parallel-Coordinates-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Radar-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Tag-Cloud-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Variance-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Waterfall-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week7and8/Excercise_4.2_B.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_C.Rmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC650/Sandbox.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_WorldPopulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1and2/DSC540_EdrisSafari_Week_1_2_Exercise_WorldPopulation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3and4/DSC540_EdrisSafari_Week_3_4_Exercise_Series.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week3and4/DSC540_EdrisSafari_Week_3_4_Exercise_Series.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9and10/DSC540_EdrisSafari_Week9_10_Exercise_9.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week9and10/DSC540_EdrisSafari_Week9_10_Exercise_9.1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/Data/propertiesAndTransactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Data/propertiesAndTransactions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week1/DSC550_EdrisSafari_Assignment_1.2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week1/ML_withPython_Chapter01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week1/ML_withPython_Chapter01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week1/ML_withPython_Chapter04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week1/ML_withPython_Chapter04.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.ipynb_checkpoints/how-toxic-are-hillary-and-trump-tweets-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/how-toxic-are-hillary-and-trump-tweets.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/add-csv-flag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/add-csv-flag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/csv-to-json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/csv-to-json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/get-weather-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch02/get-weather-data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch04/bars.R" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch04/bars.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch04/data/hot-dog-contest-winners.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch04/data/hot-dog-contest-winners.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/.ipynb_checkpoints/Exercise_1.2_B-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/.ipynb_checkpoints/Exercise_1.2_B-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week1and2/Exercise_1.2_C.Rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataCamp/IntroductionToDataVisualizationWithMatplotlib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/relationships.R" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/relationships.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +82,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -308,6 +175,8 @@
       <workItem from="1661887454722" duration="1793000" />
       <workItem from="1662665798048" duration="745000" />
       <workItem from="1663518227574" duration="591000" />
+      <workItem from="1666646097355" duration="1293000" />
+      <workItem from="1667051373273" duration="2154000" />
     </task>
     <servers />
   </component>
@@ -319,35 +188,35 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="163" key="#Notifications/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661282769428" />
-    <state width="749" height="164" key="GridCell.Tab.0.bottom" timestamp="1661860571408">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="749" height="164" key="GridCell.Tab.0.bottom" timestamp="1666646984809">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="749" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661860571408" />
     <state width="749" height="164" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661287167276" />
-    <state width="749" height="164" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1661284262289" />
-    <state width="749" height="164" key="GridCell.Tab.0.center" timestamp="1661860571406">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="749" height="164" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1666646984809" />
+    <state width="749" height="164" key="GridCell.Tab.0.center" timestamp="1666646984807">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="749" height="164" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661860571406" />
     <state width="749" height="164" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661287167275" />
-    <state width="749" height="164" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1661284262289" />
-    <state width="749" height="164" key="GridCell.Tab.0.left" timestamp="1661860571405">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="749" height="164" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1666646984807" />
+    <state width="749" height="164" key="GridCell.Tab.0.left" timestamp="1666646984806">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="749" height="164" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661860571405" />
     <state width="749" height="164" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661287167274" />
-    <state width="749" height="164" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1661284262289" />
-    <state width="749" height="164" key="GridCell.Tab.0.right" timestamp="1661860571406">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="749" height="164" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1666646984806" />
+    <state width="749" height="164" key="GridCell.Tab.0.right" timestamp="1666646984808">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="749" height="164" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661860571406" />
     <state width="749" height="164" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661287167275" />
-    <state width="749" height="164" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1661284262289" />
-    <state x="350" y="217" key="SettingsEditor" timestamp="1661287161014">
+    <state width="749" height="164" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1666646984808" />
+    <state x="653" y="189" key="SettingsEditor" timestamp="1667054346922">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="350" y="217" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1661287161014" />
-    <state x="272" y="306" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1661284437813" />
+    <state x="653" y="189" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1667054346922" />
+    <state x="272" y="306" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1666647226358" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,10 @@
 ---
-title: "Assignment 2.2.C"
+title: "Assignment 3.2.C"
 author: "edris safari"
 date: "`r Sys.Date()`"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -21,15 +21,15 @@ library(plotly)
 
 Load data
 
-```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
-setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640")
-getwd()
-setwd("Week5and6")
+```{r import data1,echo=FALSE,message=FALSE,warning=FALSE}
+setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640/Week5and6")
+
 getwd()
 unemployementRate = read.csv("Data/unemployement-rate-1948-2010.csv")
 head(unemployementRate)
 ```
-```{r import data,echo=FALSE,message=FALSE,warning=FALSE}
+
+```{r import data2,echo=FALSE,message=FALSE,warning=FALSE}
 
 getwd()
 expenditures = read.table("Data/expenditures.txt",sep="\t",header=TRUE)
@@ -38,36 +38,72 @@ head(expenditures)
 ```
 ### Treemap Chart
 ```{r draw Treemap chart ,echo=FALSE,message=FALSE,warning=FALSE}
-
-```
-### Area Chart  Chart
-```{r draw Area Chart ,echo=FALSE,message=FALSE,warning=FALSE}
-library(treemap)
-library(d3treeR)
- 
-# dataset
-group <- c(rep("group-1",4),rep("group-2",2),rep("group-3",3))
-subgroup <- paste("subgroup" , c(1,2,3,4,1,2,1,2,3), sep="-")
-value <- c(13,5,22,12,11,7,3,1,23)
-data <- data.frame(group,subgroup,value)
- 
 # basic treemap
-p <- treemap(data,
-            index=c("group","subgroup"),
-            vSize="value",
+treemap(expenditures,
+            index=c("category","year"),
+            vSize="expenditure",
             type="index",
             palette = "Set2",
-            bg.labels=c("white"),
+            
             align.labels=list(
               c("center", "center"), 
               c("right", "bottom")
             )  
-          )            
- 
-# make it interactive ("rootname" becomes the title of the plot):
-inter <- d3tree2( p ,  rootname = "General" )
+          )           
 
-# save the widget
-# library(htmlwidgets)
-# saveWidget(inter, file=paste0( getwd(), "/HtmlWidget/interactiveTreemap.html"))
+
+```
+### Area Chart  Chart
+```{r draw Area Chart1 ,echo=FALSE,message=FALSE,warning=FALSE}
+head(CO2)
+data <- CO2 %>% 
+  filter(Treatment %in% c("nonchilled")) 
+ggplot(data,aes(x=uptake)) + 
+  geom_area(stat="bin",bins=20,color="red3",linetype="dashed",fill="yellowgreen") +
+  ggtitle("CO2 uptake of all Grass(nonChilled) in Quebec and Mississippi")
+
+```
+### Area Chart  Chart
+```{r draw Area Chart1 ,echo=FALSE,message=FALSE,warning=FALSE}
+head(CO2)
+data <- CO2 %>% 
+  filter(Type %in% c("Quebec")) %>% 
+  filter(Treatment %in% c("nonchilled")) 
+ggplot(data,aes(x=uptake)) + 
+  geom_area(stat="bin",bins=20,color="red3",linetype="dashed",fill="yellowgreen") +
+  ggtitle("CO2 uptake of all Grass(nonChilled) in Quebec")
+
+```
+### Stacked Area Chart  Chart
+```{r draw stacked Area Chart ,echo=FALSE,message=FALSE,warning=FALSE}
+
+# Libraries
+library(tidyverse)
+library(babynames)
+library(viridis)
+library(hrbrthemes)
+library(plotly)
+
+
+# Load babynames dataset
+data <- babynames %>% 
+  filter(name %in% c("John", "William","Thomas", "Charles", "Henry",  "Robert")) %>%
+  filter(sex=="M")
+
+# Plot
+p <- data %>% 
+  ggplot( aes(x=year, y=n, fill=name, text=name)) +
+    geom_area( ) +
+    scale_fill_viridis(discrete = TRUE) +
+    theme(legend.position="none") +
+    ggtitle("Popularity of American names for boys over a 30 year span") +
+    theme_ipsum() +
+    theme(axis.text.y=element_blank(),
+        axis.ticks.y=element_blank()
+        ) + 
+  labs(x="", y="")
+
+
+ggplotly(p, tooltip="text")
+
 ```
