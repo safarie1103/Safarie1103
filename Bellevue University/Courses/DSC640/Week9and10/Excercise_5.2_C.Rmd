@@ -1,5 +1,5 @@
 ---
-title: "Excercise_4.2_C"
+title: "Excercise_5.2_C"
 author: "edris safari"
 date: "`r Sys.Date()`"
 output: html_document
@@ -14,110 +14,79 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 library(readxl)
 library(plotly)
-
+library(RColorBrewer)
 ```
 ## Exercise 2.2.C Charts
 
 Load data
 
 ```{r import data1,echo=FALSE,message=FALSE,warning=FALSE}
-setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640/Week7and8")
+setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640/Week9and10")
 
 getwd()
-crimerate <- read.csv('data/crimeRates-By-State-2005.csv', sep=",", header=TRUE)
 
-# Remove US total and DC
-crime2 <- crimerate[crimerate$state != "District of Columbia",]
-crime2 <- crime2[crime2$state != "United States",]
+
+
 ```
-```{r Plot1,echo=FALSE,message=FALSE,warning=FALSE}
+```{r Heatmap plots ,echo=FALSE,message=FALSE,warning=FALSE}
+ppg2008 <- read.csv('data/ppg2008.csv', sep=",", header=TRUE)
+ppg2008 <- ppg2008[order(ppg2008$G,decreasing=FALSE),]
+row.names(ppg2008) <-ppg2008$Name
+ppg2008 <- ppg2008[,2:20]
+ppg2008_matrix<-data.matrix(ppg2008)
+
+bball_heatmap <- heatmap(ppg2008_matrix, Rowv=NA,
+    Colv=NA, col = cm.colors(256), scale="column", margins=c(5,10))
+
+bball_heatmap <- heatmap(ppg2008_matrix,
+    Rowv=NA, Colv=NA, col = heat.colors(256), scale="column",
+    margins=c(5,10))
+
+red_colors <- c("#ffd3cd", "#ffc4bc", "#ffb5ab",
+    "#ffa69a", "#ff9789", "#ff8978", "#ff7a67", "#ff6b56",
+    "#ff5c45", "#ff4d34")
+bball_heatmap <- heatmap(ppg2008_matrix, Rowv=NA,
+    Colv=NA, col = red_colors, scale="column", margins=c(5,10))
 
 
-# Scatterplot for murder and burglary
-plot(crime2$murder, crime2$burglary)
+bball_heatmap <- heatmap(ppg2008_matrix, Rowv=NA,
+    Colv=NA, col = brewer.pal(9, "Blues"),
+    scale="column", margins=c(5,10))
+
 ```
-```{r Plot2 data1,echo=FALSE,message=FALSE,warning=FALSE}
+```{r spatial map data1,echo=FALSE,message=FALSE,warning=FALSE}
+library(maps)
 
-plot(crime2$murder, crime2$burglary)
-plot(crime2$murder, crime2$burglary, xlim=c(0,10), ylim=c(0, 1200))
+costcos_geocoded <- read.csv('data/costcos-geocoded.csv', sep=",", header=TRUE)
 
-# Scatterplot with loess smoother
-scatter.smooth(crime2$murder, crime2$burglary, xlim=c(0,10), ylim=c(0, 1200))
+map(database="state",col="#cccccc")
+
+
+symbols(costcos_geocoded$Longitude,costcos_geocoded$Latitude,bg="#e2373f", fg="#ffffff",lwd=0.5,circles=rep(1,length(costcos_geocoded$Longitude)),inches=.05,add=TRUE)
+
+map(database="world",col="#cccccc")
+
+
+symbols(costcos_geocoded$Longitude,costcos_geocoded$Latitude,bg="#e2373f", fg="#ffffff",lwd=0.5,circles=rep(1,length(costcos_geocoded$Longitude)),inches=.05,add=TRUE)
+
+
+
+
 
 ```
 ```{r Plot3 data1,echo=FALSE,message=FALSE,warning=FALSE}
 
-# Scatterplot matrix
-plot(crime2[,2:9])
+ppg2008 <- read.csv('data/ppg2008.csv', sep=",", header=TRUE)
+ppg2008 <- ppg2008[order(ppg2008$G,decreasing=FALSE),]
+row.names(ppg2008) <-ppg2008$Name
+ppg2008 <- ppg2008[,2:20]
 
-# Scatterplot matrix with loess
-pairs(crime2[,2:9], panel=panel.smooth)
-```
-```{r Plot4 data1,echo=FALSE,message=FALSE,warning=FALSE}
-
-# Stem and leaf
-birth <- read.csv("data/birth-rate.csv")
-stem(birth$X2008)
-
-# Histogram
-hist(birth$X2008, breaks=40)
-hist(birth$X2008, breaks=5)
-hist(birth$X2008, breaks=20)
-```
-```{r}
-library(data.table)
-
-#transpose data frame
-df_t <- transpose(birth)
-
-#redefine row and column names
-rownames(df_t) <- colnames(birth)
-colnames(df_t) <- rownames(birth)
-colnames(df_t)
-rownames(df_t)
+library(ggplot2)
+ggplot(data=ppg2008,aes(x = G,y = PTS)) + 
+  xlim(0,100) +
+  ylim(0,50) + theme_bw()  + geom_point(alpha=0.1,col="darkblue") +
+  geom_density2d(color="black") + ggtitle("Contour Map") + 
+  theme(plot.title = element_text(hjust=0.5)) + 
+  labs(x = "Games Played",y = "Points Scored")
 
 ```
-```{r Plot5 data1,echo=FALSE,message=FALSE,warning=FALSE}
-# Histogram matrix
-library(lattice)
-birth_yearly <- read.csv("data/birth-rates-yearly.csv")
-histogram(~ rate | year, data=birth_yearly, layout=c(10,5))
-
-birth_yearly.new <- birth_yearly[birth_yearly$rate < 132,]
-birth_yearly.new$year <- as.character(birth_yearly.new$year)
-h <- histogram(~ rate | year, data=birth_yearly.new, layout=c(10,5))
-update(h, index.cond=list(c(41:50, 31:40, 21:30, 11:20, 1:10)))
-
-# Density plot
-birth2008 <- birth$X2008[!is.na(birth$X2008)]
-d2008 <- density(birth2008)
-plot(d2008)
-```
-```{r Plot6 data1,echo=FALSE,message=FALSE,warning=FALSE}
-# Filled density plot
-plot(d2008, type="n")
-polygon(d2008, col="#821122", border="#cccccc")
-```
-
-```{r Plot7 data1,echo=FALSE,message=FALSE,warning=FALSE}
-# Storing data
-# d2008frame <- data.frame(d2008$x, d2008$y)
-# write.table(d2008frame, "testing.txt", sep="\t")
-# write.table(d2008frame, "testing.txt", sep="\t", row.names=FALSE)
-
-# Both
-# library(lattice)
-# histogram(birth$X2008, breaks=10)
-# lines(d2008)
-
-```
-```{r Plot symbol  data1,echo=FALSE,message=FALSE,warning=FALSE}
-radius <- sqrt( crime2$population/ pi )
-#radius <- crime$population / 10000 
-symbols(crime2$murder, crime2$burglary, circles=radius,inches=0.5,
-    fg="white", bg="red", xlab="murder", ylab="Burglary")
-
-text(crime2$murder, crime2$burglary, crime2$state, cex=0.5)
-```
-
-

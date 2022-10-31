@@ -2,50 +2,401 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSC640/APIkeys/APIkeys.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/GlobeMap.GlobeMap1447669447625.2.5.2.0.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/funnelPyramid.funnelDrilldownD423170ED341443BBDECDD3BA5FB49D2.1.1.2.0.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/heatmap.1.1.9.0.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/infographicDesigner.PBI_CV_73744D90_4DC9_4F18_8BA5_EE8FA5C98035.1.9.500.0.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/violinPlot.violinPlot4D46EB9EB3A141D9BA2289793175D971.1.3.0.4.pbix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Gauge-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Pie-Donut-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Advanced-Trellis-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Bubble-Scatter-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Bullet-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Funnel-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Gantt-Chart-v1.1.9.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Filter-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Tree-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Hierarchy-Variance-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Horizon-Chart-v1.6.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Linear-Gauge-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Marimekko-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Multiple-Axes-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Packed-Bubble-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Parallel-Coordinates-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Radar-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Tag-Cloud-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Variance-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/PowerBI SandBox/xViz-Suite-v3.3.0-BETA/xViz-Waterfall-Chart-v1.2.0-BETA.pbiviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week7and8/Excercise_4.2_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_C.Rmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC650/Sandbox.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Apis/Fitbit/Fitbit_API.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Apis/Fitbit/gather_keys_oauth2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Apis/temp_README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/.ipynb_checkpoints/car_loans-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/Car_Comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/InterestPaid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/Interest_Principal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/Total_Interest_Paid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/after1Month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/car_loans.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/loans.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/monthlyPayment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/monthlyPaymentComparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/monthlyPaymentEvidence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/monthlyPaymentEvidence2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/monthlyPaymentInterestComparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/oldSienna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Finance/oneMonth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Geocoding/.ipynb_checkpoints/Geocoding-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Geocoding/Geocoding.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/BreastCancerWisconsin/.ipynb_checkpoints/centralTendency-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/BreastCancerWisconsin/Instructor_Task.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/BreastCancerWisconsin/centralTendency.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/BreastCancerWisconsin/decisionTree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/BreastCancerWisconsin/decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Facebook/.ipynb_checkpoints/Facebook_ROI-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Facebook/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Facebook/Facebook_ROI.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Facebook/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Titanic/.ipynb_checkpoints/Titanic_DecisionTree-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Titanic/Titanic_DecisionTree.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Kaggle/Titanic/decisionTreeTitantic.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/.ipynb_checkpoints/PCA Analysis in sklearn behind the scenes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/.ipynb_checkpoints/principal_component_analysis-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/.ipynb_checkpoints/PCA Analysis from Scratch-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/.ipynb_checkpoints/PCA Analysis in sklearn behind the scenes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/.ipynb_checkpoints/principal_component_analysis-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/PCA Analysis from Scratch.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/PCA Analysis in sklearn behind the scenes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Machine_Learning_Scratch/PCA/principal_component_analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PyQt/.ipynb_checkpoints/Orysya-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PyQt/.ipynb_checkpoints/Playing_with_PyQt-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PyQt/Playing_with_PyQt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PyQt/temp.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PySpark_Basics/.ipynb_checkpoints/PySpark_Part1_Word_Count_Removing_Punctuation_Pride_Prejudice-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/PySpark_Basics/PySpark_Part1_Word_Count_Removing_Punctuation_Pride_Prejudice.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Anagram/.ipynb_checkpoints/AnagramsPython-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Anagram/AnagramsPython.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Anagram/anagramRedRectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Anagram/anagramRedRectangleDict.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Anagram/images.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/.ipynb_checkpoints/Python 101-checkpoint-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python 101-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Part1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Video3_Blog_Companion-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Video4_Blog_Companion-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Video5_Blog_Companion-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Video5_Blog_Note-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/Python3Basics_Video6_Blog_Companion-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsFizzBuzz-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsForLoops-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsFunctions-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsPrimeNumbers-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsTuples-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsWhileLoop-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsWordCount-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/.ipynb_checkpoints/PythonBasicsWordCountReadingInTextFile-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Part1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video1_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video2_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video3_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video3_Blog_Note.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video4_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video5_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video5_Blog_Note.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/Python3Basics_Video6_Blog_Companion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsDictionaries.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsFizzBuzz.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsForLoops.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsFunctions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsPrimeNumbers.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsTuples.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsWhileLoop.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsWordCount.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/PythonBasicsWordCountReadingInTextFile.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Intro/word_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/.ipynb_checkpoints/Linear_Regression_Python-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/.ipynb_checkpoints/Linear_Regression_Python_clean-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/Linear_Regression_Python.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/Linear_Regression_Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/Linear_Regression_Python_7_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/Linear_Regression_Python_clean.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/linear.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Linear_Regression/linearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/.ipynb_checkpoints/PrimeNumbers-TimeComparison-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/.ipynb_checkpoints/PrimeNumbersPython-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/Approach1real_ITERATIONS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/Approach2real_ITERATIONS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/Factors.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/PrimeNumbers-TimeComparison.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/PrimeNumbersPython.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/approach1_2_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/approach1_2_comparisonNoRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/approach_1_2_comparisonBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/factors15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/images.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/method1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Prime_Numbers/method1Downside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Solving_Systems_Equations/Solving System of Linear Equations using Python (linear algebra).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Solving_Systems_Equations/Solving System of Linear Equations using Python.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Basics/Solving_Systems_Equations/ipynb_Linear_Regression_Python_files/ipynb_Linear_Regression_Python_7_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/1_Mean_mGalarnyk.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/2_Functions_mGalarnyk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/3_parse_float.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/3_process_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/4_Files_Lists_Split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/5_Message_Frequency_Count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/6_URL_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/7_geoxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment1-Mean.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment2-Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment3-Looping_Searching_and_Slicing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment4-Files_Lists_and_Split.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment5-Message_Frequency_Count.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment6-URL Reader.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment7-Google_Geocoding.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Assignment8-3_Informatics_Projects.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/Python for Informatics.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Assignments/syllabus.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Data_Files/mbox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Data_Files/romeo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/01_Introduction, variables, expressions, and statements.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/02_Conditional execution and functions .pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/03_Iteration and strings.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/04_Files and Lists.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/05_Dictionaries and Tuples.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/06_Regular expressions and network programming.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/07_Web services, database connectivity, and Structured Query Language (SQL).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/08_Data Visualization.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/Lectures/09_Automation through scripting.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/images/4_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/images/5_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/images/6_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Python_Informatics/images/7_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/.ipynb_checkpoints/Heat Maps using Matplotlib and Seaborn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/.ipynb_checkpoints/Heat Maps using Pandas groupby, and Matplotlib part 1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/.ipynb_checkpoints/heat_maps-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/.ipynb_checkpoints/sin-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/Heat Maps using Matplotlib and Seaborn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/Heat Maps using Matplotlib and Seaborn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/Heat Maps using Pandas groupby, and Matplotlib part 1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/REVERSE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Request/heat_maps-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/1stSpiderPlaceholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/DataOutputtedLocation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/DirectoryafterMakingFile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/GettingTitleIndividualCampaignShell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/InspectCampaignTitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/InspectNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/ScraperRunning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/StartUrlsFundrazr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/WebScrapingData1st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/campaignLink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/codeToGetCampaignLinks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/dataset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/exitScrapyShell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/fundrazrProjectDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/fundrazrScrapyCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/individualCampaignLinks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/individualCampaignTitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/inspectCampaigns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/inspectNextFigure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/itemsFundrazr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/scrapyStartProject.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/startProject.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/Tutorial_Images/startUrlsFundrazr.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/fundrazr/spiders/fundrazr_scrape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Scrapy/fundrazr/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Dt_Classification/.ipynb_checkpoints/ClassificationTreeAnatomy-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Dt_Classification/.ipynb_checkpoints/EntropyGiniCalculations-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Dt_Classification/ClassificationTreeAnatomy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Dt_Classification/ClassificationTreesUsingPython.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Dt_Classification/EntropyGiniCalculations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Visualization/.ipynb_checkpoints/02_09_Bagged_Trees-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Visualization/.ipynb_checkpoints/DecisionTreesVisualization-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Visualization/02_09_Bagged_Trees.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/Visualization/DecisionTreesVisualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth1_entropy_decisionTree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth1_entropy_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth1_gini_decisionTree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth1_gini_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth2_decisionTree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth2_gini_decisionTree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/iris_depth2_gini_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/dotfiles/notperfectClassDN1_bad_split.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/BaggedTrees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/DT_brown_blue_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/DecisionTreeGraphvizGalarnyk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/EditingImages.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/OnlineConverter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/OnlineConverterRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/RandomForest.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/WindowsExecutablesProblems.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/commandDotNotFound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/decisiontreefromClassTreeTutorial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/dot2Imagefile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/dot2png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/dtreeviz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/entropy_vs_gini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/exampleTreeDone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/graphvizCTblog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/installDotTHENpng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/installGraphvizCommandPrompt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/irisGreenLeafBlueDecisionDepth2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/iris_depth1_2f_color_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/iris_depth1_entropy_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/iris_depth1_gini_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/iris_depth2_2f_color_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/iris_depth3_2f_color_decisionTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/matplotlibdepth3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/notperfectClassDN1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/notperfectClassDN2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/openTerminal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/plottreedefault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/plottreefncn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/terminalDotNotFound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/images/trainTestSplit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/CART/imagesanimation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression_MNIST-Easier_Loading-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression_MNIST-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression_MNIST_Codementor-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression_toy_digits-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/.ipynb_checkpoints/LogisticRegression_toy_digits_Codementor-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/LogisticRegression_MNIST-Easier_Loading.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/LogisticRegression_MNIST.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/LogisticRegression_MNIST_Codementor.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/LogisticRegression_toy_digits.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/LogisticRegression_toy_digits_Codementor.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/toy_Digits_ConfusionMatplotlibCodementor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/Logistic_Regression/toy_Digits_ConfusionSeabornCodementor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/CHECK_LATER_PCA_to_Speed-up_Machine_Learning_Algorithms.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_Data_Visualization_Iris_Dataset_Blog.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_Image_Reconstruction_and_such.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_MNIST_Logistic_Regression_EasierDataLoading.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_MNIST_Logistic_Regression_for_Blog.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_MNIST_PCA_MachineLearningNoPipeline.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_MNIST_PCA_MachineLearningPipeline.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCA_to_Speed-up_Machine_Learning_Algorithms.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/PCAtutorial_Images.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/PCA_timingNew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/PCA_timingOLD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/iris_2_component_PCA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/iris_concatenating_df.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/iris_keep_2_components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/loadData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Sklearn/PCA/Tutorial_Images/standardization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/.ipynb_checkpoints/box_plot-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/.ipynb_checkpoints/confidence_Interval-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/.ipynb_checkpoints/confidence_interval_good-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/.ipynb_checkpoints/normal_Distribution_Area_Under_Curve-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/boxplot/.ipynb_checkpoints/Box_plot_interpretation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/boxplot/.ipynb_checkpoints/box_plot-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/boxplot/Box_plot_interpretation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/boxplot/Questions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/boxplot/box_plot.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/1_std_deviation_plus_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/2_std_deviation_plus_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/3_std_deviation_plus_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/68_1_std.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/68_95_99_rule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/95_2_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/95_2_std.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/99_3_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/99_3_std.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/IQRboxplotDistribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/NormalDistribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/NormalDistribution1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/boxplotNormalDistribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/final_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/interquartileRange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/pdfNormal_mean0_std_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/point6745math.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/powerpointImageAltering.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/probabilityDensityFunctionNormalDistribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/simple_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/images/simple_whisker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/normal_Distribution_Area_Under_Curve.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/standard_normal_table/.ipynb_checkpoints/standard_normal_table-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/standard_normal_table/ACT_Zoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/standard_normal_table/SAT_Mike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/standard_normal_table/standardNormalPositiveZScores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Statistics/standard_normal_table/standard_normal_table.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/.ipynb_checkpoints/LinearRegression_TensorFlow-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/LinearRegression_TensorFlow.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign1/prob6_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/Gradient_Computation_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/Gradient_Confusion_Code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/Gradient_Confusion_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/Gradient_Session_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/SGD_Neural_Computation_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/SGD_Neural_Confusion_Code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/SGD_Neural_Confusion_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Improved/SGD_Neural_Session.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/Gradient_Computation_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/Gradient_Cost_Accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/Gradient_Session_graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/SGD_Neural_Computation_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/SGD_Neural_Session_Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Tutorial_Images/Assign2/Original/SGD_Neural_cost_validation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_logistic_regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_notmnist-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_notmnist-Michael-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_notmnist-Michael-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_notmnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/1_ref_notmnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/2_fullyconnected-Michael-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/2_fullyconnected-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/2_ref_fullyconnected-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/2_resource-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/3_ref_regularization-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/3_regularization-Michael-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/3_regularization-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/4_convolutions-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/4_ref_convolutions-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/.ipynb_checkpoints/MNIST_TensorFlow-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/1_logistic_regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/1_notmnist-Michael-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/1_notmnist-Michael.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/1_notmnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/1_ref_notmnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/2_fullyconnected-Michael.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/2_ref_fullyconnected.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/2_resource.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/3_ref_regularization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/3_regularization-Michael.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/3_regularization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/4_convolutions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/4_ref_convolutions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/5_ref_word2vec.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/5_word2vec.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/6_lstm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/6_ref_lstm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/1_notmnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/2_fullyconnected.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/3_regularization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/4_convolutions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/5_word2vec.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/6_lstm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/Clean_Notebooks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/MNIST_TensorFlow.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/TensorFlow/Udacity/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/.ipynb_checkpoints/Part1_Time_Series_Data_BasicPlotting-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/.ipynb_checkpoints/Part2_Time_Series_Data_Price_Variation_ShiftingGroupBy-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/.ipynb_checkpoints/Part3_Time_Series_Data_Pivot_Tables_Interaction-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/Part1_Time_Series_Data_BasicPlotting.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/Part1_Time_Series_Data_BasicPlotting.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/Part2_Time_Series_Data_Price_Variation_ShiftingGroupBy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/Part2_Time_Series_Data_Price_Variation_ShiftingGroupBy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/Part3_Time_Series_Data_Pivot_Tables_Interaction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Time_Series/PythonTutorials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Twitter/twitterAPI_images.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Python_Tutorials-master/Twitter/twitterPython.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Data/DSC540_EdrisSafari_FinalProject.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/Data/propertiesAndTransactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Data/propertiesAndTransactions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC550/Week9and10/DSC550_EdrisSafari_Assignment_9.3.3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/relationships.R" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/relationships.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/VisualizeThis/ch06/transform-birth-rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Ecercise_3.2_B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_A.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Exercise_3.2_C.Rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week5and6/Treemap_Chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/.ipynb_checkpoints/Excercise_5.2_B-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/.ipynb_checkpoints/Excercise_5.2_B-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_A.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_C.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_C.Rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +527,7 @@
       <workItem from="1662665798048" duration="745000" />
       <workItem from="1663518227574" duration="591000" />
       <workItem from="1666646097355" duration="1293000" />
-      <workItem from="1667051373273" duration="2154000" />
+      <workItem from="1667051373273" duration="2830000" />
     </task>
     <servers />
   </component>
