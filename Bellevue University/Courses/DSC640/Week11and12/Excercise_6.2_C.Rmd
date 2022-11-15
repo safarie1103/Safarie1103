@@ -1,0 +1,117 @@
+---
+title: "Excercise_6.2_C"
+author: "edris safari"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r packages, include=FALSE}
+library(ggplot2)
+library(readxl)
+library(plotly)
+library(tidyverse)
+library(dplyr)
+```
+## Exercise 6.2.C Charts
+
+Load data
+
+```{r import data1,echo=FALSE,message=FALSE,warning=FALSE}
+setwd("D:/GitHub/Safarie1103/Bellevue University/Courses/DSC640/Week11and12")
+
+getwd()
+crimerate <- read.csv('data/crimeRatesbyState-formatted.csv', sep=",", header=TRUE)
+
+# Remove US total and DC
+crime2 <- crimerate[crimerate$state != "District of Columbia",]
+crime2 <- crime2[crime2$state != "United States",]
+crimerate = crime2
+
+birthrate <- read.csv('data/birth-rate.csv', sep=",", header=TRUE)
+
+
+education <- read.csv('data/education.csv', sep=",", header=TRUE)
+education
+ppg2008 <- read.csv('data/ppg2008.csv', sep=",", header=TRUE)
+ppg2008
+
+annualsalesdata <- read.csv('data/annual sales data.csv', sep=",", header=TRUE)
+annualsalesdata
+
+```
+
+
+```{r histogram ,echo=FALSE,message=FALSE,warning=FALSE}
+hist(education$reading,
+main="Reading score",
+xlab="Score",
+xlim=c(400,700),
+col="darkmagenta",
+freq=FALSE
+)
+```
+
+
+
+
+```{r box plot,echo=FALSE,message=FALSE,warning=FALSE}
+
+#boxplot(Sales~Quarter,data=annualsalesdata)
+p <- ggplot(annualsalesdata, aes(x=Quarter, y=Sales)) + 
+   geom_boxplot(notch=TRUE)  + 
+  stat_summary(fun.y=mean, geom="point", shape=23, size=4)
+p
+```
+
+```{r Bullet chart,echo=FALSE,message=FALSE,warning=FALSE}
+TopRanked <- ppg2008[ppg2008$G > 80,]
+TopRanked
+
+
+name = TopRanked$Name
+count= TopRanked$PTS
+data = data.frame(name, count, stringsAsFactors = TRUE)
+
+
+
+data <- data %>%
+  mutate(width = seq(.8, .1, length.out = nrow(data)))
+
+bullet_base <- data.frame(rank = c("Poor", "Ok", "Good", "Excellent"),
+  value = c(20, 20, 20, 40))
+bullet_base_rep <- 
+  do.call("rbind", replicate(nrow(data), bullet_base, simplify = FALSE)) %>%
+  mutate(name = sort(rep(data$name, 4) ))
+
+head(bullet_base_rep, 10)
+bullet_colors <- c("#E9FFE3", "#A3D694", "#61AB40", "#318100")
+names(bullet_colors) <- c("Poor", "Ok", "Good", "Excellent")
+
+ggplot() +
+  geom_bar(data = bullet_base_rep, 
+    aes(x = name, y = value, fill = rank), stat = "identity",
+    position = "stack") +
+  geom_bar(data = data, 
+    aes(x = name, y = count), fill = "black", width = .2,
+    stat = "identity") +
+  scale_fill_manual(values = bullet_colors) +
+  coord_flip(expand = FALSE)
+```
+```{r Extra,echo=FALSE,message=FALSE,warning=FALSE}
+ppg2008 <- ppg2008[order(ppg2008$G,decreasing=FALSE),]
+row.names(ppg2008) <-ppg2008$Name
+ppg2008 <- ppg2008[,2:20]
+
+
+ggplot(data=ppg2008,aes(x = G,y = PTS)) + 
+  xlim(0,100) +
+  ylim(0,50) + theme_bw()  + geom_point(alpha=0.1,col="darkblue") +
+  geom_density2d(color="black") + ggtitle("Contour Map") + 
+  theme(plot.title = element_text(hjust=0.5)) + 
+  labs(x = "Games Played",y = "Points Scored")
+```
