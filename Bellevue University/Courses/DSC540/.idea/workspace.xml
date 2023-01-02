@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00416e-06e8-425f-b95d-2e4954a324ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/heatmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/python-geopandas-examples-main/.ipynb_checkpoints/Python GeoPandas-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/python-geopandas-examples-main/Python GeoPandas Subplots.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSC640/Week9and10/python-geopandas-examples-main/Python GeoPandas.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone5-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/.ipynb_checkpoints/DSC540_EdrisSafari_FinalProject_Milestone5-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/DSC540_EdrisSafari_FinalProject_Milestone5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/Data/comp_listing_table.csv" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/Data/comp_listing_table.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/FinalProject/DSC640_FinalProject.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/.ipynb_checkpoints/Excercise_5.2_B-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/.ipynb_checkpoints/Excercise_5.2_B-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/DSC640 Weekly Assignment-Week9and10-EdrisSafari.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/DSC640 Weekly Assignment-Week9and10-EdrisSafari.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_A.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_A.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC640/Week9and10/Excercise_5.2_B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC630/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSC650/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSC650/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +136,7 @@
       <workItem from="1663518227574" duration="591000" />
       <workItem from="1666646097355" duration="1293000" />
       <workItem from="1667051373273" duration="5828000" />
+      <workItem from="1670518390115" duration="3357000" />
     </task>
     <servers />
   </component>
