@@ -1,4 +1,4 @@
-library(data.table)
+librajry(data.table)
 library(dplyr)
 library(ggplot2)
 library(stringr)
